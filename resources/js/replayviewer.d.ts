@@ -56,12 +56,10 @@ declare namespace Gokz {
         constructor(viewer: ReplayViewer, container?: HTMLElement);
         private updateButtons;
         private readonly tempPosition;
-        private syncBuffer;
-        private syncIndex;
-        private syncSampleCount;
         private lastTick;
         private updateSync;
         private getSpeedAtTick;
+        private getVelocityAtTick;
         private updateSpeed;
         show(): void;
         hide(): void;
@@ -209,6 +207,7 @@ declare namespace Gokz {
         getTickData(tick: number): TickData;
         clampTick(tick: number): number;
         getDuration(): number;
+        getZoneStats(tick: number): ZoneStats;
     }
 }
 import WebGame = Facepunch.WebGame;

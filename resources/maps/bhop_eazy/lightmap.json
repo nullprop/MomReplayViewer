@@ -1,0 +1,18 @@
+{
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 512,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9728,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 0,
+      "url": "./resources/maps/bhop_eazy/lightmap.png"
+    }
+  ]
+}

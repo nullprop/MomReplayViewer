@@ -1,0 +1,3372 @@
+{
+  "name": "rj_beef",
+  "lightmapUrl": "./resources/maps/rj_beef/lightmap.json?v=1ca9-125da",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 1669,
+      "url": "./resources/maps/rj_beef/geom/leafpage0.json?v=1ca9-125da"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/rj_beef/geom/disppage0.json?v=1ca9-125da"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 14,
+      "url": "./resources/maps/rj_beef/materials/matpage0.json?v=1ca9-125da"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 94,
+      "url": "./resources/maps/rj_beef/geom/bsppage0.json?v=1ca9-125da"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/rj_beef/geom/mdlpage0.json?v=1ca9-125da"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/rj_beef/geom/vhvpage0.json?v=1ca9-125da"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 284,
+      "url": "./resources/maps/rj_beef/geom/vispage0.json?v=1ca9-125da"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 1669,
+      "url": "./resources/maps/rj_beef/geom/ambientpage0.json?v=1ca9-125da"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          }
+        ]
+      },
+      "model": 0,
+      "targetname": "Newmap2",
+      "classname": "worldspawn"
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5328.0,
+        "y": 3376.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5328.0,
+        "y": 3440.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5392.0,
+        "y": 3440.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5392.0,
+        "y": 3376.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5456.0,
+        "y": 3376.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5456.0,
+        "y": 3440.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5456.0,
+        "y": 3504.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5392.0,
+        "y": 3504.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 5328.0,
+        "y": 3504.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": -1.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "logic_auto",
+      "origin": {
+        "x": 5552.0,
+        "y": 3760.0,
+        "z": -2712.0
+      }
+    },
+    {
+      "targetname": "jump1",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1584.0,
+        "y": 3024.0,
+        "z": -2831.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -1064.0,
+        "y": 3376.0,
+        "z": -2127.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 183.5,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump4",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5744.0,
+        "y": 2608.0,
+        "z": -2071.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 185.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump5",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5432.0,
+        "y": 1840.0,
+        "z": -2071.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -6340.0,
+        "y": 2208.0,
+        "z": -1432.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -5632.0,
+        "y": 2896.0,
+        "z": -1136.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5684.0,
+        "y": 2856.0,
+        "z": -1089.5
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 1056.0,
+        "y": 3048.0,
+        "z": -2968.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -2352.0,
+        "y": 3420.0,
+        "z": -2216.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -6336.0,
+        "y": 2208.0,
+        "z": -2168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2688.0,
+        "y": 3048.0,
+        "z": -2816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1768.0,
+        "y": 3048.0,
+        "z": -2664.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1048.0,
+        "y": 3048.0,
+        "z": -2672.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 480.0,
+        "y": 3048.0,
+        "z": -2672.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5400.0,
+        "y": 3032.0,
+        "z": -1736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -6400.0,
+        "y": 2304.0,
+        "z": -1840.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5792.0,
+        "y": 1856.0,
+        "z": -1728.0
+      }
+    },
+    {
+      "targetname": "cowback",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2136.0,
+        "y": 10844.0,
+        "z": -3103.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 182.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -76.0,
+        "y": 10678.0,
+        "z": -3112.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -76.0,
+        "y": 9824.0,
+        "z": -3112.0
+      }
+    },
+    {
+      "targetname": "cowback2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -2144.0,
+        "y": 10136.0,
+        "z": -3103.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -152.0,
+        "y": 10284.0,
+        "z": -2076.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -76.0,
+        "y": 9380.0,
+        "z": -2076.0
+      }
+    },
+    {
+      "targetname": "toheifer",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 3136.0,
+        "y": 32.0,
+        "z": -3119.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 2254.47,
+        "y": 52.0,
+        "z": -3168.0
+      }
+    },
+    {
+      "targetname": "jump7tele",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2824.0,
+        "y": 56.0,
+        "z": -3119.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 182.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 1020.0,
+        "y": 252.0,
+        "z": -3135.5
+      }
+    },
+    {
+      "targetname": "jump8tele",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1480.0,
+        "y": 184.0,
+        "z": -3119.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -6684.0,
+        "y": 2207.94,
+        "z": -1816.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -6688.01,
+        "y": 2207.94,
+        "z": -748.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 1784.0,
+        "y": 640.0,
+        "z": -2216.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1740.0,
+        "y": 648.0,
+        "z": -2225.5
+      }
+    },
+    {
+      "targetname": "jump9",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 4072.0,
+        "y": 584.0,
+        "z": -2375.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 5565.51,
+        "y": 632.0,
+        "z": -3672.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 5138.0,
+        "y": 636.0,
+        "z": -2231.5
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 5576.0,
+        "y": 64.0,
+        "z": -2684.51
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 5579.82,
+        "y": 1208.0,
+        "z": -2684.51
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3296.0,
+        "y": 44.0,
+        "z": -3008.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1028.0,
+        "y": 160.0,
+        "z": -3004.52
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1032.0,
+        "y": 628.0,
+        "z": -2274.82
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1576.0,
+        "y": 636.0,
+        "z": -2123.05
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2160.0,
+        "y": 127.228,
+        "z": -3016.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1520.0,
+        "y": 60.2941,
+        "z": -3008.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1016.0,
+        "y": 104.0,
+        "z": -2584.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 8836.0,
+        "y": 636.0,
+        "z": -3688.0
+      }
+    },
+    {
+      "targetname": "jump10",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 7872.0,
+        "y": 368.0,
+        "z": -3623.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 8836.0,
+        "y": 36.0,
+        "z": -3180.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 8836.0,
+        "y": 1236.0,
+        "z": -3180.0
+      }
+    },
+    {
+      "model": 22,
+      "clusters": [
+        36
+      ],
+      "targetname": "plat1",
+      "classname": "func_brush",
+      "origin": {
+        "x": 11532.0,
+        "y": 652.0,
+        "z": -3308.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 13744.0,
+        "y": 608.0,
+        "z": -4752.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 183.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 13740.0,
+        "y": 608.0,
+        "z": -4695.89
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12232.0,
+        "y": 848.0,
+        "z": -2403.06
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12224.0,
+        "y": 400.0,
+        "z": -2438.89
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 11632.0,
+        "y": 1232.0,
+        "z": -2736.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 11624.0,
+        "y": 40.0,
+        "z": -2736.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 12056.0,
+        "y": 628.0,
+        "z": -3188.0
+      }
+    },
+    {
+      "targetname": "jump12",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 11032.0,
+        "y": 632.0,
+        "z": -3623.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "telestart",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5496.0,
+        "y": 3440.0,
+        "z": -3064.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 4988.0,
+        "y": 644.0,
+        "z": -3204.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 12461.7,
+        "y": 135.026,
+        "z": -5559.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 89.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 12452.0,
+        "y": 136.0,
+        "z": -5539.27
+      }
+    },
+    {
+      "targetname": "jump13",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 12296.0,
+        "y": 569.0,
+        "z": -2503.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12800.0,
+        "y": 610.414,
+        "z": -4648.58
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12704.0,
+        "y": 614.259,
+        "z": -5256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12552.0,
+        "y": 704.0,
+        "z": -3768.09
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 12552.0,
+        "y": 672.706,
+        "z": -2851.08
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 2336.0,
+        "y": 2328.0,
+        "z": -3136.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2336.0,
+        "y": 2340.0,
+        "z": -3090.5
+      }
+    },
+    {
+      "targetname": "jump1helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 2344.0,
+        "y": 2376.0,
+        "z": -3026.59
+      }
+    },
+    {
+      "targetname": "jump1helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 2344.0,
+        "y": 2344.0,
+        "z": -3027.32
+      }
+    },
+    {
+      "targetname": "jump1help",
+      "classname": "game_text",
+      "origin": {
+        "x": 2344.0,
+        "y": 2408.0,
+        "z": -3023.33
+      }
+    },
+    {
+      "targetname": "jump2helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 1752.0,
+        "y": 2344.0,
+        "z": -2723.32
+      }
+    },
+    {
+      "targetname": "jump2helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 1752.0,
+        "y": 2376.0,
+        "z": -2722.59
+      }
+    },
+    {
+      "targetname": "jump2help",
+      "classname": "game_text",
+      "origin": {
+        "x": 1752.0,
+        "y": 2408.0,
+        "z": -2719.33
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 1744.0,
+        "y": 2340.0,
+        "z": -2786.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 1744.0,
+        "y": 2328.0,
+        "z": -2832.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -40.4,
+        "y": 2340.0,
+        "z": -2783.18
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -40.3954,
+        "y": 2328.0,
+        "z": -2828.68
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.5,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump3helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": -32.3954,
+        "y": 2344.0,
+        "z": -2720.0
+      }
+    },
+    {
+      "targetname": "jump3helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": -32.3954,
+        "y": 2376.0,
+        "z": -2719.27
+      }
+    },
+    {
+      "targetname": "jump3help",
+      "classname": "game_text",
+      "origin": {
+        "x": -32.3954,
+        "y": 2408.0,
+        "z": -2716.02
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -1232.34,
+        "y": 2340.0,
+        "z": -2082.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -1232.34,
+        "y": 2328.0,
+        "z": -2128.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump4helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": -1224.37,
+        "y": 2344.0,
+        "z": -2019.32
+      }
+    },
+    {
+      "targetname": "jump4helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": -1224.37,
+        "y": 2376.0,
+        "z": -2018.59
+      }
+    },
+    {
+      "targetname": "jump4help",
+      "classname": "game_text",
+      "origin": {
+        "x": -1224.37,
+        "y": 2408.0,
+        "z": -2015.33
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -4839.66,
+        "y": 2340.0,
+        "z": -2370.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -4839.66,
+        "y": 2328.0,
+        "z": -2416.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump5helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": -4831.69,
+        "y": 2344.0,
+        "z": -2307.32
+      }
+    },
+    {
+      "targetname": "jump5helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": -4831.69,
+        "y": 2376.0,
+        "z": -2306.59
+      }
+    },
+    {
+      "targetname": "jump5help",
+      "classname": "game_text",
+      "origin": {
+        "x": -4831.69,
+        "y": 2408.0,
+        "z": -2303.33
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -5648.34,
+        "y": 2340.0,
+        "z": -2026.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -5648.34,
+        "y": 2328.0,
+        "z": -2072.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump6helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": -5637.79,
+        "y": 2344.0,
+        "z": -1967.51
+      }
+    },
+    {
+      "targetname": "jump6helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": -5637.79,
+        "y": 2376.0,
+        "z": -1966.79
+      }
+    },
+    {
+      "targetname": "jump6help",
+      "classname": "game_text",
+      "origin": {
+        "x": -5637.79,
+        "y": 2408.0,
+        "z": -1963.53
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -5815.66,
+        "y": 1460.0,
+        "z": -2026.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -5815.66,
+        "y": 1448.0,
+        "z": -2072.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump7help",
+      "classname": "game_text",
+      "origin": {
+        "x": -5805.1,
+        "y": 1528.0,
+        "z": -1963.53
+      }
+    },
+    {
+      "targetname": "jump7helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": -5805.1,
+        "y": 1496.0,
+        "z": -1966.79
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -5783.66,
+        "y": 1460.0,
+        "z": -1090.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -5783.66,
+        "y": 1448.0,
+        "z": -1136.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump8help",
+      "classname": "game_text",
+      "origin": {
+        "x": -5773.1,
+        "y": 1528.0,
+        "z": -1027.53
+      }
+    },
+    {
+      "targetname": "jump8helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": -5773.1,
+        "y": 1496.0,
+        "z": -1030.79
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 2799.66,
+        "y": -292.0,
+        "z": -3074.51
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 2799.66,
+        "y": -304.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump9help",
+      "classname": "game_text",
+      "origin": {
+        "x": 2810.21,
+        "y": -224.0,
+        "z": -3011.53
+      }
+    },
+    {
+      "targetname": "jump9helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 2810.21,
+        "y": -256.0,
+        "z": -3014.79
+      }
+    },
+    {
+      "targetname": "jump9helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 2810.21,
+        "y": -288.0,
+        "z": -3015.51
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 1599.08,
+        "y": -292.0,
+        "z": -3083.79
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 1600.34,
+        "y": -304.0,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump10help",
+      "classname": "game_text",
+      "origin": {
+        "x": 1610.9,
+        "y": -224.0,
+        "z": -3011.53
+      }
+    },
+    {
+      "targetname": "jump10helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 1610.9,
+        "y": -256.0,
+        "z": -3014.79
+      }
+    },
+    {
+      "targetname": "jump10helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 1610.9,
+        "y": -288.0,
+        "z": -3015.51
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4135.66,
+        "y": 84.0,
+        "z": -2322.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 4135.66,
+        "y": 56.0,
+        "z": -2368.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump11help",
+      "classname": "game_text",
+      "origin": {
+        "x": 4146.21,
+        "y": 136.0,
+        "z": -2259.53
+      }
+    },
+    {
+      "targetname": "jump11helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 4146.21,
+        "y": 104.0,
+        "z": -2262.79
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 7654.95,
+        "y": 80.0,
+        "z": -3578.91
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 7654.94,
+        "y": 56.0,
+        "z": -3624.41
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump12help",
+      "classname": "game_text",
+      "origin": {
+        "x": 7665.5,
+        "y": 136.0,
+        "z": -3515.94
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 10678.8,
+        "y": 80.0,
+        "z": -3580.33
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 10678.8,
+        "y": 56.0,
+        "z": -3625.83
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump13help",
+      "classname": "game_text",
+      "origin": {
+        "x": 10689.4,
+        "y": 136.0,
+        "z": -3517.36
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 12224.3,
+        "y": 144.0,
+        "z": -2458.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 12224.3,
+        "y": 128.0,
+        "z": -2504.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump14help",
+      "classname": "game_text",
+      "origin": {
+        "x": 12232.0,
+        "y": 240.0,
+        "z": -2395.53
+      }
+    },
+    {
+      "targetname": "jump14helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 12232.0,
+        "y": 208.0,
+        "z": -2398.79
+      }
+    },
+    {
+      "targetname": "jump14helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 12232.0,
+        "y": 176.0,
+        "z": -2399.51
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 12092.0,
+        "y": 657.88,
+        "z": -2400.01
+      }
+    },
+    {
+      "targetname": "toheifer3",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 3940.04,
+        "y": 568.0,
+        "z": -2375.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 2136.0,
+        "y": 10008.0,
+        "z": -3032.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 183.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2132.01,
+        "y": 10008.0,
+        "z": -3047.89
+      }
+    },
+    {
+      "targetname": "tocow",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 13078.6,
+        "y": -5976.0,
+        "z": -6432.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 123.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 208
+      },
+      "Ambient": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 208
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": 0.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": 12912.0,
+        "y": -4576.0,
+        "z": -4904.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump15",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 12896.0,
+        "y": -5806.0,
+        "z": -6447.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 12892.0,
+        "y": -4368.0,
+        "z": -6568.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 12460.0,
+        "y": 1112.0,
+        "z": -5539.27
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 12469.7,
+        "y": 1111.03,
+        "z": -5559.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 268.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 11032.0,
+        "y": -3480.0,
+        "z": -6016.0
+      }
+    },
+    {
+      "targetname": "jump16",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 12368.0,
+        "y": -3472.0,
+        "z": -5951.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 179.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump6",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5736.0,
+        "y": 2000.0,
+        "z": -1135.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 178.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 9732.0,
+        "y": -3480.0,
+        "z": -6016.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 9884.0,
+        "y": -3156.0,
+        "z": -6016.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 9884.0,
+        "y": -3804.0,
+        "z": -6016.0
+      }
+    },
+    {
+      "targetname": "jump17",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 9688.0,
+        "y": -2675.0,
+        "z": -6831.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 88.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9888.0,
+        "y": -3480.0,
+        "z": -6399.64
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9888.0,
+        "y": -3480.0,
+        "z": -6799.64
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9648.0,
+        "y": -3208.0,
+        "z": -6736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9664.0,
+        "y": -3792.0,
+        "z": -6736.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 11908.0,
+        "y": -3480.0,
+        "z": -6004.0
+      }
+    },
+    {
+      "targetname": "frogtext",
+      "classname": "game_text",
+      "origin": {
+        "x": 12224.0,
+        "y": 491.585,
+        "z": -2360.0
+      }
+    },
+    {
+      "model": 52,
+      "clusters": [
+        79
+      ],
+      "targetname": "door2",
+      "classname": "func_brush",
+      "origin": {
+        "x": 9028.0,
+        "y": -1856.0,
+        "z": -6856.0
+      }
+    },
+    {
+      "model": 53,
+      "clusters": [
+        78
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 8928.0,
+        "y": -1856.0,
+        "z": -6504.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 9160.0,
+        "y": -1856.0,
+        "z": -6824.0
+      }
+    },
+    {
+      "targetname": "door2tele",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 9024.0,
+        "y": -1856.0,
+        "z": -6824.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 6416.0,
+        "y": -1880.0,
+        "z": -7816.0
+      }
+    },
+    {
+      "targetname": "jump18",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 8336.0,
+        "y": -1893.0,
+        "z": -7807.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump19",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 4616.0,
+        "y": -1893.0,
+        "z": -7807.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4400.0,
+        "y": -1504.0,
+        "z": -7479.85
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4600.0,
+        "y": -1472.0,
+        "z": -7479.85
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 4512.0,
+        "y": -1636.86,
+        "z": -6232.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4524.0,
+        "y": -1628.0,
+        "z": -6256.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 2688.0,
+        "y": -1408.0,
+        "z": -7480.0
+      }
+    },
+    {
+      "targetname": "jump20",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 3368.0,
+        "y": -1773.0,
+        "z": -7807.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2428.03,
+        "y": -3164.0,
+        "z": -7073.29
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 2432.0,
+        "y": -3208.0,
+        "z": -7128.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 88.5,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 2672.0,
+        "y": -1408.0,
+        "z": -6636.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 2428.0,
+        "y": -2496.0,
+        "z": -7144.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 5336.0,
+        "y": -1780.0,
+        "z": -6627.18
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5368.0,
+        "y": -1792.0,
+        "z": -6640.0
+      },
+      "angles": {
+        "x": 55.9871,
+        "y": 178.212,
+        "z": -1.48216
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 12768.0,
+        "y": 1152.0,
+        "z": -5160.0
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 12772.0,
+        "y": 104.0,
+        "z": -5160.0
+      }
+    },
+    {
+      "model": 65,
+      "clusters": [
+        1
+      ],
+      "targetname": "button1",
+      "classname": "func_brush",
+      "origin": {
+        "x": 4636.0,
+        "y": 3184.0,
+        "z": -2888.0
+      }
+    },
+    {
+      "model": 66,
+      "clusters": [
+        1
+      ],
+      "targetname": "button4",
+      "classname": "func_brush",
+      "origin": {
+        "x": 4636.0,
+        "y": 3672.0,
+        "z": -2888.0
+      }
+    },
+    {
+      "model": 67,
+      "clusters": [
+        1
+      ],
+      "targetname": "button3",
+      "classname": "func_brush",
+      "origin": {
+        "x": 4636.0,
+        "y": 3424.0,
+        "z": -2888.0
+      }
+    },
+    {
+      "model": 68,
+      "clusters": [
+        7
+      ],
+      "targetname": "door1",
+      "classname": "func_brush",
+      "origin": {
+        "x": 4608.0,
+        "y": 3184.0,
+        "z": -3040.0
+      }
+    },
+    {
+      "model": 69,
+      "clusters": [
+        6
+      ],
+      "targetname": "door3",
+      "classname": "func_brush",
+      "origin": {
+        "x": 4608.0,
+        "y": 3424.0,
+        "z": -3040.0
+      }
+    },
+    {
+      "model": 70,
+      "clusters": [
+        5
+      ],
+      "targetname": "door4",
+      "classname": "func_brush",
+      "origin": {
+        "x": 4608.0,
+        "y": 3672.0,
+        "z": -3040.0
+      }
+    },
+    {
+      "classname": "item_ammopack_full",
+      "origin": {
+        "x": 5532.85,
+        "y": 3760.99,
+        "z": -3134.79
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4616.0,
+        "y": 3176.26,
+        "z": -3043.97
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4616.0,
+        "y": 3424.54,
+        "z": -3048.52
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4616.0,
+        "y": 3673.06,
+        "z": -3049.86
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4492.0,
+        "y": 3168.0,
+        "z": -2900.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4500.0,
+        "y": 3420.0,
+        "z": -2900.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 4492.0,
+        "y": 3672.0,
+        "z": -2900.0
+      }
+    },
+    {
+      "targetname": "jump0.5",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2960.0,
+        "y": 2985.0,
+        "z": -3135.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3002.84,
+        "y": 3638.52,
+        "z": -3116.27
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 3005.15,
+        "y": 3637.66,
+        "z": -3136.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3391.78,
+        "y": 363.29,
+        "z": -3100.27
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 3394.08,
+        "y": 362.425,
+        "z": -3120.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 12646.1,
+        "y": -6038.43,
+        "z": -6428.27
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 12648.4,
+        "y": -6039.3,
+        "z": -6448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -6688.0,
+        "y": 2588.17,
+        "z": -1880.99
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -6696.0,
+        "y": 1937.28,
+        "z": -976.63
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 776.0,
+        "y": 155.023,
+        "z": -2986.19
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 776.0,
+        "y": 225.986,
+        "z": -2979.0
+      }
+    },
+    {
+      "targetname": "jump15help",
+      "classname": "game_text",
+      "origin": {
+        "x": 12720.0,
+        "y": -5760.0,
+        "z": -6339.53
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 12644.0,
+        "y": -5743.94,
+        "z": -6402.5
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 12608.0,
+        "y": -5752.3,
+        "z": -6448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 12311.9,
+        "y": -3652.0,
+        "z": -5906.5
+      }
+    },
+    {
+      "targetname": "jump16help",
+      "classname": "game_text",
+      "origin": {
+        "x": 12328.0,
+        "y": -3576.0,
+        "z": -5843.53
+      }
+    },
+    {
+      "targetname": "jump16helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 12328.0,
+        "y": -3608.0,
+        "z": -5846.79
+      }
+    },
+    {
+      "targetname": "jump16helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 12328.0,
+        "y": -3640.0,
+        "z": -5847.51
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 12320.3,
+        "y": -3688.0,
+        "z": -5952.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 9444.01,
+        "y": -3103.9,
+        "z": -6786.5
+      }
+    },
+    {
+      "targetname": "jump17help",
+      "classname": "game_text",
+      "origin": {
+        "x": 9520.0,
+        "y": -3120.0,
+        "z": -6723.53
+      }
+    },
+    {
+      "targetname": "jump17helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 9488.0,
+        "y": -3120.0,
+        "z": -6726.79
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 9408.0,
+        "y": -3112.3,
+        "z": -6832.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 8655.91,
+        "y": -1971.99,
+        "z": -7762.5
+      }
+    },
+    {
+      "targetname": "jump18help",
+      "classname": "game_text",
+      "origin": {
+        "x": 8672.0,
+        "y": -1896.0,
+        "z": -7699.53
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 8664.3,
+        "y": -2008.0,
+        "z": -7808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 4727.91,
+        "y": -2235.99,
+        "z": -7762.5
+      }
+    },
+    {
+      "targetname": "jump19help",
+      "classname": "game_text",
+      "origin": {
+        "x": 4736.0,
+        "y": -2136.0,
+        "z": -7699.53
+      }
+    },
+    {
+      "targetname": "jump19helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 4736.0,
+        "y": -2168.0,
+        "z": -7702.79
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 4728.3,
+        "y": -2248.0,
+        "z": -7808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 3511.91,
+        "y": -2003.99,
+        "z": -7762.5
+      }
+    },
+    {
+      "targetname": "jump20help",
+      "classname": "game_text",
+      "origin": {
+        "x": 3528.0,
+        "y": -1928.0,
+        "z": -7699.53
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 3520.3,
+        "y": -2040.0,
+        "z": -7808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.4979,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump15helpa",
+      "classname": "game_text",
+      "origin": {
+        "x": 12688.0,
+        "y": -5760.0,
+        "z": -6342.79
+      }
+    },
+    {
+      "targetname": "jump15helpb",
+      "classname": "game_text",
+      "origin": {
+        "x": 12656.0,
+        "y": -5760.0,
+        "z": -6343.51
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 2328.0,
+        "y": 2344.0,
+        "z": -2976.0
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 1733.87,
+        "y": 2309.45,
+        "z": -2670.22
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -39.0801,
+        "y": 2309.45,
+        "z": -2674.77
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -1238.82,
+        "y": 2309.45,
+        "z": -1950.01
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -4847.46,
+        "y": 2309.45,
+        "z": -2267.27
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -5657.34,
+        "y": 2309.45,
+        "z": -1908.98
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -5821.0,
+        "y": 1429.45,
+        "z": -1910.93
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -5764.62,
+        "y": 1429.45,
+        "z": -1008.71
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 1592.0,
+        "y": -322.545,
+        "z": -2944.0
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 2790.25,
+        "y": -322.545,
+        "z": -2947.35
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 4130.69,
+        "y": 37.4546,
+        "z": -2206.29
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 7649.84,
+        "y": 37.4546,
+        "z": -3476.6
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 10670.8,
+        "y": 37.4546,
+        "z": -3445.63
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 12219.0,
+        "y": 101.455,
+        "z": -2310.97
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 12589.0,
+        "y": -5738.37,
+        "z": -6282.93
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 12312.2,
+        "y": -3706.55,
+        "z": -5780.68
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 9388.99,
+        "y": -3097.91,
+        "z": -6647.3
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 9080.0,
+        "y": -1856.0,
+        "z": -6504.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 180.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 8664.0,
+        "y": -1984.0,
+        "z": -7622.92
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 4722.74,
+        "y": -2266.55,
+        "z": -7647.43
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 3504.88,
+        "y": -2058.55,
+        "z": -7630.66
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 2425.45,
+        "y": -3226.55,
+        "z": -6932.58
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 4960.0,
+        "y": 3176.0,
+        "z": -2888.0
+      },
+      "angles": {
+        "x": -5.0,
+        "y": 180.0,
+        "z": 180.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 4960.0,
+        "y": 3672.0,
+        "z": -2888.0
+      },
+      "angles": {
+        "x": -5.0,
+        "y": 180.0,
+        "z": -180.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 4960.0,
+        "y": 3424.0,
+        "z": -2888.0
+      },
+      "angles": {
+        "x": -5.0,
+        "y": 180.0,
+        "z": 180.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5336.0,
+        "y": 3362.95,
+        "z": -2904.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6296.0,
+        "y": 624.0,
+        "z": -2760.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 9568.0,
+        "y": 624.0,
+        "z": -3168.61
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 11680.0,
+        "y": 624.0,
+        "z": -2873.43
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4224.0,
+        "y": 616.0,
+        "z": -1832.69
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -1880.0,
+        "y": 3006.82,
+        "z": -1408.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -6496.0,
+        "y": 2296.0,
+        "z": -456.0
+      }
+    },
+    {
+      "model": 83,
+      "clusters": [
+        85,86,90,91,92,93,94,95,96,97,98,99,193
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 5300.0,
+        "y": 1244.0,
+        "z": -2662.3
+      }
+    },
+    {
+      "model": 84,
+      "clusters": [
+        58,59,60,61,62
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 8836.0,
+        "y": 1244.0,
+        "z": -3180.0
+      }
+    },
+    {
+      "model": 85,
+      "clusters": [
+        66,68
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 8836.0,
+        "y": 28.0,
+        "z": -3180.0
+      }
+    },
+    {
+      "model": 86,
+      "clusters": [
+        101,106,108,109,110,112,198
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 5300.0,
+        "y": 28.0,
+        "z": -2660.39
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 1827.01,
+        "y": 658.02,
+        "z": -2051.96
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 13744.0,
+        "y": 608.0,
+        "z": -4462.13
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": -5588.99,
+        "y": 2911.23,
+        "z": -905.302
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 4512.0,
+        "y": -1632.0,
+        "z": -6152.0
+      },
+      "angles": {
+        "x": -88.8317,
+        "y": 318.204,
+        "z": 6.31116
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 8952.0,
+        "y": -1856.0,
+        "z": -7609.56
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -352.0,
+        "y": 3037.06,
+        "z": -2528.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -3984.0,
+        "y": 3067.17,
+        "z": -1800.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -4936.0,
+        "y": 3032.0,
+        "z": -1666.83
+      }
+    },
+    {
+      "classname": "light_spot",
+      "origin": {
+        "x": 2136.0,
+        "y": 10008.0,
+        "z": -2928.0
+      },
+      "angles": {
+        "x": -90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 87,
+      "clusters": [
+        10,23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 13144.0,
+        "y": 628.0,
+        "z": -5160.0
+      }
+    },
+    {
+      "classname": "info_observer_point",
+      "origin": {
+        "x": 3112.0,
+        "y": 3784.0,
+        "z": -2592.0
+      },
+      "angles": {
+        "x": -3.28942,
+        "y": 223.088,
+        "z": -3.07248
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 5120.0,
+        "y": 3040.0,
+        "z": -3016.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4688.0,
+        "y": 3184.0,
+        "z": -2888.32
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4688.0,
+        "y": 3424.0,
+        "z": -2890.63
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4688.0,
+        "y": 3672.0,
+        "z": -2889.4
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 5224.0,
+        "y": 3416.0,
+        "z": -2920.0
+      }
+    },
+    {
+      "targetname": "spawntext",
+      "classname": "game_text",
+      "origin": {
+        "x": 5242.69,
+        "y": 3727.0,
+        "z": -3025.85
+      }
+    },
+    {
+      "targetname": "spawntexta",
+      "classname": "game_text",
+      "origin": {
+        "x": 5253.52,
+        "y": 3792.0,
+        "z": -3030.34
+      }
+    },
+    {
+      "targetname": "spawntextb",
+      "classname": "game_text",
+      "origin": {
+        "x": 5293.14,
+        "y": 3792.0,
+        "z": -3030.75
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": -2352.0,
+        "y": 2676.0,
+        "z": -2216.0
+      }
+    },
+    {
+      "targetname": "jump2b",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -1072.0,
+        "y": 2520.0,
+        "z": -2127.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 183.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 90,
+      "clusters": [
+        269,270,271
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -5400.0,
+        "y": 2248.0,
+        "z": -1337.98
+      }
+    },
+    {
+      "model": 91,
+      "clusters": [
+        274,275,276
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -5400.0,
+        "y": 1464.0,
+        "z": -1337.98
+      }
+    },
+    {
+      "classname": "trigger_momentum_teleport",
+      "origin": {
+        "x": 4476.0,
+        "y": -1840.0,
+        "z": -7816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4656.0,
+        "y": -1648.0,
+        "z": -7464.56
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 2176.0,
+        "y": 3018.72,
+        "z": -2984.51
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 1036.57,
+        "y": 3792.0,
+        "z": -2671.33
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -640.0,
+        "y": 3126.29,
+        "z": -2587.43
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -2311.01,
+        "y": 3792.0,
+        "z": -1774.57
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -5216.0,
+        "y": 3120.78,
+        "z": -2070.75
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -5802.89,
+        "y": 2992.0,
+        "z": -1861.88
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -5216.0,
+        "y": 1854.67,
+        "z": -1834.08
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": -6034.97,
+        "y": 1424.0,
+        "z": -781.65
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 2249.53,
+        "y": 432.0,
+        "z": -3026.78
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 776.0,
+        "y": -66.1314,
+        "z": -2828.93
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 776.0,
+        "y": -190.053,
+        "z": -2833.28
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4609.99,
+        "y": 1240.0,
+        "z": -2160.9
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4704.33,
+        "y": 1240.0,
+        "z": -2161.03
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 8723.02,
+        "y": 1240.0,
+        "z": -3220.67
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 8856.0,
+        "y": 1240.0,
+        "z": -3221.26
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 12064.0,
+        "y": 669.872,
+        "z": -3204.06
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 12064.0,
+        "y": 547.614,
+        "z": -3203.65
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 12696.0,
+        "y": 672.0,
+        "z": -2391.88
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 12696.0,
+        "y": 548.148,
+        "z": -2392.56
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 12584.0,
+        "y": -5521.88,
+        "z": -6078.75
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 12584.0,
+        "y": -5412.41,
+        "z": -6082.27
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 11504.0,
+        "y": -3414.12,
+        "z": -5632.27
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 11504.0,
+        "y": -3544.0,
+        "z": -5632.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 9384.0,
+        "y": -2795.36,
+        "z": -6593.19
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 9384.0,
+        "y": -2671.87,
+        "z": -6591.31
+      }
+    },
+    {
+      "model": 93,
+      "clusters": [
+        76
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 8968.0,
+        "y": -1856.01,
+        "z": -4880.0
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 8272.14,
+        "y": -2152.0,
+        "z": -7486.17
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 8154.43,
+        "y": -2152.0,
+        "z": -7483.48
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4498.88,
+        "y": -2272.0,
+        "z": -7393.56
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 4380.24,
+        "y": -2272.0,
+        "z": -7392.49
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 3111.14,
+        "y": -2064.0,
+        "z": -7337.94
+      }
+    },
+    {
+      "classname": "infodecal",
+      "origin": {
+        "x": 2970.53,
+        "y": -2064.0,
+        "z": -7336.57
+      }
+    },
+    {
+      "classname": "water_lod_control",
+      "origin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ]
+}

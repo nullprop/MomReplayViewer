@@ -1,0 +1,1042 @@
+{
+  "textures": [
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_tile_1.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.5137255,
+            "g": 0.490196079,
+            "b": 0.458823532,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_1.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_brick_white.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.7529412,
+            "g": 0.7647059,
+            "b": 0.709803939,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_white.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_brick_blue.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.572549045,
+            "b": 0.6784314,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_brick_green.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.6745098,
+            "b": 0.470588237,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_green.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_brick_yellow.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.7176471,
+            "g": 0.670588255,
+            "b": 0.407843143,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_yellow.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_brick_red.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.6862745,
+            "g": 0.447058827,
+            "b": 0.4509804,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_red.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_glass_blue.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.0,
+            "g": 0.309803933,
+            "b": 0.6,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_blue.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_tile_2.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.509803951,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_glass_green.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.0,
+            "g": 0.6039216,
+            "b": 0.09411765,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_green.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_tile_3.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.545098066,
+            "b": 0.470588237,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_3.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_glass_orange.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.6,
+            "g": 0.34117648,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_orange.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_tile_4.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.549019635,
+            "g": 0.545098066,
+            "b": 0.4509804,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_4.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_glass_pink.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.6,
+            "g": 0.0,
+            "b": 0.427450985,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_glass_pink.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_tile_5.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.549019635,
+            "g": 0.447058827,
+            "b": 0.458823532,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_5.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/hammer textures/bhop_eazy/31_e_mapby_blue_2.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.0,
+            "g": 0.31764707,
+            "b": 0.623529434,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_mapby_blue_2.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/sprites/store/awesome.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.5176471,
+            "g": 0.384313732,
+            "b": 0.247058824,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/bhop_eazy/materials/sprites/store/awesome.vtf/mip0.png"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 2
+        }
+      ]
+    },
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        }
+      ]
+    },
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 7
+        }
+      ]
+    },
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 11
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 15
+        }
+      ]
+    }
+  ]
+}

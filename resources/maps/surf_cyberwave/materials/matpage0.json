@@ -1,0 +1,1605 @@
+{
+  "textures": [
+    {
+      "path": "materials/siesta/metal_light_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 2048,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": false
+      },
+      "elements": [
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/metal/sci_fi_metal_floor_chapter_5.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.258823544,
+            "g": 0.258823544,
+            "b": 0.258823544,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci_fi_metal_floor_chapter_5.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/de_train/train_metalceiling_02.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.145098045,
+            "g": 0.13333334,
+            "b": 0.1254902,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/de_train/train_metalceiling_02.vtf/mip0.png"
+        }
+      ]
+    },
+    null,
+    {
+      "path": "materials/metal/sci-fi_metal_floor.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.149019614,
+            "g": 0.149019614,
+            "b": 0.149019614,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/metal/sci-fi_metal_floor.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/mefl2_02_dark.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.105882354,
+            "g": 0.09803922,
+            "b": 0.105882354,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02_dark.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/mewa1_03.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.396078438,
+            "g": 0.392156869,
+            "b": 0.396078438,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa1_03.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/metal_light_01_dark.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 2048,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 11,
+          "color": {
+            "r": 0.09411765,
+            "g": 0.09411765,
+            "b": 0.09411765,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 10,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip10.png"
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/metal_light_01_dark.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/mefl2_02.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.2,
+            "g": 0.192156866,
+            "b": 0.2,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl2_02.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/effects/emp_ball1.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.180392161,
+            "g": 0.223529413,
+            "b": 0.494117647,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/effects/emp_ball1.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/chromatic/chromatic_glass_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.8392157,
+            "g": 0.843137264,
+            "b": 0.847058833,
+            "a": 0.117647059
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/chromatic/chromatic_glass_01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/contest/killzone_gb_banner.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": false
+      },
+      "elements": [
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/contest/killzone_gb_banner.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/cyberwave/credits.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": false
+      },
+      "elements": [
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/cyberwave/credits.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/mefl1_02_dark.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.117647059,
+            "g": 0.101960786,
+            "b": 0.105882354,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mefl1_02_dark.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/cyberwave/circuit_board.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": false
+      },
+      "elements": [
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/cyberwave/circuit_board.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/mewa2_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.309803933,
+            "g": 0.309803933,
+            "b": 0.309803933,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/mewa2_01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/siesta/medl3_02.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.223529413,
+            "g": 0.223529413,
+            "b": 0.223529413,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/maps/surf_cyberwave/materials/siesta/medl3_02.vtf/mip0.png"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 7
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 11
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 4
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 7
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 15
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 16
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

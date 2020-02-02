@@ -1,0 +1,3705 @@
+{
+  "name": "bhop_eazy",
+  "lightmapUrl": "./resources/maps/bhop_eazy/lightmap.json?v=1ca9-125af",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 2194,
+      "url": "./resources/maps/bhop_eazy/geom/leafpage0.json?v=1ca9-125af"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/bhop_eazy/geom/disppage0.json?v=1ca9-125af"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 20,
+      "url": "./resources/maps/bhop_eazy/materials/matpage0.json?v=1ca9-125af"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 262,
+      "url": "./resources/maps/bhop_eazy/geom/bsppage0.json?v=1ca9-125af"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/bhop_eazy/geom/mdlpage0.json?v=1ca9-125af"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/bhop_eazy/geom/vhvpage0.json?v=1ca9-125af"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 85,
+      "url": "./resources/maps/bhop_eazy/geom/vispage0.json?v=1ca9-125af"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 2194,
+      "url": "./resources/maps/bhop_eazy/geom/ambientpage0.json?v=1ca9-125af"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/materials/skybox/militiart.vtf.json?v=1ca9-125af"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/materials/skybox/militialf.vtf.json?v=1ca9-125af"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/materials/skybox/militiabk.vtf.json?v=1ca9-125af"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/materials/skybox/militiaft.vtf.json?v=1ca9-125af"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/militiaup.vtf.json?v=1ca9-125af"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/militiadn.vtf.json?v=1ca9-125af"
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "model": 1,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 2,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 3,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -451.0,
+        "y": -254.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -451.0,
+        "y": -318.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -451.0,
+        "y": -382.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -451.0,
+        "y": -446.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -398.0,
+        "y": -253.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -398.0,
+        "y": -317.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -398.0,
+        "y": -381.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -398.0,
+        "y": -445.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -307.0,
+        "y": -251.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -307.0,
+        "y": -315.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -307.0,
+        "y": -379.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -307.0,
+        "y": -443.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -257.0,
+        "y": -251.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -257.0,
+        "y": -315.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -257.0,
+        "y": -379.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -257.0,
+        "y": -443.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 4,
+      "clusters": [
+        18,36
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 5,
+      "clusters": [
+        5,25
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 6,
+      "clusters": [
+        36
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -160.0,
+        "y": -320.0,
+        "z": 60.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 237,
+        "G": 232,
+        "B": 216,
+        "A": 100
+      },
+      "Ambient": {
+        "R": 241,
+        "G": 228,
+        "B": 190,
+        "A": 244
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": -60.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": -368.0,
+        "y": -464.0,
+        "z": 80.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 130.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "env_tonemap_controller",
+      "origin": {
+        "x": -344.0,
+        "y": -464.0,
+        "z": 80.0
+      }
+    },
+    {
+      "classname": "env_sun",
+      "origin": {
+        "x": 896.0,
+        "y": 320.0,
+        "z": 576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 130.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "sun",
+      "classname": "info_target",
+      "origin": {
+        "x": -376.0,
+        "y": -128.0,
+        "z": 80.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "clusters": [
+        36
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -64.0,
+        "y": -384.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 8,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 736.0,
+        "y": -288.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 9,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 736.0,
+        "y": -416.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 10,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 768.0,
+        "y": -64.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 11,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 672.0,
+        "y": -64.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 12,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 384.0,
+        "y": -64.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 13,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 288.0,
+        "y": -64.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 14,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 192.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 15,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 96.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 16,
+      "clusters": [
+        5,25
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 17,
+      "clusters": [
+        36
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -192.0,
+        "y": -48.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 18,
+      "clusters": [
+        36
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -288.0,
+        "y": -112.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 19,
+      "clusters": [
+        36
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -384.0,
+        "y": -48.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 20,
+      "clusters": [
+        25
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -192.0,
+        "y": 208.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 21,
+      "clusters": [
+        25
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -288.0,
+        "y": 272.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 22,
+      "clusters": [
+        25
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -384.0,
+        "y": 208.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 23,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 480.0,
+        "y": 224.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 24,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 384.0,
+        "y": 224.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 25,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 288.0,
+        "y": 256.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 26,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 192.0,
+        "y": 192.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 27,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 96.0,
+        "y": 256.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 28,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 928.0,
+        "y": 368.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 29,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 864.0,
+        "y": 272.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 30,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 864.0,
+        "y": 464.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 31,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 768.0,
+        "y": 208.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 32,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 768.0,
+        "y": 528.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 33,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 480.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 34,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 384.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 35,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 288.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 36,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 192.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 37,
+      "clusters": [
+        5
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 96.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "targetname": "t1",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -112.0,
+        "y": -352.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t2",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 320.0,
+        "y": -352.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t3",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 736.0,
+        "y": -352.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t4",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 720.0,
+        "y": -64.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t5",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 240.0,
+        "y": -64.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t6",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -304.0,
+        "y": 80.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t7",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 288.0,
+        "y": 224.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t8",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 848.0,
+        "y": 368.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t9",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 288.0,
+        "y": 512.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t10",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -224.0,
+        "y": 512.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t11",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -352.0,
+        "y": -352.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t22",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 80.0,
+        "y": -352.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t33",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 560.0,
+        "y": -352.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t44",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 912.0,
+        "y": -64.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t55",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 528.0,
+        "y": -64.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t66",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -48.0,
+        "y": -64.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t77",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -48.0,
+        "y": 224.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t88",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 624.0,
+        "y": 224.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t99",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 624.0,
+        "y": 512.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t1010",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -48.0,
+        "y": 512.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 181.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "clusters": [
+        1,3
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 49,
+      "clusters": [
+        1,3
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 50,
+      "clusters": [
+        8,14
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "targetname": "t11",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -476.0,
+        "y": 512.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "t1111",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2624.0,
+        "y": 512.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 52,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2464.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 53,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2368.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 54,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2272.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 55,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2176.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 56,
+      "clusters": [
+        1,3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2080.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 57,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1984.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 58,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1408.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 59,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1504.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 60,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1600.0,
+        "y": 480.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 61,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1696.0,
+        "y": 544.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 62,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1312.0,
+        "y": 416.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 63,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1312.0,
+        "y": 320.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 64,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1408.0,
+        "y": 256.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 65,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1504.0,
+        "y": 192.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 66,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1792.0,
+        "y": 256.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 67,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1888.0,
+        "y": 256.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 68,
+      "clusters": [
+        3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1984.0,
+        "y": 256.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 69,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2272.0,
+        "y": 192.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 70,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2176.0,
+        "y": 192.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 71,
+      "clusters": [
+        1,3
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2080.0,
+        "y": 192.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 72,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 416.0,
+        "y": -384.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 73,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 320.0,
+        "y": -320.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 74,
+      "clusters": [
+        18
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 224.0,
+        "y": -384.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 75,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2560.0,
+        "y": 224.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 76,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2656.0,
+        "y": 160.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 77,
+      "clusters": [
+        1
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2656.0,
+        "y": 64.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 78,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2656.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 79,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2560.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 80,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2464.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 81,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2368.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 82,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2272.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 83,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2176.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 84,
+      "clusters": [
+        8,14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2080.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 85,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1472.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 86,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1568.0,
+        "y": -32.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 87,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1664.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 88,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1760.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 89,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1376.0,
+        "y": -96.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 90,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1312.0,
+        "y": -192.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 91,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1376.0,
+        "y": -288.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 92,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1472.0,
+        "y": -288.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 93,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1568.0,
+        "y": -352.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 94,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1664.0,
+        "y": -352.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 95,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1760.0,
+        "y": -352.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 96,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1856.0,
+        "y": -352.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 97,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1952.0,
+        "y": -416.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 98,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1952.0,
+        "y": -288.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 99,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2496.0,
+        "y": -384.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 100,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2368.0,
+        "y": -320.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 101,
+      "clusters": [
+        8
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2240.0,
+        "y": -384.0,
+        "z": 60.0
+      }
+    },
+    {
+      "targetname": "t11",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2224.0,
+        "y": 512.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t12",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1408.0,
+        "y": 232.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t13",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2032.0,
+        "y": 224.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t14",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2608.0,
+        "y": 216.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t15",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1632.0,
+        "y": -344.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t16",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2368.0,
+        "y": -352.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t1212",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1840.0,
+        "y": 512.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t1313",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1648.0,
+        "y": 224.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t1414",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2416.0,
+        "y": 224.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t1515",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1936.0,
+        "y": -64.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t1616",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2096.0,
+        "y": -352.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 108,
+      "clusters": [
+        23,58
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 109,
+      "clusters": [
+        23,58
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 110,
+      "clusters": [
+        19,23,38,58
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "targetname": "t1717",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -384.0,
+        "y": -1728.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t17",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2716.0,
+        "y": -352.0,
+        "z": 120.0
+      }
+    },
+    {
+      "model": 112,
+      "clusters": [
+        58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -176.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 113,
+      "clusters": [
+        58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -48.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 114,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 80.0,
+        "y": -1696.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 115,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 208.0,
+        "y": -1760.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 116,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 336.0,
+        "y": -1696.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 117,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 464.0,
+        "y": -1760.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 118,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 592.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 119,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 720.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "targetname": "t17",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 272.0,
+        "y": -1728.0,
+        "z": 52.0
+      }
+    },
+    {
+      "model": 121,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 768.0,
+        "y": -1156.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 122,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 640.0,
+        "y": -1152.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 123,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 512.0,
+        "y": -1216.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 124,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 384.0,
+        "y": -1216.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 125,
+      "clusters": [
+        58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -256.0,
+        "y": -1152.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 126,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 256.0,
+        "y": -1152.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 127,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 128.0,
+        "y": -1088.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 128,
+      "clusters": [
+        23,58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 0.0,
+        "y": -1088.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 129,
+      "clusters": [
+        58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -128.0,
+        "y": -1152.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 130,
+      "clusters": [
+        38
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -256.0,
+        "y": -800.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 131,
+      "clusters": [
+        38
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -128.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 132,
+      "clusters": [
+        19,38
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 0.0,
+        "y": -928.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 133,
+      "clusters": [
+        19
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 128.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 134,
+      "clusters": [
+        19
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 256.0,
+        "y": -800.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 135,
+      "clusters": [
+        19
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 384.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 136,
+      "clusters": [
+        19
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 512.0,
+        "y": -928.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 137,
+      "clusters": [
+        19
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 640.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 138,
+      "clusters": [
+        19
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 768.0,
+        "y": -800.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 139,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 768.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 140,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 640.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 141,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 512.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 142,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 384.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 143,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 256.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 144,
+      "clusters": [
+        23
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 128.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 145,
+      "clusters": [
+        23,58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 0.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 146,
+      "clusters": [
+        58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -128.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 147,
+      "clusters": [
+        58
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -256.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "targetname": "t18",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 256.0,
+        "y": -1440.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t19",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 256.0,
+        "y": -1152.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t20",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 256.0,
+        "y": -864.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t1818",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 912.0,
+        "y": -1440.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t1919",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -400.0,
+        "y": -1152.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t2020",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 912.0,
+        "y": -864.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 181.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 151,
+      "clusters": [
+        11,21
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 152,
+      "clusters": [
+        11,21
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 153,
+      "clusters": [
+        9,11,15,21
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 154,
+      "clusters": [
+        9
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2464.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 155,
+      "clusters": [
+        9
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2368.0,
+        "y": -832.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 156,
+      "clusters": [
+        9
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2272.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 157,
+      "clusters": [
+        9
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2176.0,
+        "y": -832.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 158,
+      "clusters": [
+        9,15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2080.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 159,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1696.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 160,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1792.0,
+        "y": -832.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 161,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1888.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 162,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1984.0,
+        "y": -832.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 163,
+      "clusters": [
+        15,21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1312.0,
+        "y": -1008.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 164,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1312.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 165,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1312.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 166,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1408.0,
+        "y": -832.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 167,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1504.0,
+        "y": -896.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 168,
+      "clusters": [
+        15
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1600.0,
+        "y": -832.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 169,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1504.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 170,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1600.0,
+        "y": -1184.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 171,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1696.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 172,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1792.0,
+        "y": -1184.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 173,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1888.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 174,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1984.0,
+        "y": -1184.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 175,
+      "clusters": [
+        11,21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2080.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 176,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2176.0,
+        "y": -1184.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 177,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2272.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 178,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2368.0,
+        "y": -1184.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 179,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2464.0,
+        "y": -1120.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 180,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1408.0,
+        "y": -1184.0,
+        "z": 60.0
+      }
+    },
+    {
+      "targetname": "t2121",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2624.0,
+        "y": -864.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t21",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -476.0,
+        "y": -864.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "t21",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1904.0,
+        "y": -1008.0,
+        "z": 52.0
+      }
+    },
+    {
+      "model": 183,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2480.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 184,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2352.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 185,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 186,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1888.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 187,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2016.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 188,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 189,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1760.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 190,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1368.0,
+        "y": -1584.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 191,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1744.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 192,
+      "clusters": [
+        21
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1904.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 193,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2256.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 194,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2400.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 195,
+      "clusters": [
+        11
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2496.0,
+        "y": -1728.0,
+        "z": 60.0
+      }
+    },
+    {
+      "targetname": "t22",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2416.0,
+        "y": -1440.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t23",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1888.0,
+        "y": -1440.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t24",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1376.0,
+        "y": -1584.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t25",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1824.0,
+        "y": -1728.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t26",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2352.0,
+        "y": -1728.0,
+        "z": 52.0
+      }
+    },
+    {
+      "targetname": "t2222",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2632.0,
+        "y": -1440.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t2323",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2192.0,
+        "y": -1440.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t2424",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1584.0,
+        "y": -1440.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t2525",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1584.0,
+        "y": -1728.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t2626",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2064.0,
+        "y": -1728.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "t26",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2320.0,
+        "y": -1728.0,
+        "z": 64.5
+      }
+    },
+    {
+      "targetname": "t25",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1824.0,
+        "y": -1728.0,
+        "z": 88.5
+      }
+    },
+    {
+      "model": 203,
+      "clusters": [
+        59,67,84
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 204,
+      "clusters": [
+        59,67
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 205,
+      "clusters": [
+        39,46,59,67,75,84
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 206,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1152.0,
+        "y": -1728.0,
+        "z": 180.0
+      }
+    },
+    {
+      "model": 207,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1312.0,
+        "y": -1728.0,
+        "z": 164.0
+      }
+    },
+    {
+      "model": 208,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1472.0,
+        "y": -1728.0,
+        "z": 140.0
+      }
+    },
+    {
+      "model": 209,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1504.0,
+        "y": -1632.0,
+        "z": 132.0
+      }
+    },
+    {
+      "model": 210,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1632.0,
+        "y": -1728.0,
+        "z": 116.0
+      }
+    },
+    {
+      "model": 211,
+      "clusters": [
+        59
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -960.0,
+        "y": -1728.0,
+        "z": 156.0
+      }
+    },
+    {
+      "model": 212,
+      "clusters": [
+        59
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -800.0,
+        "y": -1792.0,
+        "z": 108.0
+      }
+    },
+    {
+      "model": 213,
+      "clusters": [
+        59
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -832.0,
+        "y": -1584.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 214,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1664.0,
+        "y": -1824.0,
+        "z": 108.0
+      }
+    },
+    {
+      "model": 215,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1792.0,
+        "y": -1728.0,
+        "z": 92.0
+      }
+    },
+    {
+      "model": 216,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1952.0,
+        "y": -1728.0,
+        "z": 68.0
+      }
+    },
+    {
+      "model": 217,
+      "clusters": [
+        37,45
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 218,
+      "clusters": [
+        37
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -864.0,
+        "y": -472.5,
+        "z": 128.0
+      }
+    },
+    {
+      "targetname": "t27",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2716.0,
+        "y": -1728.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "t2727",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -864.0,
+        "y": -288.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "bonus1",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1024.0,
+        "y": -476.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "top3",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1024.0,
+        "y": -100.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "top4",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -832.0,
+        "y": -100.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "top2",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1116.0,
+        "y": -192.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "top1",
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1116.0,
+        "y": -384.0,
+        "z": 120.0
+      }
+    },
+    {
+      "targetname": "top11",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -495.0,
+        "y": -208.0,
+        "z": 225.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "top22",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2735.0,
+        "y": 368.0,
+        "z": 225.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "top33",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -495.0,
+        "y": -1584.0,
+        "z": 225.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "top44",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2735.0,
+        "y": -1008.0,
+        "z": 225.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 225,
+      "clusters": [
+        24
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -504.0,
+        "y": 664.0,
+        "z": 288.0
+      }
+    },
+    {
+      "model": 226,
+      "clusters": [
+        6
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 2744.0,
+        "y": -504.0,
+        "z": 288.0
+      }
+    },
+    {
+      "model": 227,
+      "clusters": [
+        27
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -504.0,
+        "y": -712.0,
+        "z": 288.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2112.0,
+        "y": -1852.0,
+        "z": 120.0
+      }
+    },
+    {
+      "model": 229,
+      "clusters": [
+        84
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "targetname": "bonus11",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -2112.0,
+        "y": -1728.0,
+        "z": 65.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2204.0,
+        "y": -864.0,
+        "z": 120.0
+      }
+    },
+    {
+      "model": 231,
+      "clusters": [
+        59
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -928.0,
+        "y": -1376.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 232,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1120.0,
+        "y": -1504.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 233,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1280.0,
+        "y": -1440.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 234,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1408.0,
+        "y": -1504.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 235,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1536.0,
+        "y": -1376.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 236,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1696.0,
+        "y": -1472.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 237,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1856.0,
+        "y": -1408.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 238,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1987.91,
+        "y": -1476.1,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 239,
+      "clusters": [
+        84
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2104.04,
+        "y": -1397.25,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 240,
+      "clusters": [
+        84
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2143.77,
+        "y": -1271.77,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 241,
+      "clusters": [
+        67,84
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2051.24,
+        "y": -1140.76,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 242,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1648.0,
+        "y": -1248.0,
+        "z": 100.0
+      }
+    },
+    {
+      "model": 243,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1936.0,
+        "y": -1152.0,
+        "z": 68.0
+      }
+    },
+    {
+      "model": 244,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1808.0,
+        "y": -1056.0,
+        "z": 84.0
+      }
+    },
+    {
+      "model": 245,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1776.0,
+        "y": -1152.0,
+        "z": 92.0
+      }
+    },
+    {
+      "model": 246,
+      "clusters": [
+        67
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1520.0,
+        "y": -1152.0,
+        "z": 108.0
+      }
+    },
+    {
+      "model": 247,
+      "clusters": [
+        59
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -800.0,
+        "y": -1152.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 248,
+      "clusters": [
+        39
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -800.0,
+        "y": -864.0,
+        "z": 108.0
+      }
+    },
+    {
+      "model": 249,
+      "clusters": [
+        39,59
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -800.0,
+        "y": -1008.0,
+        "z": 84.0
+      }
+    },
+    {
+      "model": 250,
+      "clusters": [
+        46
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1376.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 251,
+      "clusters": [
+        46
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1568.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 252,
+      "clusters": [
+        46
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1760.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "model": 253,
+      "clusters": [
+        46
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -1952.0,
+        "y": -864.0,
+        "z": 60.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1472.0,
+        "y": -1296.0,
+        "z": 52.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1376.0,
+        "y": -1344.0,
+        "z": 116.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -503.0,
+        "y": 663.0,
+        "z": 288.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2743.0,
+        "y": -503.0,
+        "z": 288.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -503.0,
+        "y": -713.0,
+        "z": 288.0
+      }
+    },
+    {
+      "model": 259,
+      "clusters": [
+        75
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 260,
+      "clusters": [
+        75
+      ],
+      "classname": "func_brush"
+    },
+    {
+      "model": 261,
+      "clusters": [
+        75
+      ],
+      "classname": "func_brush"
+    }
+  ]
+}

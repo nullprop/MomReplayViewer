@@ -211,23 +211,21 @@ var Gokz;
             this.buttonMap = {};
             this.syncSampleRange = 4;
             this.speedSampleRange = 1 / 8;
-            //private readonly tempTickData = new TickData();
             this.tempPosition = new Facepunch.Vector3();
-            this.syncBuffer = [];
-            this.syncIndex = 0;
-            this.syncSampleCount = 0;
             this.lastTick = 0;
             this.viewer = viewer;
             if (container === undefined)
                 container = viewer.container;
             var element = this.element = document.createElement("div");
             element.classList.add("key-display");
-            element.innerHTML = "\n                <div class=\"stat sync-outer\">Sync: <span class=\"value sync-value\">0.0</span> %</div>\n                <div class=\"stat speed-outer\">Speed: <span class=\"value speed-value\">000</span> u/s</div>\n                <div class=\"key key-w\">W</div>\n                <div class=\"key key-a\">A</div>\n                <div class=\"key key-s\">S</div>\n                <div class=\"key key-d\">D</div>\n                <div class=\"key key-walk\">Walk</div>\n                <div class=\"key key-duck\">Duck</div>\n                <div class=\"key key-jump\">Jump</div>";
+            element.innerHTML = "\n                <div class=\"stat sync-outer\">SyncAvg: <span class=\"value sync-value\">0.0</span> %</div>\n                <div class=\"stat speed-outer\">Speed: <span class=\"value speed-value\">000</span> u/s</div>\n                <div class=\"key key-w\">W</div>\n                <div class=\"key key-a\">A</div>\n                <div class=\"key key-s\">S</div>\n                <div class=\"key key-d\">D</div>\n                <div class=\"key key-m1\">M1</div>\n                <div class=\"key key-m2\">M2</div>\n                <div class=\"key key-walk\">Walk</div>\n                <div class=\"key key-duck\">Duck</div>\n                <div class=\"key key-jump\">Jump</div>";
             container.appendChild(element);
             this.buttonMap[Gokz.Button.Forward] = element.getElementsByClassName("key-w")[0];
             this.buttonMap[Gokz.Button.MoveLeft] = element.getElementsByClassName("key-a")[0];
             this.buttonMap[Gokz.Button.Back] = element.getElementsByClassName("key-s")[0];
             this.buttonMap[Gokz.Button.MoveRight] = element.getElementsByClassName("key-d")[0];
+            this.buttonMap[Gokz.Button.Attack] = element.getElementsByClassName("key-m1")[0];
+            this.buttonMap[Gokz.Button.Attack2] = element.getElementsByClassName("key-m2")[0];
             this.buttonMap[Gokz.Button.Walk] = element.getElementsByClassName("key-walk")[0];
             this.buttonMap[Gokz.Button.Duck] = element.getElementsByClassName("key-duck")[0];
             this.buttonMap[Gokz.Button.Jump] = element.getElementsByClassName("key-jump")[0];
@@ -246,8 +244,6 @@ var Gokz;
                     _this.hide();
             });
             viewer.playbackSkipped.addListener(function (oldTick) {
-                _this.syncIndex = 0;
-                _this.syncSampleCount = 0;
                 _this.lastTick = viewer.replay.clampTick(viewer.playbackRate > 0
                     ? viewer.tick - 32
                     : viewer.tick + 32);
@@ -273,40 +269,14 @@ var Gokz;
             if (this.lastTick === this.viewer.tick)
                 return;
             var replay = this.viewer.replay;
-            var maxSamples = Math.ceil(this.syncSampleRange / replay.header.tickInterval);
-            var syncBuffer = this.syncBuffer;
-            if (syncBuffer.length < maxSamples) {
-                syncBuffer = this.syncBuffer = new Array(maxSamples);
-                this.syncIndex = 0;
-                this.syncSampleCount = 0;
-            }
-            var min = replay.clampTick(Math.min(this.lastTick, this.viewer.tick) - 1);
-            var max = replay.clampTick(Math.max(this.lastTick, this.viewer.tick));
-            var prevSpeed = this.getSpeedAtTick(min, 1);
-            for (var i = min + 1; i <= max; ++i) {
-                var nextSpeed = this.getSpeedAtTick(i, 1);
-                // A bit gross
-                //if ((this.tempTickData.flags & (EntityFlag.OnGround | EntityFlag.PartialGround)) === 0) {
-                // HACK HACK:
-                // momentum replay format doesnt store flags,
-                // assume airbourne if vertical velocity is great enough.
-                // TODO: could show zone avg sync instead from RunStats,
-                // along with all the other stats in there.
-                if (Math.abs(prevSpeed[2]) > 1) {
-                    syncBuffer[this.syncIndex] = nextSpeed > prevSpeed;
-                    this.syncIndex = this.syncIndex >= maxSamples - 1 ? 0 : this.syncIndex + 1;
-                    this.syncSampleCount = Math.min(this.syncSampleCount + 1, maxSamples);
-                }
-                prevSpeed = nextSpeed;
-            }
+            var zoneStats = replay.getZoneStats(this.viewer.tick);
             this.lastTick = this.viewer.tick;
-            var syncFraction = 0.0;
-            for (var i = 0; i < this.syncSampleCount; ++i) {
-                if (syncBuffer[i])
-                    ++syncFraction;
+            if (zoneStats != null) {
+                this.syncValueElem.innerText = zoneStats.syncAvg.toFixed(1);
             }
-            syncFraction /= Math.max(this.syncSampleCount, 1);
-            this.syncValueElem.innerText = (syncFraction * 100).toFixed(1);
+            else {
+                this.syncValueElem.innerText = "-1";
+            }
         };
         KeyDisplay.prototype.getSpeedAtTick = function (tick, tickRange) {
             var replay = this.viewer.replay;
@@ -321,6 +291,18 @@ var Gokz;
             // Ignore vertical speed
             position.z = 0;
             return position.length() / replay.header.tickInterval / Math.max(1, lastTick - firstTick);
+        };
+        KeyDisplay.prototype.getVelocityAtTick = function (tick, tickRange) {
+            var replay = this.viewer.replay;
+            var firstTick = replay.clampTick(tick - Math.ceil(tickRange / 2));
+            var lastTick = replay.clampTick(firstTick + tickRange);
+            tickRange = lastTick - firstTick;
+            var position = this.tempPosition;
+            var tickData = replay.getTickData(lastTick);
+            position.copy(tickData.position);
+            tickData = replay.getTickData(firstTick);
+            position.sub(tickData.position);
+            return position.multiplyScalar(1 / replay.header.tickInterval / Math.max(1, lastTick - firstTick));
         };
         KeyDisplay.prototype.updateSpeed = function () {
             // TODO: cache
@@ -716,6 +698,18 @@ var Gokz;
         };
         ReplayFile.prototype.getDuration = function () {
             return (this.header.stopTick - this.header.startTick) * this.header.tickInterval;
+        };
+        ReplayFile.prototype.getZoneStats = function (tick) {
+            if (this.hasRunStats) {
+                tick = this.clampTick(tick);
+                for (var i = 0; i < this.runStats.totalZones - 1; i++) {
+                    if (tick >= this.runStats.zoneStats[i].enterTick && tick < this.runStats.zoneStats[i + 1].enterTick) {
+                        return this.runStats.zoneStats[i];
+                    }
+                }
+                return this.runStats.zoneStats[this.runStats.totalZones - 1];
+            }
+            return null;
         };
         return ReplayFile;
     }());

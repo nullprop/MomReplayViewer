@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8" />
-        <title>Momentum Replay Viewer</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/base64-string.min.js"></script>
-        <script src=".//resources/js/facepunch.webgame.js?v=2765782-11754"></script>
-        <script src=".//resources/js/sourceutils.js?v=2765782-11754"></script>
-        <script src=".//resources/js/replayviewer.js?v=2765782-11754"></script>
-        <link type="text/css" rel="stylesheet" href=".//resources/styles/mapviewer.css?v=2765782-11754" />
-        <link type="text/css" rel="stylesheet" href=".//resources/styles/replayviewer.css?v=2765782-11754" />
-        <style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-                background-color: #000;
-                color: #fff;
-            }
 
-            #title {
-                padding-left: 24px;
-            }
+<head>
+    <meta charset="utf-8" />
+    <title>Momentum Replay Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/base64-string.min.js"></script>
+    <script src=".//resources/js/facepunch.webgame.js?v=e011ecf-14354"></script>
+    <script src=".//resources/js/sourceutils.js?v=e011ecf-14354"></script>
+    <script src=".//resources/js/replayviewer.js?v=e011ecf-14354"></script>
+    <link type="text/css" rel="stylesheet" href=".//resources/styles/mapviewer.css?v=e011ecf-14354" />
+    <link type="text/css" rel="stylesheet" href=".//resources/styles/replayviewer.css?v=e011ecf-14354" />
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
 
-            #map-view {
-                position: absolute;
-                top: 72px;
-                left: 16px;
-                right: 312px;
-                bottom: 16px;
-                background-color: black;
-            }
+        #title {
+            padding-left: 24px;
+        }
 
-            #replay-list {
-                position: absolute;
-                width: 256px;
-                right: 16px;
-                top: 72px;
-                bottom: 16px;
-                background-color: #111;
-                padding-left: 24px;
-            }
+        #map-view {
+            position: absolute;
+            top: 72px;
+            left: 16px;
+            right: 312px;
+            bottom: 16px;
+            background-color: black;
+        }
 
-            #replay-list a {
-                color: #bcf;
-                text-decoration: none;
-            }
-        </style>
-    </head>
-    <body>
+        #replay-list {
+            position: absolute;
+            width: 256px;
+            right: 16px;
+            top: 72px;
+            bottom: 16px;
+            background-color: #111;
+            padding-left: 24px;
+        }
+
+        #replay-list a {
+            color: #bcf;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
     <h2 id="title">Momentum Replay Viewer</h2>
     <div id="map-view">
         <script>
             var viewer;
-            window.onload = function() {
+            window.onload = function () {
                 viewer = new Gokz.ReplayViewer(document.getElementById("map-view"));
                 viewer.showDebugPanel = true;
                 viewer.mapBaseUrl = "./resources/maps";
 
-                viewer.replayLoaded.addListener(function(replay) {
+                viewer.replayLoaded.addListener(function (replay) {
                     var duration = replay.getDuration();
                     var mins = Math.floor(duration / 60);
                     var secs = duration - (mins * 60);
@@ -65,9 +67,7 @@
 
                     var title = replay.header.playerName
                         + " - " + replay.header.mapName
-                        + " - " + mins + ":" + (secsString.indexOf(".") === 1 ? "0" : "") + secsString
-                        + " [" + Gokz.GlobalMode[replay.mode].toUpperCase() + "]"
-                        + " [" + Gokz.GlobalStyle[replay.style].toUpperCase() + "]";
+                        + " - " + mins + ":" + (secsString.indexOf(".") === 1 ? "0" : "") + secsString;
 
                     document.getElementById("title").innerText = title;
                     document.title = title;
@@ -88,14 +88,48 @@
     </div>
     <div id="replay-list">
         <h2>Example Replays</h2>
-        <h3>surf_mesa</h2>
+
+        <h3>bhop_arcane</h3>
+        <ul>
+            <li><a href="?replay=replays/bhop_arcane/bhop_arcane-536.mrf">Leesriize - 10:57.670</a></li>
+        </ul>
+        <h3>bhop_eazy</h3>
+        <ul>
+            <li><a href="?replay=replays/bhop_eazy/bhop_eazy-207.mrf">Laure - 0:25.930</a></li>
+        </ul>
+
+        <h3>rj_apex</h3>
+        <ul>
+            <li><a href="?replay=replays/rj_apex/rj_apex-107.mrf">porkie - 5:55.935</a></li>
+        </ul>
+        <h3>rj_beef</h3>
+        <ul>
+            <li><a href="?replay=replays/rj_beef/rj_beef-417.mrf">vice - 1:02.790</a></li>
+        </ul>
+        <h3>rj_bomb</h3>
+        <ul>
+            <li><a href="?replay=replays/rj_bomb/rj_bomb-08496dbc77790c960ee19f24f9e5506b18dac436.mrf">Larry -
+                    3:10.245</a></li>
+        </ul>
+        <h3>rj_summer</h3>
+        <ul>
+            <li><a href="?replay=replays/rj_summer/rj_summer-146.mrf">porkie - 1:31.410</a></li>
+        </ul>
+
+        <h3>surf_beginner</h3>
+        <ul>
+            <li><a href="?replay=replays/surf_beginner/surf_beginner-174.mrf">Dr. Motte - 0:47.985</a></li>
+        </ul>
+        <h3>surf_cyberwave</h3>
+        <ul>
+            <li><a href="?replay=replays/surf_cyberwave/surf_cyberwave-377.mrf">Vgr - 1:01.320</a></li>
+        </ul>
+        <h3>surf_mesa</h3>
         <ul>
             <li><a href="?replay=replays/surf_mesa/surf_mesa-1783.mrf">kong mf dong - 0:50.610</a></li>
         </ul>
-        <h3>jump_bomb</h2>
-        <ul>
-            <li><a href="?replay=replays/rj_bomb/rj_bomb-08496dbc77790c960ee19f24f9e5506b18dac436.mrf">Larry - 3:10.245</a></li>
-        </ul>
+
     </div>
-    </body>
+</body>
+
 </html>

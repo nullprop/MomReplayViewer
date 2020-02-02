@@ -1,65 +1,65 @@
 {
   "name": "surf_mesa",
-  "lightmapUrl": "./resources/maps/surf_mesa/lightmap.json?v=1ca9-f6c6",
+  "lightmapUrl": "./resources/maps/surf_mesa/lightmap.json?v=1ca9-12693",
   "leafPages": [
     {
       "first": 0,
       "count": 3820,
-      "url": "./resources/maps/surf_mesa/geom/leafpage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/leafpage0.json?v=1ca9-12693"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 1430,
-      "url": "./resources/maps/surf_mesa/geom/disppage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/disppage0.json?v=1ca9-12693"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 38,
-      "url": "./resources/maps/surf_mesa/materials/matpage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/materials/matpage0.json?v=1ca9-12693"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 1,
-      "url": "./resources/maps/surf_mesa/geom/bsppage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/bsppage0.json?v=1ca9-12693"
     },
     {
       "first": 1,
       "count": 22,
-      "url": "./resources/maps/surf_mesa/geom/bsppage1.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/bsppage1.json?v=1ca9-12693"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 18,
-      "url": "./resources/maps/surf_mesa/geom/mdlpage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/mdlpage0.json?v=1ca9-12693"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 234,
-      "url": "./resources/maps/surf_mesa/geom/vhvpage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/vhvpage0.json?v=1ca9-12693"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 958,
-      "url": "./resources/maps/surf_mesa/geom/vispage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/vispage0.json?v=1ca9-12693"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 3820,
-      "url": "./resources/maps/surf_mesa/geom/ambientpage0.json?v=1ca9-f6c6"
+      "url": "./resources/maps/surf_mesa/geom/ambientpage0.json?v=1ca9-12693"
     }
   ],
   "entities": [
@@ -75,32 +75,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104rt.vtf.json?v=1ca9-f6c6"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104rt.vtf.json?v=1ca9-12693"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf.json?v=1ca9-f6c6"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf.json?v=1ca9-12693"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104bk.vtf.json?v=1ca9-f6c6"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104bk.vtf.json?v=1ca9-12693"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf.json?v=1ca9-f6c6"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf.json?v=1ca9-12693"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104up.vtf.json?v=1ca9-f6c6"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104up.vtf.json?v=1ca9-12693"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104dn.vtf.json?v=1ca9-f6c6"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104dn.vtf.json?v=1ca9-12693"
           }
         ]
       },

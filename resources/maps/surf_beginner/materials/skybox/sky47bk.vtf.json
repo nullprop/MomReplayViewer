@@ -1,0 +1,64 @@
+{
+  "path": "materials/skybox/sky47bk.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 1024,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": true
+  },
+  "elements": [
+    {
+      "level": 10,
+      "color": {
+        "r": 0.137254909,
+        "g": 0.1254902,
+        "b": 0.117647059,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 9,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip9.png"
+    },
+    {
+      "level": 8,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf/mip0.png"
+    }
+  ]
+}

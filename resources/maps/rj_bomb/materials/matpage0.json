@@ -300,66 +300,7 @@
         }
       ]
     },
-    {
-      "path": "materials/models/props_foliage/tree_deciduous_01a_trunk.vtf",
-      "target": 3553,
-      "frames": 1,
-      "width": 512,
-      "height": 512,
-      "params": {
-        "wrapS": 10497,
-        "wrapT": 10497,
-        "filter": 9729,
-        "mipmap": true
-      },
-      "elements": [
-        {
-          "level": 9,
-          "color": {
-            "r": 0.235294119,
-            "g": 0.223529413,
-            "b": 0.211764708,
-            "a": 1.0
-          }
-        },
-        {
-          "level": 8,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip8.png"
-        },
-        {
-          "level": 7,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip7.png"
-        },
-        {
-          "level": 6,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip6.png"
-        },
-        {
-          "level": 5,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip5.png"
-        },
-        {
-          "level": 4,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip4.png"
-        },
-        {
-          "level": 3,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip3.png"
-        },
-        {
-          "level": 2,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip2.png"
-        },
-        {
-          "level": 1,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip1.png"
-        },
-        {
-          "level": 0,
-          "url": "./resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip0.png"
-        }
-      ]
-    },
+    null,
     {
       "path": "materials/models/props_foliage/tree_deciduous_01a_leaves.vtf",
       "target": 3553,
@@ -600,70 +541,7 @@
         }
       ]
     },
-    {
-      "path": "materials/nature/rockwall011g.vtf",
-      "target": 3553,
-      "frames": 1,
-      "width": 1024,
-      "height": 1024,
-      "params": {
-        "wrapS": 10497,
-        "wrapT": 10497,
-        "filter": 9729,
-        "mipmap": true
-      },
-      "elements": [
-        {
-          "level": 10,
-          "color": {
-            "r": 0.298039228,
-            "g": 0.309803933,
-            "b": 0.2901961,
-            "a": 1.0
-          }
-        },
-        {
-          "level": 9,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip9.png"
-        },
-        {
-          "level": 8,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip8.png"
-        },
-        {
-          "level": 7,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip7.png"
-        },
-        {
-          "level": 6,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip6.png"
-        },
-        {
-          "level": 5,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip5.png"
-        },
-        {
-          "level": 4,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip4.png"
-        },
-        {
-          "level": 3,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip3.png"
-        },
-        {
-          "level": 2,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip2.png"
-        },
-        {
-          "level": 1,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip1.png"
-        },
-        {
-          "level": 0,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip0.png"
-        }
-      ]
-    }
+    null
   ],
   "materials": [
     null,

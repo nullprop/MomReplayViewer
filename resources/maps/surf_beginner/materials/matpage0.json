@@ -1,0 +1,758 @@
+{
+  "textures": [
+    {
+      "path": "materials/cs_havana/woodm.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.329411775,
+            "g": 0.258823544,
+            "b": 0.2,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/cs_havana/woodm.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/de_dust/rockwall01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.384313732,
+            "g": 0.294117659,
+            "b": 0.211764708,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/de_dust/rockwall01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/cs_italy/black.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 5,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/cs_italy/black.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/cs_italy/black.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/cs_italy/black.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/cs_italy/black.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/cs_italy/black.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/de_piranesi/marblefloor06.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.384313732,
+            "g": 0.360784322,
+            "b": 0.3372549,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/de_piranesi/marblefloor06.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/cs_italy/stonewall02.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.298039228,
+            "g": 0.294117659,
+            "b": 0.266666681,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/cs_italy/stonewall02.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/cs_havana/white.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 32,
+      "height": 32,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 5,
+          "color": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/cs_havana/white.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/cs_havana/white.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/cs_havana/white.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/cs_havana/white.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/cs_havana/white.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/de_aztec/ground01grass.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.298039228,
+            "g": 0.309803933,
+            "b": 0.149019614,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/de_aztec/ground01grass.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/cs_militia/toilet.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.211764708,
+            "g": 0.20784314,
+            "b": 0.2,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/models/props/cs_militia/toilet.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/cs_militia/floater_juice.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.6666667,
+            "g": 0.5882353,
+            "b": 0.223529413,
+            "a": 0.09803922
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/models/props/cs_militia/floater_juice.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_inferno/bed.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.3764706,
+            "g": 0.356862754,
+            "b": 0.2901961,
+            "a": 0.9607843
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/models/props/de_inferno/bed.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_inferno/mattress.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.623529434,
+            "g": 0.607843161,
+            "b": 0.5372549,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/models/props/de_inferno/mattress.vtf/mip0.png"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        }
+      ]
+    },
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 1
+        }
+      ]
+    },
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 4
+        }
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        }
+      ]
+    },
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 6
+        }
+      ]
+    },
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 7
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 8
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

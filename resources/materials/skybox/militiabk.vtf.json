@@ -1,0 +1,60 @@
+{
+  "path": "materials/skybox/militiabk.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 512,
+  "height": 512,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": true
+  },
+  "elements": [
+    {
+      "level": 9,
+      "color": {
+        "r": 0.5254902,
+        "g": 0.6509804,
+        "b": 0.7529412,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 8,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/materials/skybox/militiabk.vtf/mip0.png"
+    }
+  ]
+}

@@ -1,0 +1,1945 @@
+{
+  "name": "surf_beginner",
+  "lightmapUrl": "./resources/maps/surf_beginner/lightmap.json?v=1ca9-12624",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 4312,
+      "url": "./resources/maps/surf_beginner/geom/leafpage0.json?v=1ca9-12624"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 6,
+      "url": "./resources/maps/surf_beginner/geom/disppage0.json?v=1ca9-12624"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 24,
+      "url": "./resources/maps/surf_beginner/materials/matpage0.json?v=1ca9-12624"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 1,
+      "url": "./resources/maps/surf_beginner/geom/bsppage0.json?v=1ca9-12624"
+    },
+    {
+      "first": 1,
+      "count": 92,
+      "url": "./resources/maps/surf_beginner/geom/bsppage1.json?v=1ca9-12624"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 2,
+      "url": "./resources/maps/surf_beginner/geom/mdlpage0.json?v=1ca9-12624"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 2,
+      "url": "./resources/maps/surf_beginner/geom/vhvpage0.json?v=1ca9-12624"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 1649,
+      "url": "./resources/maps/surf_beginner/geom/vispage0.json?v=1ca9-12624"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 4096,
+      "url": "./resources/maps/surf_beginner/geom/ambientpage0.json?v=1ca9-12624"
+    },
+    {
+      "first": 4096,
+      "count": 216,
+      "url": "./resources/maps/surf_beginner/geom/ambientpage1.json?v=1ca9-12624"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47rt.vtf.json?v=1ca9-12624"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47lf.vtf.json?v=1ca9-12624"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf.json?v=1ca9-12624"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47ft.vtf.json?v=1ca9-12624"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47up.vtf.json?v=1ca9-12624"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47dn.vtf.json?v=1ca9-12624"
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "model": 1,
+      "clusters": [
+        1060
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -5655.61,
+        "y": 6882.0,
+        "z": -98.11
+      }
+    },
+    {
+      "model": 2,
+      "clusters": [
+        1060
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -5706.9,
+        "y": 6882.0,
+        "z": -89.53
+      }
+    },
+    {
+      "model": 3,
+      "clusters": [
+        1060
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -5766.07,
+        "y": 6882.0,
+        "z": -79.63
+      }
+    },
+    {
+      "model": 4,
+      "clusters": [
+        342
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -128.0,
+        "y": 2012.0,
+        "z": -264.0
+      }
+    },
+    {
+      "targetname": "failman1",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -128.0,
+        "y": 0.0,
+        "z": 525.946
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -128.0,
+        "y": 976.0,
+        "z": -444.0
+      }
+    },
+    {
+      "model": 6,
+      "clusters": [
+        311
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -255.99,
+        "y": 2628.0,
+        "z": 88.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -64.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -64.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -64.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -64.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 32.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 32.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 32.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 32.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 128.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 128.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 128.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": 128.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -448.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -448.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -448.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -448.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -544.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -544.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -544.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -544.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -640.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -640.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -640.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -640.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -352.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -352.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -352.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -352.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -160.0,
+        "y": 3424.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -160.0,
+        "y": 3520.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -160.0,
+        "y": 3616.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -160.0,
+        "y": 3712.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "game_player_equip",
+      "origin": {
+        "x": -288.0,
+        "y": 3712.0,
+        "z": 64.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 255,
+        "G": 211,
+        "B": 168,
+        "A": 200
+      },
+      "Ambient": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 20
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": -90.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": -256.0,
+        "y": 3712.0,
+        "z": 64.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -256.0,
+        "y": 2636.0,
+        "z": 88.0
+      }
+    },
+    {
+      "classname": "water_lod_control",
+      "origin": {
+        "x": -224.0,
+        "y": 3712.0,
+        "z": 64.0
+      }
+    },
+    {
+      "targetname": "spawnman",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -256.0,
+        "y": 3328.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -256.0,
+        "y": 3200.0,
+        "z": -88.0
+      }
+    },
+    {
+      "targetname": "failman2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2528.0,
+        "y": 2240.0,
+        "z": 672.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -128.0,
+        "y": 2004.0,
+        "z": -264.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2528.0,
+        "y": 3264.0,
+        "z": -124.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -256.0,
+        "y": 3552.0,
+        "z": 16.5
+      }
+    },
+    {
+      "targetname": "dmgfilter",
+      "classname": "filter_damage_type",
+      "origin": {
+        "x": -206.035,
+        "y": 3171.68,
+        "z": -31.0
+      }
+    },
+    {
+      "targetname": "failman3",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 1456.0,
+        "y": 272.0,
+        "z": 928.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 2496.0,
+        "y": 768.0,
+        "z": -207.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1068.01,
+        "y": 3968.01,
+        "z": 56.0
+      }
+    },
+    {
+      "model": 14,
+      "clusters": [
+        106
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1060.01,
+        "y": 3968.0,
+        "z": 56.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3987.99,
+        "y": 3967.98,
+        "z": 56.0
+      }
+    },
+    {
+      "model": 16,
+      "clusters": [
+        14
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 3995.99,
+        "y": 3967.99,
+        "z": 56.0
+      }
+    },
+    {
+      "targetname": "failman4",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2720.0,
+        "y": 5888.0,
+        "z": 832.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 17,
+      "clusters": [
+        257
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1316.01,
+        "y": 1312.0,
+        "z": 392.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1324.01,
+        "y": 1312.01,
+        "z": 392.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -232.0,
+        "y": 5888.0,
+        "z": -520.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2088.0,
+        "y": 5888.0,
+        "z": -520.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1472.0,
+        "y": 5888.0,
+        "z": -223.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 144.0,
+        "y": 5888.0,
+        "z": 352.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 96.0,
+        "y": 5888.0,
+        "z": -296.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1152.0,
+        "y": 5888.0,
+        "z": -671.5
+      }
+    },
+    {
+      "model": 25,
+      "clusters": [
+        533
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2779.99,
+        "y": 5888.0,
+        "z": -88.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2771.99,
+        "y": 5888.01,
+        "z": -88.0
+      }
+    },
+    {
+      "targetname": "failman5",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5792.0,
+        "y": -1632.0,
+        "z": 2736.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -4208.0,
+        "y": -1632.0,
+        "z": 1264.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2480.0,
+        "y": -1632.0,
+        "z": 1296.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2095.0,
+        "y": -1632.0,
+        "z": 1296.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -1904.0,
+        "y": -1632.0,
+        "z": 1264.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -672.0,
+        "y": -1632.0,
+        "z": 112.5
+      }
+    },
+    {
+      "model": 32,
+      "clusters": [
+        1192,1213
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2320.0,
+        "y": 2560.0,
+        "z": 304.0
+      }
+    },
+    {
+      "model": 33,
+      "clusters": [
+        1243,1278
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2320.0,
+        "y": 1920.0,
+        "z": 304.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -1888.0,
+        "y": 2240.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -1888.0,
+        "y": 1600.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -1888.0,
+        "y": 944.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -1888.0,
+        "y": 320.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -2752.0,
+        "y": 320.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -2752.0,
+        "y": 944.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -2752.0,
+        "y": 1600.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -2752.0,
+        "y": 2240.0,
+        "z": 552.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2320.0,
+        "y": 4168.0,
+        "z": 1337.0
+      }
+    },
+    {
+      "targetname": "failman6",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -2320.0,
+        "y": 104.0,
+        "z": 2392.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2320.0,
+        "y": 1536.0,
+        "z": 1072.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2320.0,
+        "y": 3056.0,
+        "z": 1088.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2320.0,
+        "y": 1928.0,
+        "z": 48.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2320.0,
+        "y": 2751.5,
+        "z": 2048.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -2320.0,
+        "y": 12.0,
+        "z": 712.0
+      }
+    },
+    {
+      "model": 40,
+      "clusters": [
+        1317
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -2320.0,
+        "y": 4.0,
+        "z": 712.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1332.0,
+        "y": -1631.99,
+        "z": 840.0
+      }
+    },
+    {
+      "model": 42,
+      "clusters": [
+        419
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1340.0,
+        "y": -1631.99,
+        "z": 840.0
+      }
+    },
+    {
+      "targetname": "secretman",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -144.0,
+        "y": 2624.0,
+        "z": 225.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -120.0,
+        "y": 2608.0,
+        "z": 180.0
+      }
+    },
+    {
+      "targetname": "grenademan",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -592.0,
+        "y": 4432.0,
+        "z": 225.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 44,
+      "clusters": [
+        153,154
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -312.0,
+        "y": 4624.0,
+        "z": 228.0
+      }
+    },
+    {
+      "model": 45,
+      "clusters": [
+        153,154
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -302.98,
+        "y": 4550.89,
+        "z": 228.0
+      }
+    },
+    {
+      "model": 46,
+      "clusters": [
+        153,154
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -284.72,
+        "y": 4473.17,
+        "z": 228.0
+      }
+    },
+    {
+      "model": 47,
+      "clusters": [
+        153,154
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -288.0,
+        "y": 4380.0,
+        "z": 228.0
+      }
+    },
+    {
+      "model": 48,
+      "clusters": [
+        153,154
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -297.48,
+        "y": 4314.3,
+        "z": 228.0
+      }
+    },
+    {
+      "model": 49,
+      "clusters": [
+        153,154
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -297.92,
+        "y": 4245.26,
+        "z": 228.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 164.0,
+        "y": 4432.01,
+        "z": 344.0
+      }
+    },
+    {
+      "model": 51,
+      "clusters": [
+        146
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 172.0,
+        "y": 4432.02,
+        "z": 344.0
+      }
+    },
+    {
+      "classname": "trigger_hurt",
+      "origin": {
+        "x": -312.0,
+        "y": 4432.0,
+        "z": -8.0
+      }
+    },
+    {
+      "classname": "env_spritetrail",
+      "origin": {
+        "x": 14.0,
+        "y": 4432.0,
+        "z": 281.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -704.0,
+        "y": 2964.0,
+        "z": 296.0
+      }
+    },
+    {
+      "classname": "info_player_start",
+      "origin": {
+        "x": -256.0,
+        "y": 3456.0,
+        "z": -31.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "failman7",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5312.0,
+        "y": 640.0,
+        "z": 2784.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5312.0,
+        "y": 2903.0,
+        "z": 192.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5312.0,
+        "y": 4180.0,
+        "z": 192.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5312.0,
+        "y": 2576.0,
+        "z": 848.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5312.0,
+        "y": 4976.0,
+        "z": 848.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -6448.0,
+        "y": 3264.0,
+        "z": 848.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -4176.0,
+        "y": 3264.0,
+        "z": 848.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -4176.0,
+        "y": 1888.0,
+        "z": 1216.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -6448.0,
+        "y": 1888.0,
+        "z": 1216.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5312.0,
+        "y": 3360.0,
+        "z": -335.5
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -6144.0,
+        "y": 2432.0,
+        "z": 256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -4480.0,
+        "y": 2432.0,
+        "z": 256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -4448.0,
+        "y": 3392.0,
+        "z": 144.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -6176.0,
+        "y": 3392.0,
+        "z": 144.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5312.0,
+        "y": 5056.0,
+        "z": 72.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5760.0,
+        "y": 5056.0,
+        "z": 72.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -4864.0,
+        "y": 5056.0,
+        "z": 72.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5312.01,
+        "y": 5236.0,
+        "z": -144.0
+      }
+    },
+    {
+      "model": 62,
+      "clusters": [
+        1091
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -5312.01,
+        "y": 5244.0,
+        "z": -144.0
+      }
+    },
+    {
+      "classname": "func_precipitation"
+    },
+    {
+      "targetname": "Endman_poop",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5847.88,
+        "y": 7312.0,
+        "z": -656.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "Endman_outofpoop",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5846.97,
+        "y": 7287.17,
+        "z": -196.456
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -5848.0,
+        "y": 7312.0,
+        "z": -392.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5728.0,
+        "y": 7100.0,
+        "z": -106.279
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5084.0,
+        "y": 6928.0,
+        "z": -112.0
+      }
+    },
+    {
+      "model": 65,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3650.0,
+        "z": 195.21
+      }
+    },
+    {
+      "model": 66,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3634.0,
+        "z": 195.21
+      }
+    },
+    {
+      "model": 67,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3618.0,
+        "z": 220.57
+      }
+    },
+    {
+      "model": 68,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3618.0,
+        "z": 169.85
+      }
+    },
+    {
+      "model": 69,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3633.0,
+        "z": 180.21
+      }
+    },
+    {
+      "model": 70,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3633.0,
+        "z": 210.21
+      }
+    },
+    {
+      "model": 71,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3590.0,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 72,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3562.0,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 73,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3524.0,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 74,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3486.0,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 75,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3454.0,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 76,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3470.0,
+        "z": 147.21
+      }
+    },
+    {
+      "model": 77,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3464.5,
+        "z": 157.71
+      }
+    },
+    {
+      "model": 78,
+      "clusters": [
+        172
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 222.0,
+        "y": 3475.5,
+        "z": 157.71
+      }
+    },
+    {
+      "model": 79,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3453.99,
+        "z": 195.21
+      }
+    },
+    {
+      "model": 80,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3469.99,
+        "z": 195.21
+      }
+    },
+    {
+      "model": 81,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3485.99,
+        "z": 220.57
+      }
+    },
+    {
+      "model": 82,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3485.99,
+        "z": 169.85
+      }
+    },
+    {
+      "model": 83,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3470.99,
+        "z": 180.21
+      }
+    },
+    {
+      "model": 84,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3470.99,
+        "z": 210.21
+      }
+    },
+    {
+      "model": 85,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3513.99,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 86,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3541.99,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 87,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3579.99,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 88,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3617.99,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 89,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3649.99,
+        "z": 170.21
+      }
+    },
+    {
+      "model": 90,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3633.99,
+        "z": 147.21
+      }
+    },
+    {
+      "model": 91,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3639.49,
+        "z": 157.71
+      }
+    },
+    {
+      "model": 92,
+      "clusters": [
+        188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -734.0,
+        "y": 3628.49,
+        "z": 157.71
+      }
+    },
+    {
+      "index": 0,
+      "clusters": [
+        818,819,820,825,830,831,832,833,886,902,903,904,905,906,928,929,930,931,932,933,934,956,957,958,959,960,961,962,972,973,974,990,991,992,993,994,1016,1017,1018,1019,1020,1021,1022,1041,1042,1043,1044,1045,1046,1056,1057,1058,1059,1060,1061,1062,1063,1064,1065,1067,1068,1070,1071,1072,1073,1075
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 1,
+      "clusters": [
+        830,831,832,833,834,836,837,838,1070,1071,1072,1073,1074,1075
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 2,
+      "clusters": [
+        825,833,838,1067,1068,1073,1074,1075
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 3,
+      "clusters": [
+        825,830,834,1067,1068,1070,1074,1075
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 4,
+      "clusters": [
+        825,830,831,833,834,836,838
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 5,
+      "clusters": [
+        1067,1068,1070,1072,1073,1074,1075
+      ],
+      "classname": "displacement"
+    },
+    {
+      "model": 0,
+      "vertLighting": 0,
+      "flags": 0,
+      "clusters": [
+        825,819
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5848.0,
+        "y": 7304.0,
+        "z": -224.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 1,
+      "flags": 0,
+      "clusters": [
+        1060
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5824.0,
+        "y": 6928.0,
+        "z": -224.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 13.5,
+        "z": 0.0
+      }
+    }
+  ]
+}

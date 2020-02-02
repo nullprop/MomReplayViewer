@@ -213,6 +213,16 @@
     bottom: 72px;
 }
 
+.map-viewer .key-display .key-m1 {
+    left: 80px;
+    bottom: 136px;
+}
+
+.map-viewer .key-display .key-m2 {
+    left: 224px;
+    bottom: 136px;
+}
+
 .map-viewer .key-display .key-walk {
     left: 8px;
     bottom: 136px;

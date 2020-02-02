@@ -1,0 +1,9855 @@
+{
+  "name": "surf_cyberwave",
+  "lightmapUrl": "./resources/maps/surf_cyberwave/lightmap.json?v=1ca9-1263d",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 7756,
+      "url": "./resources/maps/surf_cyberwave/geom/leafpage0.json?v=1ca9-1263d"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/surf_cyberwave/geom/disppage0.json?v=1ca9-1263d"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 69,
+      "url": "./resources/maps/surf_cyberwave/materials/matpage0.json?v=1ca9-1263d"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 1,
+      "url": "./resources/maps/surf_cyberwave/geom/bsppage0.json?v=1ca9-1263d"
+    },
+    {
+      "first": 1,
+      "count": 26,
+      "url": "./resources/maps/surf_cyberwave/geom/bsppage1.json?v=1ca9-1263d"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 67,
+      "url": "./resources/maps/surf_cyberwave/geom/mdlpage0.json?v=1ca9-1263d"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 283,
+      "url": "./resources/maps/surf_cyberwave/geom/vhvpage0.json?v=1ca9-1263d"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 3083,
+      "url": "./resources/maps/surf_cyberwave/geom/vispage0.json?v=1ca9-1263d"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 4096,
+      "url": "./resources/maps/surf_cyberwave/geom/ambientpage0.json?v=1ca9-1263d"
+    },
+    {
+      "first": 4096,
+      "count": 3660,
+      "url": "./resources/maps/surf_cyberwave/geom/ambientpage1.json?v=1ca9-1263d"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavert.vtf.json?v=1ca9-1263d"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavelf.vtf.json?v=1ca9-1263d"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavebk.vtf.json?v=1ca9-1263d"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwaveft.vtf.json?v=1ca9-1263d"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwaveup.vtf.json?v=1ca9-1263d"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavedn.vtf.json?v=1ca9-1263d"
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "targetname": "Commands",
+      "classname": "point_servercommand",
+      "origin": {
+        "x": -9984.0,
+        "y": -2560.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "logic_auto",
+      "origin": {
+        "x": -9984.0,
+        "y": -2592.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "targetname": "nodmg",
+      "classname": "filter_damage_type",
+      "origin": {
+        "x": -9984.0,
+        "y": -2624.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "game_player_equip",
+      "origin": {
+        "x": -9984.0,
+        "y": -2656.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      },
+      "Ambient": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 200
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": 0.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": -9984.0,
+        "y": -2688.0,
+        "z": -1536.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "ambient_generic",
+      "origin": {
+        "x": -9984.0,
+        "y": -2720.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3424.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -4544.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": -4544.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9600.0,
+        "y": -4480.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": -4384.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": -4256.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": -4128.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": -3936.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -3776.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -3584.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": -4544.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10368.0,
+        "y": -4480.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": -4384.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": -4256.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": -4128.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": -3936.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -3776.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": -2784.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": -2912.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": -3040.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": -3232.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -3392.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": -2784.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": -2912.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": -3040.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": -3232.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -3392.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -3584.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9568.0,
+        "y": -2560.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -2336.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -2144.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -1888.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -1664.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": 992.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": 992.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10368.0,
+        "y": 928.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": 832.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": 704.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": 576.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": 384.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": 224.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": 32.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": 992.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9600.0,
+        "y": 928.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": 832.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": 704.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": 576.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": 384.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": 224.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": -768.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": -640.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": -512.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": -320.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -160.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": -768.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": -640.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": -512.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": -320.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -160.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": 32.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10400.0,
+        "y": -992.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1216.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1408.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1664.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1888.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -1216.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9568.0,
+        "y": -992.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -2144.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -2336.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10400.0,
+        "y": -2560.0,
+        "z": -1536.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -4544.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": -4544.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9600.0,
+        "y": -4480.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": -4384.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": -4256.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": -4128.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": -3936.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -3776.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -3584.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": -4544.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10368.0,
+        "y": -4480.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": -4384.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": -4256.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": -4128.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": -3936.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -3776.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": -2784.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": -2912.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": -3040.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": -3232.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -3392.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": -2784.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": -2912.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": -3040.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": -3232.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -3392.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -3584.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9568.0,
+        "y": -2560.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -2336.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -2144.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -1888.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -1664.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": 992.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": 992.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10368.0,
+        "y": 928.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": 832.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": 704.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": 576.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": 384.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": 224.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": 32.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": 992.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9600.0,
+        "y": 928.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": 832.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": 704.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": 576.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": 384.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": 224.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": -768.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": -640.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": -512.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": -320.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10912.0,
+        "y": -160.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": -768.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": -640.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": -512.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": -320.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": -160.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9056.0,
+        "y": 32.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10400.0,
+        "y": -992.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1216.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1408.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1664.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -1888.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -1216.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9568.0,
+        "y": -992.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -2144.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -2336.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10400.0,
+        "y": -2560.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -4864.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": -4864.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": -4864.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": -2816.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": -2816.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -2816.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": -1792.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": -1792.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -1792.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": 256.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": 256.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9552.74,
+        "y": 256.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": 1280.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": 1280.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": 1280.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": -9984.0,
+        "y": -1792.0,
+        "z": -1616.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": 992.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10368.0,
+        "y": 928.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10528.0,
+        "y": 832.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": 992.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": 992.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10688.0,
+        "y": 704.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9440.0,
+        "y": 832.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9600.0,
+        "y": 928.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9280.0,
+        "y": 704.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9184.0,
+        "y": 576.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9088.0,
+        "y": 384.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10784.0,
+        "y": 576.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10880.0,
+        "y": 384.0,
+        "z": -736.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": 704.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": 672.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": 608.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10456.9,
+        "y": 512.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10560.0,
+        "y": 416.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10656.0,
+        "y": 288.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10720.0,
+        "y": 128.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": -32.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10720.0,
+        "y": -224.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10656.0,
+        "y": -384.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10560.0,
+        "y": -512.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10400.0,
+        "y": -640.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10304.0,
+        "y": -768.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10304.0,
+        "y": -896.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10304.0,
+        "y": -1056.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9664.0,
+        "y": -1056.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9664.0,
+        "y": -768.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9664.0,
+        "y": -896.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9568.0,
+        "y": -640.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9408.0,
+        "y": -512.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9312.0,
+        "y": -384.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9248.0,
+        "y": -224.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": -32.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9248.0,
+        "y": 128.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9312.0,
+        "y": 288.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9408.0,
+        "y": 416.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9504.0,
+        "y": 512.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": 608.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": 672.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9664.0,
+        "y": -2844.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9664.0,
+        "y": -2716.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9664.0,
+        "y": -2556.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9408.0,
+        "y": -3100.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9568.0,
+        "y": -2972.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9312.0,
+        "y": -3228.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -4316.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9792.0,
+        "y": -4284.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9632.0,
+        "y": -4220.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9504.0,
+        "y": -4124.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9408.0,
+        "y": -4028.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9312.0,
+        "y": -3900.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9248.0,
+        "y": -3740.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9216.0,
+        "y": -3580.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9248.0,
+        "y": -3388.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10336.0,
+        "y": -4220.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10176.0,
+        "y": -4284.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10656.0,
+        "y": -3900.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10560.0,
+        "y": -4028.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10464.0,
+        "y": -4124.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10720.0,
+        "y": -3388.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10752.0,
+        "y": -3580.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10720.0,
+        "y": -3740.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10560.0,
+        "y": -3100.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10656.0,
+        "y": -3228.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10400.0,
+        "y": -2972.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10304.0,
+        "y": -2556.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10304.0,
+        "y": -2844.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10304.0,
+        "y": -2716.25,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3424.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3424.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3424.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3488.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3488.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3488.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3488.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3552.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3552.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3552.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3552.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3616.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3616.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3616.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3616.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3680.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3680.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3680.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3680.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3744.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3744.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3744.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3744.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9920.0,
+        "y": -3808.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9792.0,
+        "y": -3808.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10048.0,
+        "y": -3808.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10176.0,
+        "y": -3808.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3424.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3488.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3552.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3616.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3680.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3744.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_terrorist",
+      "origin": {
+        "x": -10304.0,
+        "y": -3808.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3424.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3488.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3552.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3616.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3680.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3744.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "info_player_counterterrorist",
+      "origin": {
+        "x": -9664.0,
+        "y": -3808.0,
+        "z": -1576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "s1_start",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 0.0,
+        "y": -14784.0,
+        "z": 13616.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -15104.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -14592.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -15104.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -14592.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -9984.0,
+        "y": -64.0,
+        "z": -1272.0
+      }
+    },
+    {
+      "targetname": "s2_start",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 0.0,
+        "y": -15296.0,
+        "z": -7632.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "s2_start_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 0.0,
+        "y": -15360.0,
+        "z": -7568.0
+      }
+    },
+    {
+      "targetname": "s1_start_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 0.0,
+        "y": -14848.0,
+        "z": 13680.0
+      }
+    },
+    {
+      "targetname": "s2_end_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 0.0,
+        "y": 13889.0,
+        "z": -11936.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": -9984.74,
+        "y": -64.0,
+        "z": -1400.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10240.0,
+        "y": -1670.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -1670.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9728.0,
+        "y": -1670.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9728.0,
+        "y": -1862.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -1862.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10240.0,
+        "y": -1862.0,
+        "z": -1568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9728.0,
+        "y": -1766.0,
+        "z": -1680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9984.0,
+        "y": -1766.0,
+        "z": -1680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -10240.0,
+        "y": -1766.0,
+        "z": -1680.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 0.0,
+        "y": -448.0,
+        "z": 7544.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -14592.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -14592.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -15104.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -15104.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -14848.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -14848.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3.05176E-05,
+        "y": -14848.0,
+        "z": 13568.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -15104.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -14592.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -15104.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -14592.0,
+        "z": 14080.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -14592.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -14848.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": -15104.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3.05176E-05,
+        "y": -14848.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -14848.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -14592.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": -15104.0,
+        "z": 13184.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15104.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15104.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15616.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15616.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15360.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15360.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 0.0195465,
+        "y": -15360.0,
+        "z": -7680.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15616.0,
+        "z": -7168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15104.0,
+        "z": -7168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15616.0,
+        "z": -7168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15104.0,
+        "z": -7168.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15104.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15360.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.02,
+        "y": -15616.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 0.0195465,
+        "y": -15360.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15360.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15104.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -319.98,
+        "y": -15616.0,
+        "z": -8064.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13664.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13664.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 14176.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 14176.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13920.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13920.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 0.0,
+        "y": 13920.0,
+        "z": -11872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 14176.0,
+        "z": -11360.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13664.0,
+        "z": -11360.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 14176.0,
+        "z": -11360.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13664.0,
+        "z": -11360.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13664.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13920.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 14176.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 0.0,
+        "y": 13920.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13920.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13664.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 14176.0,
+        "z": -12256.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 0.0,
+        "y": 14528.0,
+        "z": -12144.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": 0.0,
+        "y": 14308.0,
+        "z": -11756.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "clusters": [
+        268,742
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 0.0,
+        "y": 14400.0,
+        "z": -12144.0
+      }
+    },
+    {
+      "targetname": "s2_end_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 0.0,
+        "y": 14464.0,
+        "z": -12112.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -9984.0,
+        "y": -3920.0,
+        "z": -1344.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": -9984.0,
+        "y": -3876.0,
+        "z": -1360.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": -90.0
+      }
+    },
+    {
+      "model": 11,
+      "clusters": [
+        2509,2521
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -9984.0,
+        "y": -3920.0,
+        "z": -1344.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": 0.0,
+        "y": 13832.0,
+        "z": 6356.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13184.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13184.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13696.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13696.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13440.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13440.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 0.0,
+        "y": 13440.0,
+        "z": 6256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13696.0,
+        "z": 6768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13184.0,
+        "z": 6768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13696.0,
+        "z": 6768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13184.0,
+        "z": 6768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13184.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13440.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -320.0,
+        "y": 13696.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 0.0,
+        "y": 13440.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13440.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13184.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 320.0,
+        "y": 13696.0,
+        "z": 5872.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 0.0,
+        "y": 14048.0,
+        "z": 5984.0
+      }
+    },
+    {
+      "model": 13,
+      "clusters": [
+        255,725
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 0.0,
+        "y": 13920.0,
+        "z": 5984.0
+      }
+    },
+    {
+      "targetname": "spawn",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -9984.0,
+        "y": -2144.0,
+        "z": -1360.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -11806.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -15040.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -14528.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -15040.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -14528.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "targetname": "b1_start_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 6144.0,
+        "y": -14784.0,
+        "z": 1392.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -14528.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -14528.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -15040.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -15040.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -14784.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -14784.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6144.0,
+        "y": -14784.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -15040.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -14528.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -15040.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -14528.0,
+        "z": 1792.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -14528.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -14784.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": -15040.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6144.0,
+        "y": -14784.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -14784.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -14528.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": -15040.0,
+        "z": 896.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10432.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10432.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10944.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10944.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10688.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10688.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6144.0,
+        "y": 10688.0,
+        "z": -768.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10944.0,
+        "z": -256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10432.0,
+        "z": -256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10944.0,
+        "z": -256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10432.0,
+        "z": -256.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10432.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10688.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5824.0,
+        "y": 10944.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6144.0,
+        "y": 10688.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10688.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10432.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6464.0,
+        "y": 10944.0,
+        "z": -1152.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6144.0,
+        "y": 11296.0,
+        "z": -1040.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": 6144.0,
+        "y": 11076.0,
+        "z": -656.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 17,
+      "clusters": [
+        158,188
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 6144.0,
+        "y": 11040.0,
+        "z": -1040.0
+      }
+    },
+    {
+      "targetname": "b1_end_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 6144.0,
+        "y": 10657.0,
+        "z": -832.0
+      }
+    },
+    {
+      "targetname": "b1_end_zone",
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 6144.0,
+        "y": 10976.0,
+        "z": -640.0
+      }
+    },
+    {
+      "targetname": "b1_start",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 6144.0,
+        "y": -14720.0,
+        "z": 1328.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6144.0,
+        "y": -1088.0,
+        "z": -3904.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 0.0,
+        "y": -14944.0,
+        "z": 13296.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": 0.0,
+        "y": -15160.0,
+        "z": 13684.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 22,
+      "clusters": [
+        2144,2146,2163,2760,2762,2768
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 0.0,
+        "y": -15072.0,
+        "z": 13296.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6144.0,
+        "y": -14880.0,
+        "z": 1008.0
+      }
+    },
+    {
+      "classname": "info_particle_system",
+      "origin": {
+        "x": 6144.0,
+        "y": -15100.0,
+        "z": 1396.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 24,
+      "clusters": [
+        1959,1982,2023,2025,2027,2043
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 6144.0,
+        "y": -15008.0,
+        "z": 1008.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6144.0,
+        "y": -12708.9,
+        "z": -1760.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6144.0,
+        "y": -11432.8,
+        "z": -78.0
+      }
+    },
+    {
+      "classname": "point_viewcontrol",
+      "origin": {
+        "x": -9984.0,
+        "y": -2112.0,
+        "z": -1536.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "StartView",
+      "classname": "info_target",
+      "origin": {
+        "x": -9984.0,
+        "y": 480.0,
+        "z": -1248.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 53,
+      "vertLighting": 0,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1291,1272,1267,1262
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10000.0,
+        "y": -256.0,
+        "z": -640.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": -90.0
+      }
+    },
+    {
+      "model": 61,
+      "vertLighting": 1,
+      "albedoModulation": 257,
+      "flags": 8,
+      "clusters": [
+        2546,2535,2529,2521,2513,2509,2504,2500,2495,2484,2476,2471,2466,2462,2457,1291,1282,1272,1267,1262
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9984.0,
+        "y": -1741.0,
+        "z": -1343.94
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "vertLighting": 2,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2532,2530,2529,2506,2505,2504,2424,2374
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8064.0,
+        "y": -3968.0,
+        "z": -640.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 30.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "vertLighting": 3,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        1285,1283,1282,1276,1264,1263,1262,1253
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10112.0,
+        "y": 1920.0,
+        "z": -896.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "vertLighting": 4,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2457,2344,1267,1159
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7839.52,
+        "y": 387.367,
+        "z": 0.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "albedoModulation": 273,
+      "flags": 193,
+      "clusters": [
+        2481,1333,1296,1293,1292,1291,1288
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11846.4,
+        "y": 590.195,
+        "z": -768.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 338.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "vertLighting": 6,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2427,2421,2412,2371
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6400.0,
+        "y": -4608.0,
+        "z": 512.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "albedoModulation": 273,
+      "flags": 65,
+      "clusters": [
+        2603,2552,2526,2521,2518
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11776.0,
+        "y": -3584.0,
+        "z": -256.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 8,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2653,2632,2629,2622,2619,2606,2603,2600
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -14080.0,
+        "y": -3840.0,
+        "z": -384.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "vertLighting": 9,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2573,2558,2555,2546,2543
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10752.0,
+        "y": -5632.0,
+        "z": -256.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 10,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        1256,1250,1232,1159,1156,1153,1150,1147,1144,1135,1129,1126,1123,1120,1111
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7168.0,
+        "y": 2560.0,
+        "z": 1152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 43,
+      "vertLighting": 11,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2484,2476,2471,2462,1291,1272
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9984.0,
+        "y": -28.0,
+        "z": -1632.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 43,
+      "vertLighting": 12,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2546,2535,2521,2513,2509,2500
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9988.0,
+        "y": -3584.0,
+        "z": -1632.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 13,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2808,2786,2740,2736,2692
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -192.0,
+        "y": -13248.0,
+        "z": 12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 14,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2186,2169,2116,2112,1891
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 192.0,
+        "y": -13248.0,
+        "z": 12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 15,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        705,699,695,692,683,677
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2304.0,
+        "y": 2048.0,
+        "z": 12288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 3,
+      "vertLighting": 16,
+      "albedoModulation": 257,
+      "flags": 34,
+      "lightingOrigin": {
+        "x": 1.98294549E-18,
+        "y": 1.982957E-18,
+        "z": 1.98296865E-18
+      },
+      "clusters": [
+        2688,2676,2672,1887,1877,1873
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -9984.0,
+        "z": 11376.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 4,
+      "vertLighting": 17,
+      "albedoModulation": 257,
+      "flags": 34,
+      "lightingOrigin": {
+        "x": 1.982818E-18,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "clusters": [
+        2396,2392,2380,2376,1671,1667,1657,1653
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -6400.0,
+        "z": 10656.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 5,
+      "vertLighting": 18,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2316,2314,2312,2308,2304,2302,2300,2298,2296,1097,1087
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -1664.0,
+        "z": 10992.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 6,
+      "vertLighting": 19,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1619,1615,1613,1605,1603,1601,1599,1596,1593,709,702
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -1664.0,
+        "z": 10992.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 20,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2340,2331,2328,2306
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5184.0,
+        "y": -32.0,
+        "z": 10480.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 21,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1497,1485,1482,1479,1476,1473,1405,1403,1392,1390,1387
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8832.0,
+        "y": -32.0,
+        "z": 10480.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 22,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2512,2499,2494,2483,2470,2465,2461,2456,2349,2343,2340
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8832.0,
+        "y": -32.0,
+        "z": 10480.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 10,
+      "vertLighting": 23,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2563,2542,2534,2508
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10016.0,
+        "y": -4864.0,
+        "z": 8576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 24,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1465,1452,1447,1410
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10016.0,
+        "y": -4864.0,
+        "z": 8576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 12,
+      "vertLighting": 25,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2961,2957,2569
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9664.0,
+        "y": -8624.0,
+        "z": 8320.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 13,
+      "vertLighting": 26,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1712,1707,1470
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9664.0,
+        "y": -8624.0,
+        "z": 8320.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 27,
+      "albedoModulation": 257,
+      "flags": 34,
+      "lightingOrigin": {
+        "x": 1.121039E-44,
+        "y": 1.121039E-44,
+        "z": 1.121039E-44
+      },
+      "clusters": [
+        1701,1697
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12576.0,
+        "y": -9216.0,
+        "z": 8960.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 15,
+      "albedoModulation": 257,
+      "flags": 255,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "clusters": [
+        1459,1455,1441
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12576.0,
+        "y": -6400.0,
+        "z": 8960.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 14,
+      "vertLighting": 29,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2991,2987
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12576.0,
+        "y": -9216.0,
+        "z": 8960.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 15,
+      "vertLighting": 30,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2646,2640,2634
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12576.0,
+        "y": -6400.0,
+        "z": 8960.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 16,
+      "vertLighting": 31,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2628,2602,2596,2551,2525,2517
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12096.0,
+        "y": -3584.0,
+        "z": 8944.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 17,
+      "vertLighting": 32,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2512,2483,2475,2470,2461
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10512.0,
+        "y": -1408.0,
+        "z": 8944.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 18,
+      "albedoModulation": 257,
+      "flags": 106,
+      "lightingOrigin": {
+        "x": -2.75972249E-29,
+        "y": -1.87499988,
+        "z": 0.0
+      },
+      "clusters": [
+        1439,1437,1401,1399,1397,1395
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12096.0,
+        "y": -3584.0,
+        "z": 8944.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 19,
+      "vertLighting": 34,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1403,1392,1390,1387,1385
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10512.0,
+        "y": -1408.0,
+        "z": 8944.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 20,
+      "albedoModulation": 257,
+      "flags": 224,
+      "clusters": [
+        642,636,627,624,621,618,485,483,480,478
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9248.0,
+        "y": 1056.0,
+        "z": 7808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 21,
+      "vertLighting": 36,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1290,1281,1271,1266,1261,1255,1158,1155,1152,1149
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9280.0,
+        "y": 1056.0,
+        "z": 7808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 15,
+      "vertLighting": 37,
+      "albedoModulation": 257,
+      "flags": 149,
+      "clusters": [
+        1137,1099
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4096.0,
+        "y": 736.0,
+        "z": 7200.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 15,
+      "vertLighting": 38,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        689,686
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4096.0,
+        "y": 736.0,
+        "z": 7200.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 39,
+      "albedoModulation": 257,
+      "flags": 18,
+      "lightingOrigin": {
+        "x": -1.86037728E+34,
+        "y": 1.82021844,
+        "z": 0.0
+      },
+      "clusters": [
+        1572,1569,1488,1485
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4928.0,
+        "y": -32.0,
+        "z": 10480.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 40,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1665,1662,1659,1655,1651,1648,1645,1642,1639,1636,1633,1630,1627,1624,1621
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3200.0,
+        "y": -6016.0,
+        "z": 11776.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 120.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 212,
+      "clusters": [
+        1081,1079,1077,1067,1065,1063,1061,1019,1017,707,697,695,672,670,668,666,586
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -256.0,
+        "y": 3584.0,
+        "z": 13056.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 42,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1343,1338,1329,1326,1323,1320,1313,1310,1307,1304,1301,1298,1278,1246
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13824.0,
+        "y": 2816.0,
+        "z": 9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 60.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 43,
+      "albedoModulation": 257,
+      "flags": 34,
+      "lightingOrigin": {
+        "x": -7.042509E+20,
+        "y": -1.87499988,
+        "z": 0.0
+      },
+      "clusters": [
+        1234,1231,1228,1225,1183,1181,1179,1177,1122,1119,1116,1113,1059,1057,1055
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8448.0,
+        "y": 4608.0,
+        "z": 9216.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 22,
+      "vertLighting": 44,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1017,1013,1001,997,586,582,572,568
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": 7040.0,
+        "z": 6064.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 10,
+      "albedoModulation": 257,
+      "flags": 236,
+      "clusters": [
+        1087,1083,1081,1079,1077,1067,1063
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1248.0,
+        "y": 2560.0,
+        "z": 6144.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 11,
+      "vertLighting": 46,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        709,705,695,670,666
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1248.0,
+        "y": 2560.0,
+        "z": 6144.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 47,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2133,2130,2114,2110,2107,2104
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2048.0,
+        "y": -13824.0,
+        "z": 13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 48,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2915,2866,2748,2744,2742,2738
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2048.0,
+        "y": -13824.0,
+        "z": 13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "albedoModulation": 257,
+      "flags": 107,
+      "lightingOrigin": {
+        "x": -1.40152542E-06,
+        "y": 1.82021785,
+        "z": 0.0
+      },
+      "clusters": [
+        2744,2738,2700,2696,2694,2690
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2048.0,
+        "y": -11776.0,
+        "z": 12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 50,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2110,2104,1889,1885,1882,1879
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2048.0,
+        "y": -11776.0,
+        "z": 12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 51,
+      "albedoModulation": 257,
+      "flags": 14,
+      "lightingOrigin": {
+        "x": 1.47094462E+34,
+        "y": 1.82021761,
+        "z": 0.0
+      },
+      "clusters": [
+        2704,2686,2684,2682,2680,2678,2674,2438,2432,2406,2404,2402,2400,2398,2394
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2816.0,
+        "y": -8192.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 105.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 52,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2503,2494,2465,2373,2367,2349
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8192.0,
+        "y": -2560.0,
+        "z": 9856.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "albedoModulation": 257,
+      "flags": 196,
+      "clusters": [
+        1506,1503,1500,1497,1482,1479
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": -2560.0,
+        "z": 9856.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 54,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1710,1705,1703,1699
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11136.0,
+        "y": -9344.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "albedoModulation": 257,
+      "flags": 222,
+      "lightingOrigin": {
+        "x": 2.63162971E+17,
+        "y": 1.87499988,
+        "z": 0.0
+      },
+      "clusters": [
+        2969,2967,2965,2963,2961
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11136.0,
+        "y": -9344.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 56,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1137,1131,1099,1095
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4096.0,
+        "y": 1024.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 57,
+      "albedoModulation": 257,
+      "flags": 61,
+      "clusters": [
+        2346,2340,2337,2331,1155,1149,1143,1140,1134,1128,1119,1110
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6144.0,
+        "y": 1024.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 58,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1266,1255,1158,1152
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8192.0,
+        "y": 1024.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 273,
+      "flags": 246,
+      "lightingOrigin": {
+        "x": 1.737091E+30,
+        "y": 1.82021689,
+        "z": 0.0
+      },
+      "clusters": [
+        2619,2612,2609,2600,2597,2594,2591,2588,2585,2518,2492,2481,1333,1296
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13184.0,
+        "y": -1536.0,
+        "z": 1152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 60,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2504,2495,2468,2467,2466,2457,2374,2371,2368,2365,2356,2350,2347,2344,2341,2338,2332
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6912.0,
+        "y": -1792.0,
+        "z": 1152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 273,
+      "flags": 231,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 1.87499988,
+        "z": 0.0
+      },
+      "clusters": [
+        2570,2567,2564,2561,2543,2540,2537,2536,2535,2532,2531,2530,2529,2454,2448,2445,2430,2427,2424
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8576.0,
+        "y": -6016.0,
+        "z": 1152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 62,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        1327,1324,1321,1308,1305,1299,1288,1282,1279,1276,1247,1244,1241,1238,1235
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11776.0,
+        "y": 3200.0,
+        "z": 1152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 210.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 63,
+      "albedoModulation": 273,
+      "flags": 173,
+      "clusters": [
+        2666,2663,2656,2653,2650,2647,2644,2641,2638,2635,2632,2629,2576
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13824.0,
+        "y": -6528.0,
+        "z": 1152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 64,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        1253,1250,1235,1232,1229,1226
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9344.0,
+        "y": 3456.0,
+        "z": 128.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 60.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 65,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2582,2579,2576,2573
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11264.0,
+        "y": -7168.0,
+        "z": -128.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 54,
+      "vertLighting": 66,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        1347,1336,1333,1330,1327
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13824.0,
+        "y": 768.0,
+        "z": 256.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 353.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 67,
+      "albedoModulation": 273,
+      "flags": 0,
+      "clusters": [
+        2341,2332,1156,1150,1141,1135
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6144.0,
+        "y": 512.0,
+        "z": -128.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 68,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        3007,3003,2989,2987,2670,2668,2665,2662,2655,2649,2646,2643,2640,2637,2634
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -14336.0,
+        "y": -7424.0,
+        "z": 9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 69,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2581,2578,2575,2572,2557,2554,2551,2545,2525,2520
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11264.0,
+        "y": -5632.0,
+        "z": 9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 70,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1879,1875,1871,1868,1865,1856,1850,1844,1669,1665,1662,1659
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2448.69,
+        "y": -8827.21,
+        "z": 11264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 121.801,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 71,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2587,2584,1335,1332,1329,1326,1320,1295,1287,1281,1278,1275
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12288.0,
+        "y": 1280.0,
+        "z": 7936.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 72,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2408,2386,2384,2358,2326,2324,2322,2320,2310,2308
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3328.0,
+        "y": -3072.0,
+        "z": 11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 73,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        689,686,683,680
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4096.0,
+        "y": 1024.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 74,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1494,1491,1488,1485,645,642,639,636,633,630,609,606
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6144.0,
+        "y": 1024.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 75,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        627,624,621,618
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": 1024.0,
+        "z": 11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 49,
+      "vertLighting": 76,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1468,1463,1461,1457,1450,1445,1443,1439,1408,1401
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11264.0,
+        "y": -5632.0,
+        "z": 9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 77,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1697,1679,1677,1673,1459,1455,1441,1435,1433,1431,1429,1427,1425,1423,1421
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 14080.0,
+        "y": -7424.0,
+        "z": 10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 60.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 78,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1377,1359,471,469,467,465,463,461,449,441,437
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12608.0,
+        "y": 1472.0,
+        "z": 9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 79,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        465,461,449,447,445,443,437,435,433,431,423,421,419,417,401,399,375,373
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13568.0,
+        "y": 3584.0,
+        "z": 10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 80,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        699,695,692,683,680,677,674,670,663,660,657,654,651,648,639,633,609
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 3072.0,
+        "z": 8192.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 285.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 81,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1131,1128,1125,1110,1107,1101,1095,1093,1091,1089,1075,1073,1071,1069
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3712.0,
+        "y": 2848.0,
+        "z": 7680.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 120.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 55,
+      "vertLighting": 82,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2485,2472
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9984.0,
+        "y": -1780.89,
+        "z": -1718.86
+      },
+      "angles": {
+        "x": 18.5,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 83,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1275,1266,1261,1255,1252,1249,1246,1243,1240,1237,1234,1231,1228,1189,1152,1146
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9856.0,
+        "y": 3072.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 84,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1093,1089,1083,1079
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2048.0,
+        "y": 2048.0,
+        "z": 11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 85,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2355,2352,2337,2334,2322,2310
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4864.0,
+        "y": -2048.0,
+        "z": 11264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 86,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2470,2465,2461,2456,2343,2340,2331,1266,1158,1155,1140
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7665.75,
+        "y": -234.43,
+        "z": 7168.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 203.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 49,
+      "vertLighting": 87,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1488,1485,1482,1479,1476,1473,1392,1387,645,642,627,624
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7808.0,
+        "y": -384.0,
+        "z": 7168.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 158.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 88,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1581,1518,1515,1512,1509,1494,1491
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5888.0,
+        "y": -2560.0,
+        "z": 11264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 89,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1085,1081,1077,711,707,697
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": 1536.0,
+        "z": 7424.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 90,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2337,2334,2331,2328,2310,2306,1140,1137,1099
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4608.0,
+        "y": -512.0,
+        "z": 7424.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 225.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 91,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2308,2306,2304,2302,2298,1099,1097,1087
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2304.0,
+        "y": -512.0,
+        "z": 7424.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 225.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 92,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1605,1603,1601,1599,1596,1593,709,702
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1792.0,
+        "y": -512.0,
+        "z": 7424.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 93,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1593,1578,1575,1572,1569,1488,689,686
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4096.0,
+        "y": -512.0,
+        "z": 7424.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 94,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2378,2376,2324,2322,2320,2318,2316,2314,2312,2308,2302,2300,1653,1619,1615,1605
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1024.0,
+        "y": -3072.0,
+        "z": 7424.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 120.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 95,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1651,1645,1624,1621,1617,1613,1610,1607,1603,1596,1593,1590,1587,1584,1581,1578,1575,1572
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3072.0,
+        "y": -3072.0,
+        "z": 9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 96,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        603,600,591,533,530,527,524,521
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6400.0,
+        "y": 5376.0,
+        "z": 8448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 97,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        624,618,612,485,480,478,475,473,463,458,456,453,451,449,445,408,401
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10240.0,
+        "y": 3072.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 98,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1672,1670,1668,1666,1664,1661,1656
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1792.0,
+        "y": -7040.0,
+        "z": -9984.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 99,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2405,2401,2399,2397,2395,2393,2383
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1792.0,
+        "y": -7040.0,
+        "z": -9984.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 12,
+      "vertLighting": 100,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1467,1464,1454,1451,1449,1446
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10432.0,
+        "y": -5504.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 23,
+      "vertLighting": 101,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1412,1409,1407,1404,1394,1391,1389,1386
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10432.0,
+        "y": -2432.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 24,
+      "vertLighting": 102,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        482,477,474,460,457,455,452
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10400.0,
+        "y": 3072.0,
+        "z": -10752.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 103,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        407,404,394,391,389,386,384,380
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10496.0,
+        "y": 7936.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 12,
+      "vertLighting": 104,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        514,496,490,153
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8928.0,
+        "y": 7936.0,
+        "z": -12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 25,
+      "vertLighting": 105,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1571,688,682,676
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4800.0,
+        "y": 1216.0,
+        "z": -12576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 106,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        404,400,398,396,384,382,376,374,372,370,368,366,364,362
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13568.0,
+        "y": 6656.0,
+        "z": -10880.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 165.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 107,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1409,1407,1404,1402,1400,1398,1396,1394,1391,1384,1382,1376,1372,1370,1364
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11776.0,
+        "y": -2560.0,
+        "z": -10752.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 165.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 108,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1831,1828,1825,1822,1819,1813,1807,1804,1801,1798,1795,1727,1714,1711,1709,1706
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": -9728.0,
+        "z": -9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 49,
+      "vertLighting": 109,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2377,2325,2321,2319,2317,2315,2313,1654,1652,1620,1618,1616
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -640.0,
+        "y": -3328.0,
+        "z": -8672.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 26,
+      "vertLighting": 110,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2853,2852,2851,2847,2846,2741,2737,2693,2245,2241,2240,2225,2224,2117,2113,1892
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -13616.2,
+        "z": -9104.18
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 27,
+      "vertLighting": 111,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2689,2677,2673,2397,2393,1888,1878,1874,1672,1668
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -32.0,
+        "y": -8448.0,
+        "z": -10240.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 13,
+      "vertLighting": 112,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2574,2565,2556,2550,2544,2538
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10432.0,
+        "y": -5504.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 28,
+      "vertLighting": 113,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2524,2516,2511,2502,2490,2479,2474
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10432.0,
+        "y": -2432.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 29,
+      "vertLighting": 114,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2330,1139,1133,1127
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4800.0,
+        "y": 1216.0,
+        "z": -12576.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 30,
+      "vertLighting": 115,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1277,1265,1254,1245,1239,1236,1230
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10400.0,
+        "y": 3072.0,
+        "z": -10752.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 13,
+      "vertLighting": 116,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1178,1166,1162,930
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8928.0,
+        "y": 7936.0,
+        "z": -12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 117,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1186,1180,1176,1174,1172,1170,1168,1164
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10496.0,
+        "y": 7936.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 31,
+      "vertLighting": 118,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2403,2401,2395,2393,2391,2389,2385,2383,2381,2379,2377,1668,1666,1661,1658,1656,1654,1652,1650,1647,1638,1632
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -5600.0,
+        "z": -9520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 119,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1490,1487,1478,1475,647,644,629,626,623,620,614,487,482,477
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7640.23,
+        "y": -759.908,
+        "z": -12272.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 32,
+      "vertLighting": 120,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1843,1810,1644,1641,1638,1635,1568
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4672.0,
+        "y": -7424.0,
+        "z": -10096.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 33,
+      "vertLighting": 121,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2707,2705,2443,2440,2434,2407,2403
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4672.0,
+        "y": -7424.0,
+        "z": -10096.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 34,
+      "vertLighting": 122,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1565,1556,1553
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7680.0,
+        "y": -8064.0,
+        "z": -10480.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 34,
+      "vertLighting": 123,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2568,2455,2452
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7168.0,
+        "y": -8064.0,
+        "z": -10480.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 35,
+      "vertLighting": 124,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        409,404,402,398,396,391,386,384,382,380,97,90
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11712.0,
+        "y": 7344.0,
+        "z": -11376.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 35,
+      "vertLighting": 125,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1202,1198,1192,1190,1188,1186,1176,1174,1172,1170,940,938
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11712.0,
+        "y": 7384.0,
+        "z": -11376.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 36,
+      "vertLighting": 126,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1233,1227,1182
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8912.0,
+        "y": 4256.0,
+        "z": -12832.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 37,
+      "vertLighting": 127,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        596,590,520
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8912.0,
+        "y": 4497.07,
+        "z": -12821.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 1.4877782E-38,
+        "y": 4.596105E-40,
+        "z": 1.102452E-39
+      },
+      "clusters": [
+        656,650,611,605,556,535
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5440.0,
+        "y": 4480.0,
+        "z": -12912.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 38,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 8.68805E-44,
+        "z": 8.081961E-39
+      },
+      "clusters": [
+        1046,1036,1034,1030,1012,1010,1008,1006,1000
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3584.0,
+        "y": 8056.68,
+        "z": -13040.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 7,
+      "vertLighting": 130,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1112,1109,1106,1103,1052,1050
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5440.0,
+        "y": 4224.0,
+        "z": -12912.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 131,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        2460,2345,2342,2333,1274,1270,1265,1260,1254,1251,1160,1157,1154,1142
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7640.23,
+        "y": -759.91,
+        "z": -12272.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 2.100236E+38,
+        "y": 2.02960314E-38,
+        "z": "NaN"
+      },
+      "clusters": [
+        2387,2385,2327,2325
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2944.0,
+        "y": -4064.0,
+        "z": -8960.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 210.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 133,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2978,2976,2974,2972,2962,2960,2958,2956,2735,2731,2729,2719,2717,2715,2713
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8448.0,
+        "y": -9984.0,
+        "z": -8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": "NaN",
+        "z": 2.479927E-39
+      },
+      "clusters": [
+        2664,2657,2654,2645,2642,2639,2636,2633,2630,2577,2559,2556,2553,2550,2544,2538,2524,2511
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12288.0,
+        "y": -5248.0,
+        "z": -10752.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 135,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2562,2541,2533,2449,2431,2425
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8192.0,
+        "y": -5888.0,
+        "z": -9984.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "albedoModulation": 257,
+      "flags": 126,
+      "lightingOrigin": {
+        "x": 3.677035E-40,
+        "y": "NaN",
+        "z": "NaN"
+      },
+      "clusters": [
+        2970,2968,2966,2964,2962,2958,2648,2642,2583,2580,2577,2574
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11392.0,
+        "y": -8064.0,
+        "z": -9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 137,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2533,2507,2502,2498,2469,2425,2375,2372,2369,2366,2357,2351,2348,2345,2342,2339
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7552.0,
+        "y": -2496.0,
+        "z": -10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 210.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 1.58181072E+38,
+        "y": 8.269272E-40,
+        "z": 1.84125E-40
+      },
+      "clusters": [
+        2610,2595,2592,2589,2586,2493,2482,1348,1337,1334,1331,1328,1297,1289
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12928.0,
+        "y": 256.0,
+        "z": -10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 1.3041051E-38,
+        "y": 1.499389E-43,
+        "z": 5.514684E-40
+      },
+      "clusters": [
+        1328,1322,1306,1303,1300,1289,1280,1248,1242,1208,1206
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12544.0,
+        "y": 3840.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 48,
+      "vertLighting": 140,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2474,2469,2464,2460,1274,1270,1265,1260,1251,1160,1154,1148
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8704.0,
+        "y": 640.0,
+        "z": -9216.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 141,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2336,2330,2323,2321,2311,2309,2307,2305,2303,2299,1139,1133,1100,1098,1096,1094,1088
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3072.0,
+        "y": -512.0,
+        "z": -11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 75.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 142,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1604,1600,1598,1595,1580,1574,1571,710,706,704,701,691,688,685
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2816.0,
+        "y": 256.0,
+        "z": -11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 285.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 49,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 8.381741E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        1711,1706,1704,1700,1698,1469,1462,1460,1458,1456
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11776.0,
+        "y": -8192.0,
+        "z": -9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 126,
+      "lightingOrigin": {
+        "x": 3.678044E-40,
+        "y": "NaN",
+        "z": 7.351044E-40
+      },
+      "clusters": [
+        1386,1382,1380,1378,1364,1360,484,472,470,468,466,462,442,438
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12800.0,
+        "y": 512.0,
+        "z": -10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "vertLighting": 145,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1550,1547,1532,1529,1526,1523
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": -5632.0,
+        "z": -9984.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 7.351366E-40,
+        "y": "NaN",
+        "z": 3.13704338E+38
+      },
+      "clusters": [
+        1517,1511,1508,1505,1502,1499,1493,1487,1484,1481,1478,1475,1412,1407,1394
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7744.0,
+        "y": -2240.0,
+        "z": -10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 285.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 49,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 8.381993E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        1481,1475,1394,1389,629,626,623,620,614,487,482
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8960.0,
+        "y": 256.0,
+        "z": -9216.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 49,
+      "albedoModulation": 257,
+      "flags": 126,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": "NaN",
+        "z": "NaN"
+      },
+      "clusters": [
+        474,464,462,457,450,448,446,444,420,400,376
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12288.0,
+        "y": 3840.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 45.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 15,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 2.927298E-40,
+        "z": 2.82858541E-38
+      },
+      "clusters": [
+        1926,1913
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6144.0,
+        "y": -13920.0,
+        "z": 640.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 64,
+      "vertLighting": 150,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1101,1071,1069,1063,1061,1049,1045,1033,1029,1027,1025,1023,1021,1019,1017,1015,1013,1011,1009,1007,1005,1003,1001,999,997,873,869,857,853,851,849,847,845,843,841,839,837,835,833,831,829,827,825,823,821,820,819,818,817,816,815,814,813,812,811,810,809,808,807,806,805,804,803,791,787,777,775,773,771,769,741,740,739,738,737,736,735,734,733,732,731,730,729,728,727,726,725,723,721,668,666,660,651,648,586,584,582,580,577,574,572,570,568,566,563,560,557,554,551,548,545,542,539,536,351,349,347,345,342,339,337,335,334,333,332,331,330,328,327,326,325,324,323,322,321,320,318,315,313,310,307,304,301,298,295,293,291,267,266,265,264,263,262,261,260,259,258,257,256,255,254,253,252,251,249,247,245,243,241,233,229
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": 9984.0,
+        "z": 6656.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 39,
+      "vertLighting": 151,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        742,268
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -0.00018314,
+        "y": 14272.8,
+        "z": -11760.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 39,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 2.204331E-39,
+        "z": 1.653319E-39
+      },
+      "clusters": [
+        2521,2509
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9984.0,
+        "y": -3920.0,
+        "z": -1360.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 39,
+      "vertLighting": 153,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        725,255
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": 13792.0,
+        "z": 6368.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 7.349754E-40,
+        "y": 2.757966E-40,
+        "z": 2.93879445E-38
+      },
+      "clusters": [
+        2572,2563,2560,2554,2542,2539,2534,2528,2503,2429,2426,2423,2420,2411,2373,2370,2361
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8192.0,
+        "y": -5120.0,
+        "z": 8448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 210.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 155,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1560,1557,1548,1545,1542,1539,1533,1530,1527,1524,1521,1503,1452,1447,1445,1410,1408
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": -5120.0,
+        "z": 8448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 30.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 156,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2618,2616,2614,2611,2608,2599,2596,2593,2590,2587,2584,2517,2512,2491,2483,2480
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13056.0,
+        "y": -1536.0,
+        "z": 9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 157,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2658,2652,2631,2628,2626,2624,2621,2618,2605,2602,2599,2596,2551,2525,2517
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13568.0,
+        "y": -3584.0,
+        "z": 10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 50,
+      "vertLighting": 158,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        3075,3073,3071,3069,3067,3065,3063,3061,3059,3057,3055,3053,3051,3049,3047,3045,3043,3041,3039,3037,3035,3033,3031,3029,3027,3025,3023,3021,3019,3017,3015,3013,3011,3009,3005,3001,2999,2997,2995,2993,2991,2985,2983,2981,2979,2977,2975,2973,2971,2969,2967,2961,2959,2949,2937,2935,2933,2931,2734,2732,2730,2728,2718,2716
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11264.0,
+        "y": -12800.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 40,
+      "vertLighting": 159,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        3057,3055,3053,3051,3045,3043,3033,3031,3029,3027,3025,3023,3021,3019
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11264.0,
+        "y": -12800.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 41,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 3.676573E-40,
+        "y": 3.691851E-38,
+        "z": "NaN"
+      },
+      "clusters": [
+        3011,3005,2997,2995,2993,2991,2981,2979,2973,2971,2969,2967,2961,2959,2730,2718
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11264.0,
+        "y": -12800.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 161,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2975,2971,2734,2732,2730,2728
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7552.0,
+        "y": -11008.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 3.67597E-40,
+        "y": 1.93775714E-38,
+        "z": 1.847664E+38
+      },
+      "clusters": [
+        3023,3019,2937,2933
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7936.0,
+        "y": -13056.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 163,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        3037,3035,3025,3023
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9472.0,
+        "y": -14464.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 4.594423E-40,
+        "z": 1.946946E-38
+      },
+      "clusters": [
+        3049,3047,3045,3043,3033,3031
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11264.0,
+        "y": -14848.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 126,
+      "lightingOrigin": {
+        "x": 1.286037E-39,
+        "y": 8.266246E-40,
+        "z": 7.350231E-40
+      },
+      "clusters": [
+        3069,3067,3057,3055
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13056.0,
+        "y": -14592.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 1.99286432E-38,
+        "z": 3.676517E-40
+      },
+      "clusters": [
+        3061,3059,3057,3053
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -14464.0,
+        "y": -13056.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 167,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        3017,3015,3013,3011,3001,2997
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -14976.0,
+        "y": -11264.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 126,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 1.44185176E-38,
+        "z": "NaN"
+      },
+      "clusters": [
+        2963,2961,2957,2955,2714,2578,2569,2566,2560,2453,2450,2447,2444,2441,2435,2429,2426
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8192.0,
+        "y": -7680.0,
+        "z": 8448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 210.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 8.266498E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        1695,1693,1691,1689,1687,1685
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 14976.0,
+        "y": -11008.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 50,
+      "vertLighting": 170,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1943,1940,1937,1911,1905,1902,1899,1896,1893,1835,1829,1826,1823,1820,1817,1811,1802,1799,1790,1788,1785,1783,1781,1779,1777,1775,1772,1770,1767,1765,1763,1761,1759,1757,1755,1751,1749,1743,1741,1739,1737,1735,1733,1730,1728,1725,1723,1721,1719,1717,1715,1712,1710,1703,1701,1695,1693,1691,1689,1687,1685,1683,1681,1675
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11264.0,
+        "y": -12800.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 40,
+      "albedoModulation": 257,
+      "flags": 126,
+      "lightingOrigin": {
+        "x": 1.50869335E+38,
+        "y": 8.266624E-40,
+        "z": 1.94071729E+38
+      },
+      "clusters": [
+        1899,1893,1783,1777,1772,1770,1767,1765,1763,1761,1759,1757,1743,1739
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11264.0,
+        "y": -12800.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 41,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 1.07451048E-38,
+        "z": 2.75861E-40
+      },
+      "clusters": [
+        1820,1817,1802,1799,1725,1723,1717,1715,1712,1710,1703,1701,1691,1689,1683,1681
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11264.0,
+        "y": -12800.0,
+        "z": 8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 9.836486E+37,
+        "y": 8.26675E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        1743,1741,1739,1737
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 14592.0,
+        "y": -13056.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 2.61862742E+38,
+        "y": 4.595082E-40,
+        "z": 6.431077E-40
+      },
+      "clusters": [
+        1775,1761,1751,1743
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13056.0,
+        "y": -14464.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 175,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1788,1783,1781,1777,1770,1763
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11264.0,
+        "y": -14848.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 176,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1937,1899,1785,1772
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9472.0,
+        "y": -14592.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 8.374244E+37,
+        "y": 8.267002E-40,
+        "z": 1.063404E+38
+      },
+      "clusters": [
+        1902,1899,1896,1893
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8064.0,
+        "y": -13056.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 178,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1835,1829,1826,1823,1820,1817
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7552.0,
+        "y": -11264.0,
+        "z": 6528.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 179,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1811,1808,1805,1802,1796,1793,1566,1563,1554,1551,1548,1545,1470,1468,1465,1463,1452
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": -7680.0,
+        "z": 8448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 30.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 2.52558349E+38,
+        "y": "NaN",
+        "z": 2.43253023E+38
+      },
+      "clusters": [
+        1445,1439,1437,1419,1417,1413,1408,1403,1401,1399,1397,1395,1375,1373,1371,1369,1367,1365
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13563.6,
+        "y": -3617.13,
+        "z": 10496.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 1.485376E-43,
+        "y": 5.739719E-40,
+        "z": 1.286162E-39
+      },
+      "clusters": [
+        1403,1397,1395,1390,1383,1381,1379,1377,1371,1363,1361,1359,1357,1355,1353,439
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13056.0,
+        "y": -1536.0,
+        "z": 9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 200.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 7.351562E-40,
+        "y": 6.520794E-39,
+        "z": 1.84146E-40
+      },
+      "clusters": [
+        445,408,403,401,399,397
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11392.0,
+        "y": 6016.0,
+        "z": 9216.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 183,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1110,1107,1104,1101,1075,1073,1071,1069,1051,1049,1045,1027,1025,1023
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4480.0,
+        "y": 4736.0,
+        "z": 13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 30.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 184,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        651,648,603,557,554,551,548,545,542,533,530,527,524,509,503
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4736.0,
+        "y": 6144.0,
+        "z": 13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 30.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 44,
+      "vertLighting": 185,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2304,2300,2298,2296,1097,1087
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1427.0,
+        "y": -723.0,
+        "z": 11808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 45,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": "NaN",
+        "z": 9.826889E-39
+      },
+      "clusters": [
+        1605,1601,1599,1593,709,702
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1609.0,
+        "y": -723.0,
+        "z": 11808.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 46,
+      "vertLighting": 187,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        2512,2499,2483,2470,2465,2461,2456,1266,1158
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9466.0,
+        "y": -1680.0,
+        "z": 11264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 59,
+      "vertLighting": 188,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2634,2628,2602,2596,2525,2517
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -12380.0,
+        "y": -3788.0,
+        "z": 9722.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 225.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 60,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 1.64390611E-38,
+        "y": 5.044674E-44,
+        "z": 1.368399E-38
+      },
+      "clusters": [
+        2520,2512,2499,2483,2470,2461
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10328.0,
+        "y": -1696.0,
+        "z": 9722.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 47,
+      "vertLighting": 190,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1479,1473,1405,1403,1392,1390,1387,627,624
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9516.0,
+        "y": -1680.0,
+        "z": 11264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 59,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 1.84153E-40,
+        "y": 5.855143E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        1408,1405,1403,1392,1390,1387
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10431.0,
+        "y": -1696.0,
+        "z": 9722.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 60,
+      "vertLighting": 192,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1441,1437,1401,1399,1397,1395
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12455.0,
+        "y": -3720.0,
+        "z": 9722.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 3.336433E+38,
+        "y": 5.453489E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        630,621,618,615,612,606,600,597,594,591,588,521,518,475,458,453
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8192.0,
+        "y": 3584.0,
+        "z": 8192.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 225.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 42,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 6.337161E-39,
+        "z": "NaN"
+      },
+      "clusters": [
+        567,565,562,550,547,544,541,538,511
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 8064.0,
+        "z": -13040.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 50,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 2.76011E-40,
+        "y": 5.912793E-40,
+        "z": 7.352123E-40
+      },
+      "clusters": [
+        511,508,505,502,499,496,493,490,394,391,389,386,384,382,380,378,364,360,358,222,219,216,186,156,153,150,147,144,141,136,134,131,128,126,116,114,100,97,95,92,90,88,86,84,82,79,77,75,73,71,69,67,65,63,61,59,53,51,49,41,39,33,31
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10087.8,
+        "y": 10971.7,
+        "z": -11926.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 40,
+      "vertLighting": 196,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        186,150,147,134,131,126,95,92,86,84,82,79,77,75,73,71
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10087.8,
+        "y": 10971.7,
+        "z": -11926.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 41,
+      "vertLighting": 197,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        508,502,499,496,493,490,394,391,389,386,384,382,380,378,364,360
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10087.8,
+        "y": 10971.7,
+        "z": -11926.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 3.25668282E+38,
+        "z": 2.759759E-40
+      },
+      "clusters": [
+        216,186,150,144,141,134
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6759.76,
+        "y": 11227.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 3.122914E-39,
+        "y": 5.339073E-40,
+        "z": "NaN"
+      },
+      "clusters": [
+        134,131,128,126,116,114
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8295.76,
+        "y": 12635.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 6.433852E-40,
+        "z": 2.85791463E+38
+      },
+      "clusters": [
+        84,71,61,53
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13287.8,
+        "y": 11227.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 9.196161E-41,
+        "z": "NaN"
+      },
+      "clusters": [
+        378,360,358,88,65,63
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13799.8,
+        "y": 9435.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 202,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        505,502,222,219
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6375.76,
+        "y": 9179.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": "NaN",
+        "y": 1.387285E-43,
+        "z": "NaN"
+      },
+      "clusters": [
+        77,75,41,39
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10087.8,
+        "y": 13019.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 256,
+      "flags": 127,
+      "lightingOrigin": {
+        "x": 5.515048E-40,
+        "y": 1.09000073E+38,
+        "z": "NaN"
+      },
+      "clusters": [
+        75,73,71,69,67,33,31
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11879.8,
+        "y": 12763.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 50,
+      "vertLighting": 205,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1210,1200,1198,1196,1194,1176,1174,1172,1170,1168,1166,1164,1162,1044,1042,1040,1038,1036,1032,992,990,984,980,978,976,974,972,970,968,966,950,940,938,936,934,932,930,928,926,924,922,920,918,916,914,912,910,908,906,900,898,884,882,880,878,876,872,868,866,864,862,860,802
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10072.2,
+        "y": 10971.7,
+        "z": -11926.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 40,
+      "albedoModulation": 256,
+      "flags": 192,
+      "clusters": [
+        974,970,936,934,928,926,924,922,918,916,914,912,910,880,878,868
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10072.2,
+        "y": 10971.7,
+        "z": -11926.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 41,
+      "vertLighting": 207,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1200,1198,1196,1194,1176,1174,1172,1170,1168,1166,1164,1162,1044,1042,1040,1038
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10072.2,
+        "y": 10971.7,
+        "z": -11926.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        976,974,972,970
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13400.2,
+        "y": 11227.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 209,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        970,966,924,920,918,908
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11864.2,
+        "y": 12635.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        880,878,868,866
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6872.23,
+        "y": 11227.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 211,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1038,1032,882,876
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6360.23,
+        "y": 9435.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1210,1196,1194,992,980,978
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13784.2,
+        "y": 9179.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "vertLighting": 213,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        918,912,906,900
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10072.2,
+        "y": 13019.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 56,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        914,910,898,868,864,802
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8280.24,
+        "y": 12763.7,
+        "z": -14102.4
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 60,
+      "vertLighting": 215,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1843,1810,1644,1641,1568
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4512.0,
+        "y": -7800.0,
+        "z": -9320.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 59,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        2707,2705,2443,2440,2407
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4512.0,
+        "y": -7697.0,
+        "z": -9320.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 217,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1661,1650,1644,1641,1638,1635,1632,1629,1626,1623,1589,1562,1544,1541,1538,1535,1526,1520,1517,1514
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4864.0,
+        "y": -5376.0,
+        "z": -9984.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 225.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        2440,2437,2434,2428,2425,2422,2419,2416,2413,2410,2407,2403,2401,2391,2389,2387,2372,2363,2360,2357
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4864.0,
+        "y": -5376.0,
+        "z": -9984.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 219,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2721,2709,2705,2703,2701,2699,2697,2695,2691,2687,2685,2683,2681,2679,2675
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2944.0,
+        "y": -9856.0,
+        "z": -8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        1886,1884,1881,1876,1872,1870,1867,1858,1855,1852,1849,1846,1843,1664,1644
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2816.0,
+        "y": -9600.0,
+        "z": -8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 285.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 221,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2926,2733,2729,2727,2725,2723,2721,2717,2713,2711,2709,2707,2705,2443,2440
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5632.0,
+        "y": -9728.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 75.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1910,1861,1855,1849,1843,1840,1837,1834,1831,1816,1813,1810,1807,1641,1568
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5632.0,
+        "y": -9728.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 105.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 223,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        3016,3012,3010,3008,3006,3004,2998,2996,2994,2992,2990,2988,2966,2667,2651,2648
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -14080.0,
+        "y": -9472.0,
+        "z": -8704.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 345.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1456,1454,1451,1449,1446,1444,1442,1440,1438,1432,1430,1424,1422,1420,1418,1412,1409,1402
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 12288.0,
+        "y": -5120.0,
+        "z": -10752.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 165.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 225,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1716,1704,1702,1700,1698,1692,1690,1684,1682,1680,1678,1676,1674,1460,1436,1434
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 13824.0,
+        "y": -9216.0,
+        "z": -9728.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        605,602,593,590,535,532,529,526,523,520,517,514,511,508,499,496
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7040.0,
+        "y": 6016.0,
+        "z": -11008.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 227,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        638,632,623,617
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7040.0,
+        "y": 2176.0,
+        "z": -11392.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        590,520,514,455,452,412,409,407,404
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 9472.0,
+        "y": 5632.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 60.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 229,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        617,614,599,596,593,590,477,460,455
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8704.0,
+        "y": 3712.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 75.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        2633,2620,2607,2604,2601,2598,2592,2527,2524,2519,2516,2511,2502,2493,2490,2474
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11776.0,
+        "y": -2688.0,
+        "z": -10624.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 231,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1182,1178,1121,1118,1115,1106,1060,1058,1056,1054,1052,1048,1044,1042
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -6912.0,
+        "y": 5760.0,
+        "z": -11776.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 75.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        1254,1251,1236,1233,1230,1227,1148,1124,1118
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -8576.0,
+        "y": 3584.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 233,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1239,1230,1227,1190,1184,1182,1180,1178
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -9472.0,
+        "y": 5504.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1317,1224,1222,1220,1218,1212,1208,1206,1204,1202,1200,1198,1192,1188,1186,1176
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -13636.4,
+        "y": 6558.87,
+        "z": -11136.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 235,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        590,520,455,452,412,409,407,404,402
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10240.0,
+        "y": 5376.0,
+        "z": -13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        614,482,479,477,474,464,460,457,450
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 10240.0,
+        "y": 2816.0,
+        "z": -13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 240.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 237,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1286,1280,1277,1265,1254,1251,1245,1236,1233
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10240.0,
+        "y": 2816.0,
+        "z": -13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1242,1239,1230,1192,1190,1186,1184,1182,1180
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -10240.0,
+        "y": 5376.0,
+        "z": -13312.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 135.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 46,
+      "vertLighting": 239,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2460,2345,2342,1274,1270,1265,1260,1160
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7996.0,
+        "y": 608.0,
+        "z": -11488.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 47,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1487,1478,1475,629,626,620,487,482
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7996.15,
+        "y": 557.669,
+        "z": -11488.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 46,
+      "vertLighting": 241,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        446,402,398,396,384,382,380,378
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 11466.7,
+        "y": 7302.09,
+        "z": -10592.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 128.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 47,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1242,1202,1198,1194,1192,1188,1176,1172
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -11505.2,
+        "y": 7339.84,
+        "z": -10592.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 52.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 60,
+      "vertLighting": 243,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2391,2389,2385,2383,2379,2377
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -2049.65,
+        "y": -5338.98,
+        "z": -8742.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 52.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 59,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        1656,1654,1652,1650,1647,1632
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1968.63,
+        "y": -5401.17,
+        "z": -8742.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 127.5,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 245,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1652,1650,1647,1632,1626,1623,1620,1618,1616,1614,1612,1609,1604,1598,1592,1589,1586,1583
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 2688.0,
+        "y": -3456.0,
+        "z": -8672.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "albedoModulation": 257,
+      "flags": 192,
+      "clusters": [
+        2315,2313,2303,2301,2299,2297,1616,1614,1606,1604,1602,1600,1598,1595,1088,1086,712,710
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -1024.0,
+        "z": -8160.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 315.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 247,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        701,696,694,688,685,682,679,676,673,671,667,665,662,659,656,641,635
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3328.0,
+        "y": 2816.0,
+        "z": -12288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        576,565,553,547
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3072.0,
+        "y": 7168.0,
+        "z": -12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 249,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        662,653,650,579,559,556
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3584.0,
+        "y": 5120.0,
+        "z": -12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 75.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "albedoModulation": 257,
+      "flags": 64,
+      "clusters": [
+        1139,1136,1133,1130,1127,1109,1096,1094,1092,1090,1080,1076,1074,1070,1068,1066,1064
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3328.0,
+        "y": 2816.0,
+        "z": -12288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 210.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 62,
+      "vertLighting": 251,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1109,1103,1076,1072,1070,1050,1028,1026
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3584.0,
+        "y": 4864.0,
+        "z": -12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 63,
+      "albedoModulation": 256,
+      "flags": 192,
+      "clusters": [
+        1024,1022,1012,1010
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -3072.0,
+        "y": 7168.0,
+        "z": -12544.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 300.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 57,
+      "vertLighting": 253,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        1016,1014,1004,1002,1000,998,844,842,583,581,573,571,569,567,352,350
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 64.0,
+        "y": 8320.0,
+        "z": -12288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "albedoModulation": 256,
+      "flags": 192,
+      "clusters": [
+        669,667,587,585,583,581
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 1024.0,
+        "y": 5376.0,
+        "z": -11776.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 255,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        2363,2360,2357,2354,2348,2342,2339,2336,2333,2330,2327,2323,2311,1157,1142,1139
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -5248.0,
+        "y": -1408.0,
+        "z": -11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 120.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 58,
+      "vertLighting": 256,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        1592,1589,1586,1583,1580,1577,1571,1520,1514,1496,1493,1490,1487,688,647,644
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5248.0,
+        "y": -1408.0,
+        "z": -11520.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 60.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 65,
+      "vertLighting": 257,
+      "albedoModulation": 257,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        2867,2852,2846,2838,2837,2833,2828,2827,2817,2743,2741,2240,2224,2219,2218,2210,2208,2207,2206,2205,2195,2134,2117,2115
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -14080.0,
+        "z": -8448.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 65,
+      "vertLighting": 258,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        2743,2741,2739,2737,2117,2115,2113,2111
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -13056.0,
+        "z": -8960.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 65,
+      "vertLighting": 259,
+      "albedoModulation": 257,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        2739,2737,2695,2693,2113,2111,1892,1890
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 0.0,
+        "y": -12032.0,
+        "z": -9472.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 51,
+      "vertLighting": 260,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        647,644,641,638,635,632,629,626,623,620,617,614,611,608,605,602,599,596,593,590
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 7040.0,
+        "y": 2176.0,
+        "z": -12288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 51,
+      "vertLighting": 261,
+      "albedoModulation": 257,
+      "flags": 62,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        1270,1260,1251,1233,1227,1160,1157,1154,1151,1148,1145,1142,1136,1130,1124,1121,1118,1115,1112,1106
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7040.0,
+        "y": 2176.0,
+        "z": -12288.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 262,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        1154,1151,1148,1145
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -7040.0,
+        "y": 2176.0,
+        "z": -11392.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 52,
+      "vertLighting": 263,
+      "albedoModulation": 256,
+      "flags": 190,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        1030,1008,1006,1000,998,874,870,858,854,852,850,848,846,844,842,840,838,836,834,832,830,828,826,824,822,792,778,776,774,772,770,768,767,766,765,764,763,762,761,760,759,758,757,756,755,754,753,752,751,750,749,748,747,746,745,744,743,742,724,722,720,718,716,714,569,567,562,541,538,352,350,348,346,344,341,338,336,329,319,317,314,312,309,306,303,300,297,294,292,290,289,288,287,286,285,284,283,282,281,280,279,278,277,276,275,274,273,272,271,270,269,268,250,248,246,244,242,240,238,236,234,232,230,226
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 64.0,
+        "y": 12480.0,
+        "z": -12160.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 264,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        300,297,294,292,144,138
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4352.0,
+        "y": 12160.0,
+        "z": -11904.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 265,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        870,860,858,856,854,848,836,832
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4352.0,
+        "y": 12032.0,
+        "z": -11904.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 266,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        232,228,224,124,120,108
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4992.0,
+        "y": 15104.0,
+        "z": -10880.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 267,
+      "albedoModulation": 257,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        794,792,790,788,782,780
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4992.0,
+        "y": 15104.0,
+        "z": -10880.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 66,
+      "vertLighting": 268,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        874,870,858,852,850,848,846,844,842,840,838,836,834,832,830,828,826,824,822,778,776,774,772,770,768,767,766,765,764,763,762,761,760,759,758,757,756,755,754,753,752,751,750,749,748,747,746,745,744,743,742,724,722,720,718,716,714,352,350,348,346,344,341,338,336,329,319,317,314,312,309,306,303,300,297,294,290,289,288,287,286,285,284,283,282,281,280,279,278,277,276,275,274,273,272,271,270,269,268,250,248,246,244,242,240,238,236,234,230,226
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 64.0,
+        "y": 12480.0,
+        "z": -12160.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 2,
+      "vertLighting": 269,
+      "albedoModulation": 256,
+      "flags": 62,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        1894,1824,1818,1800
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 8672.0,
+        "y": -11584.0,
+        "z": -1024.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 1,
+      "vertLighting": 270,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        2096,1863,1857,1851
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3616.0,
+        "y": -11584.0,
+        "z": -1024.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 8,
+      "vertLighting": 271,
+      "albedoModulation": 256,
+      "flags": 185,
+      "clusters": [
+        1643,1640,1637,1634,1631,1628,1622,1561,1543,1537,1519
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6144.0,
+        "y": -5632.0,
+        "z": -2304.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 9,
+      "vertLighting": 272,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        1558,1555,1552,1549,1546,1540,1534,1531,1528,1525,1516
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6144.0,
+        "y": -5632.0,
+        "z": -2304.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 34,
+      "vertLighting": 273,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        1486,643,637
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6624.0,
+        "y": 704.0,
+        "z": -3152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 13,
+      "vertLighting": 274,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        610,604,534,528
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5888.0,
+        "y": 5056.0,
+        "z": -2784.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 12,
+      "vertLighting": 275,
+      "albedoModulation": 256,
+      "flags": 62,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        607,601,531,525
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6400.0,
+        "y": 5056.0,
+        "z": -2784.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 34,
+      "vertLighting": 276,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        1489,646,640
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 5664.0,
+        "y": 192.0,
+        "z": -3152.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 39,
+      "vertLighting": 277,
+      "albedoModulation": 256,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        188,158
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6144.0,
+        "y": 11040.8,
+        "z": -656.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 60,
+      "vertLighting": 278,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        544,541,538,529,511
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 4467.33,
+        "y": 8025.59,
+        "z": -12264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 341.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 59,
+      "vertLighting": 279,
+      "albedoModulation": 257,
+      "flags": 0,
+      "clusters": [
+        1048,1036,1034,1030,1008
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -4429.52,
+        "y": 7934.14,
+        "z": -12264.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 199.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 0,
+      "vertLighting": 280,
+      "albedoModulation": 256,
+      "flags": 1,
+      "clusters": [
+        1070,1064,1062,1026,1022,1020,1018,1016,1014
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": -1536.0,
+        "y": 5632.0,
+        "z": -11776.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 330.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 39,
+      "vertLighting": 281,
+      "albedoModulation": 257,
+      "flags": 63,
+      "lightingOrigin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 2.3509887E-38
+      },
+      "clusters": [
+        2768,2762,2760,2163,2146,2144
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3.46918E-08,
+        "y": -15200.0,
+        "z": 13680.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 39,
+      "vertLighting": 282,
+      "albedoModulation": 257,
+      "flags": 1,
+      "clusters": [
+        2043,2041,2027,2025,2023,1982,1959
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 6144.0,
+        "y": -15136.0,
+        "z": 1392.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Map Viewer - rj_apex</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/base64-string.min.js"></script>
+        <script src="./resources/js/facepunch.webgame.js?v=1ca9-125b4"></script>
+        <script src="./resources/js/sourceutils.js?v=1ca9-125b4"></script>
+        <link type="text/css" rel="stylesheet" href="./resources/styles/mapviewer.css?v=1ca9-125b4" />
+        <style>
+            #map-view {
+                position: absolute;
+                top: 72px;
+                left: 32px;
+                right: 32px;
+                bottom: 32px;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+    <h2>Source Map Viewer Demo - rj_apex</h2>
+    <div id="map-view">
+        <script>
+            var viewer;
+            window.onload = function() {
+                viewer = new SourceUtils.MapViewer(document.getElementById("map-view"));
+                viewer.cameraMode = SourceUtils.CameraMode.FreeCam;
+                viewer.showDebugPanel = true;
+                viewer.saveCameraPosInHash = true;
+                viewer.loadMap("./resources/maps/rj_apex/index.json?v=1ca9-125b4");
+                viewer.animate();
+            }
+        </script>
+    </div>
+    </body>
+</html>

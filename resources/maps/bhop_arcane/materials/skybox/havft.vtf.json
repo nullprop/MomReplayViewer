@@ -1,0 +1,60 @@
+{
+  "path": "materials/skybox/havft.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 512,
+  "height": 512,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": true
+  },
+  "elements": [
+    {
+      "level": 9,
+      "color": {
+        "r": 0.2901961,
+        "g": 0.258823544,
+        "b": 0.321568638,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 8,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf/mip0.png"
+    }
+  ]
+}

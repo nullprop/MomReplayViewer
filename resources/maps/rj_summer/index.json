@@ -1,0 +1,3039 @@
+{
+  "name": "rj_summer",
+  "lightmapUrl": "./resources/maps/rj_summer/lightmap.json?v=1ca9-1261c",
+  "leafPages": [
+    {
+      "first": 0,
+      "count": 2823,
+      "url": "./resources/maps/rj_summer/geom/leafpage0.json?v=1ca9-1261c"
+    }
+  ],
+  "dispPages": [
+    {
+      "first": 0,
+      "count": 53,
+      "url": "./resources/maps/rj_summer/geom/disppage0.json?v=1ca9-1261c"
+    }
+  ],
+  "materialPages": [
+    {
+      "first": 0,
+      "count": 23,
+      "url": "./resources/maps/rj_summer/materials/matpage0.json?v=1ca9-1261c"
+    }
+  ],
+  "brushModelPages": [
+    {
+      "first": 0,
+      "count": 33,
+      "url": "./resources/maps/rj_summer/geom/bsppage0.json?v=1ca9-1261c"
+    }
+  ],
+  "studioModelPages": [
+    {
+      "first": 0,
+      "count": 0,
+      "url": "./resources/maps/rj_summer/geom/mdlpage0.json?v=1ca9-1261c"
+    }
+  ],
+  "vertLightingPages": [
+    {
+      "first": 0,
+      "count": 3,
+      "url": "./resources/maps/rj_summer/geom/vhvpage0.json?v=1ca9-1261c"
+    }
+  ],
+  "visPages": [
+    {
+      "first": 0,
+      "count": 818,
+      "url": "./resources/maps/rj_summer/geom/vispage0.json?v=1ca9-1261c"
+    }
+  ],
+  "ambientPages": [
+    {
+      "first": 0,
+      "count": 2823,
+      "url": "./resources/maps/rj_summer/geom/ambientpage0.json?v=1ca9-1261c"
+    }
+  ],
+  "entities": [
+    {
+      "skyMaterial": {
+        "shader": "SourceUtils.Shaders.Sky",
+        "properties": [
+          {
+            "name": "cullFace",
+            "type": 1,
+            "value": false
+          }
+        ]
+      },
+      "model": 0,
+      "classname": "worldspawn"
+    },
+    {
+      "classname": "info_player_teamspawn",
+      "origin": {
+        "x": 46.7477,
+        "y": -10257.8,
+        "z": 527.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Brightness": {
+        "R": 253,
+        "G": 242,
+        "B": 208,
+        "A": 232
+      },
+      "Ambient": {
+        "R": 159,
+        "G": 174,
+        "B": 185,
+        "A": 194
+      },
+      "BrightnessHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "AmbientHdr": {
+        "R": 255,
+        "G": 255,
+        "B": 255,
+        "A": 1
+      },
+      "BrightnessScaleHdr": 1.0,
+      "AmbientScaleHdr": 1.0,
+      "Pitch": -55.0,
+      "classname": "light_environment",
+      "origin": {
+        "x": -78.0,
+        "y": -10292.0,
+        "z": 534.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 325.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4031.0,
+        "y": -10292.0,
+        "z": 774.152
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5200.0,
+        "y": -10279.0,
+        "z": 774.152
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6010.0,
+        "y": -10286.0,
+        "z": 774.152
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6010.0,
+        "y": -10277.0,
+        "z": 1391.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6010.0,
+        "y": -10274.0,
+        "z": 2140.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5999.0,
+        "y": -9451.0,
+        "z": 2140.0
+      }
+    },
+    {
+      "model": 1,
+      "clusters": [
+        278,279,280,281,283,285,288,289,291,292,294,295,297,302,303,304,307,308,309,310,311,312,315,316,326,327,328,329,330,331,332,333,334,337,338,341
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 5174.0,
+        "y": 967.5,
+        "z": 1122.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3020.97,
+        "y": 1951.0,
+        "z": 1928.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1042.0,
+        "y": 1945.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 285.0,
+        "y": 1950.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1759.0,
+        "y": 1951.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 2387.0,
+        "y": 1954.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6000.0,
+        "y": -8381.0,
+        "z": 2101.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6004.0,
+        "y": -7486.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6006.0,
+        "y": -6786.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6023.0,
+        "y": -5836.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6003.0,
+        "y": -5192.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6013.0,
+        "y": -4455.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5167.0,
+        "y": -4426.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5167.0,
+        "y": -3601.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6395.0,
+        "y": -3601.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 6400.0,
+        "y": -2699.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5211.0,
+        "y": -2699.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 1415.0,
+        "y": -10279.0,
+        "z": 774.152
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5196.0,
+        "y": -1892.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5181.0,
+        "y": -556.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5175.0,
+        "y": 331.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5216.0,
+        "y": 1926.0,
+        "z": 2298.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3113.0,
+        "y": -10280.0,
+        "z": 774.152
+      }
+    },
+    {
+      "model": 2,
+      "clusters": [
+        70,71,72,73,75,76,78,79,80,82,83,84,85,86,391,392,393,394,395,396,397,398,399,400,401,402,403,404,405,406,409
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 1595.5,
+        "y": 1952.0,
+        "z": 1781.0
+      }
+    },
+    {
+      "model": 3,
+      "clusters": [
+        431,432,433,434,435,436,437,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,523,524
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -681.0,
+        "y": -4299.0,
+        "z": 1267.5
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5185.0,
+        "y": 968.0,
+        "z": 1285.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 5193.0,
+        "y": 968.0,
+        "z": 774.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -311.0,
+        "y": 1959.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -677.0,
+        "y": 1968.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -688.0,
+        "y": 1504.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -694.0,
+        "y": 1013.0,
+        "z": 1816.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -682.0,
+        "y": -2233.0,
+        "z": 1576.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -673.0,
+        "y": -2854.0,
+        "z": 1576.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -673.0,
+        "y": -3869.0,
+        "z": 1576.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -679.0,
+        "y": -5023.0,
+        "z": 1576.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -691.0,
+        "y": -5609.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -691.0,
+        "y": -5023.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -691.0,
+        "y": -4455.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -685.0,
+        "y": -3869.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -673.0,
+        "y": -3370.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -685.0,
+        "y": -2854.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -694.0,
+        "y": -2233.0,
+        "z": 1131.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7041.0,
+        "y": 4290.0,
+        "z": 2453.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7038.0,
+        "y": 5119.0,
+        "z": 2453.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7037.0,
+        "y": 5781.0,
+        "z": 2674.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7038.0,
+        "y": 6413.0,
+        "z": 2867.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7034.0,
+        "y": 7080.0,
+        "z": 3046.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -5270.07,
+        "y": -7472.0,
+        "z": 1078.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -6082.0,
+        "y": -7465.0,
+        "z": 1378.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -6932.0,
+        "y": -7474.0,
+        "z": 1496.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8079.0,
+        "y": -7459.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8082.0,
+        "y": -6660.0,
+        "z": 1280.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8067.0,
+        "y": -6018.0,
+        "z": 1192.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8087.0,
+        "y": -5390.0,
+        "z": 1192.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8087.0,
+        "y": -4484.0,
+        "z": 1129.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8078.0,
+        "y": -3886.0,
+        "z": 1129.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8078.0,
+        "y": -3361.0,
+        "z": 1586.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8078.0,
+        "y": -2797.0,
+        "z": 1574.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8090.0,
+        "y": -2246.0,
+        "z": 1502.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8076.0,
+        "y": -1564.0,
+        "z": 1574.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8080.0,
+        "y": -1564.0,
+        "z": 1167.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8083.0,
+        "y": -1564.0,
+        "z": 794.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8069.0,
+        "y": -974.0,
+        "z": 794.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8085.0,
+        "y": -83.0,
+        "z": 1084.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 344.0,
+        "y": -10275.0,
+        "z": 680.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1415.5,
+        "y": -10280.0,
+        "z": 341.5
+      }
+    },
+    {
+      "targetname": "jump1",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 751.0,
+        "y": -10276.0,
+        "z": 527.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 3572.5,
+        "y": -10280.0,
+        "z": 341.5
+      }
+    },
+    {
+      "targetname": "jump2",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2725.0,
+        "y": -10280.0,
+        "z": 527.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6000.0,
+        "y": -6299.0,
+        "z": 1714.5
+      }
+    },
+    {
+      "targetname": "jump4",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5993.66,
+        "y": -7231.0,
+        "z": 1900.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 5174.0,
+        "y": -4027.0,
+        "z": 1815.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 6373.0,
+        "y": -3175.0,
+        "z": 1815.5
+      }
+    },
+    {
+      "targetname": "jump5b",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5830.0,
+        "y": -3464.0,
+        "z": 1900.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "targetname": "jump5a",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5730.0,
+        "y": -4308.0,
+        "z": 1900.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 5174.0,
+        "y": -755.5,
+        "z": 1808.5
+      }
+    },
+    {
+      "targetname": "jump6",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5190.0,
+        "y": -1569.0,
+        "z": 1900.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 5174.0,
+        "y": 967.5,
+        "z": 439.5
+      }
+    },
+    {
+      "targetname": "jump7",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 5178.0,
+        "y": 549.0,
+        "z": 1900.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1595.5,
+        "y": 1952.0,
+        "z": 1265.5
+      }
+    },
+    {
+      "targetname": "jump8",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 2964.0,
+        "y": 1955.0,
+        "z": 1715.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -681.0,
+        "y": -338.0,
+        "z": 1234.5
+      }
+    },
+    {
+      "targetname": "jump9",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -695.0,
+        "y": 984.0,
+        "z": 1467.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -681.0,
+        "y": -4299.0,
+        "z": 1114.5
+      }
+    },
+    {
+      "targetname": "jump10",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -679.0,
+        "y": -2381.0,
+        "z": 1436.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -3301.5,
+        "y": -5624.5,
+        "z": 852.5
+      }
+    },
+    {
+      "targetname": "jump11",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -2460.0,
+        "y": -6420.0,
+        "z": 932.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -7033.5,
+        "y": 10329.0,
+        "z": 2586.5
+      }
+    },
+    {
+      "targetname": "jump12",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -6859.0,
+        "y": 7418.0,
+        "z": 2748.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -6888.0,
+        "y": -7141.5,
+        "z": 747.5
+      }
+    },
+    {
+      "targetname": "jump13",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -5281.0,
+        "y": -7471.0,
+        "z": 932.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -8085.0,
+        "y": -4421.0,
+        "z": 710.0
+      }
+    },
+    {
+      "targetname": "jump14",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -8085.0,
+        "y": -5479.0,
+        "z": 932.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -8085.0,
+        "y": -1244.0,
+        "z": 376.5
+      }
+    },
+    {
+      "targetname": "jump15",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -7807.0,
+        "y": -2219.0,
+        "z": 1300.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8086.0,
+        "y": 1294.0,
+        "z": 1169.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -8916.0,
+        "y": 1287.0,
+        "z": 1169.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9709.0,
+        "y": 1277.0,
+        "z": 1169.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -11042.0,
+        "y": 1284.0,
+        "z": 1169.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -11042.0,
+        "y": 1284.0,
+        "z": 2496.5
+      }
+    },
+    {
+      "targetname": "jump16",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -10796.0,
+        "y": 1390.0,
+        "z": 887.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -9019.08,
+        "y": 1285.0,
+        "z": 2978.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7034.0,
+        "y": 1284.0,
+        "z": 2910.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7027.0,
+        "y": 3165.0,
+        "z": 2519.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7031.0,
+        "y": 3165.0,
+        "z": 3129.0
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -7034.0,
+        "y": 2680.5,
+        "z": 2890.5
+      }
+    },
+    {
+      "targetname": "jump17",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -7034.0,
+        "y": 1674.0,
+        "z": 2708.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": 21,
+      "clusters": [
+        258,259,260,261,262,267,268,269,270,271,272,563,564,565,566,567,568,572,573,574,575,576
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": -7034.0,
+        "y": 2205.0,
+        "z": 3166.5
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -4438.0,
+        "y": -7463.0,
+        "z": 1271.0
+      }
+    },
+    {
+      "classname": "func_nogrenades"
+    },
+    {
+      "classname": "func_nogrenades"
+    },
+    {
+      "classname": "func_nogrenades"
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": -3274.0,
+        "y": 14184.0,
+        "z": 2775.5
+      }
+    },
+    {
+      "targetname": "jump18",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": -6030.0,
+        "y": 14130.0,
+        "z": 2748.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "func_nogrenades"
+    },
+    {
+      "classname": "func_nogrenades"
+    },
+    {
+      "model": 28,
+      "clusters": [
+        2,3,7,8,11,12
+      ],
+      "classname": "func_brush",
+      "origin": {
+        "x": 3260.0,
+        "y": 11728.0,
+        "z": 2841.5
+      }
+    },
+    {
+      "classname": "trigger_teleport",
+      "origin": {
+        "x": 1360.0,
+        "y": 11716.0,
+        "z": 1879.5
+      }
+    },
+    {
+      "targetname": "jump19",
+      "classname": "info_teleport_destination",
+      "origin": {
+        "x": 177.753,
+        "y": 12338.7,
+        "z": 2108.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 270.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": -7008.0,
+        "y": 14181.0,
+        "z": 3035.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 471.0,
+        "y": 14080.0,
+        "z": 3943.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 467.0,
+        "y": 13070.0,
+        "z": 3943.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 467.0,
+        "y": 13067.0,
+        "z": 3301.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 467.0,
+        "y": 13072.0,
+        "z": 2782.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -680.0,
+        "y": -2854.0,
+        "z": 1692.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -680.37,
+        "y": -2854.0,
+        "z": 1698.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -679.0,
+        "y": -3870.0,
+        "z": 1692.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -679.37,
+        "y": -3870.0,
+        "z": 1698.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -685.0,
+        "y": -5022.0,
+        "z": 1692.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -685.37,
+        "y": -5022.0,
+        "z": 1698.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -669.63,
+        "y": -6640.0,
+        "z": 1692.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -670.0,
+        "y": -6640.0,
+        "z": 1698.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -677.63,
+        "y": 1979.0,
+        "z": 2012.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -678.0,
+        "y": 1979.0,
+        "z": 2018.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -668.63,
+        "y": 1190.0,
+        "z": 2012.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -669.0,
+        "y": 1190.0,
+        "z": 2018.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 2387.37,
+        "y": 1955.0,
+        "z": 2247.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 2387.0,
+        "y": 1955.0,
+        "z": 2253.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 2966.37,
+        "y": 1953.0,
+        "z": 2247.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 2966.0,
+        "y": 1953.0,
+        "z": 2253.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 1370.37,
+        "y": 1951.0,
+        "z": 2012.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 1370.0,
+        "y": 1951.0,
+        "z": 2018.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 715.0,
+        "y": 1954.0,
+        "z": 2012.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 714.63,
+        "y": 1954.0,
+        "z": 2018.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 4110.0,
+        "y": 1952.0,
+        "z": 1928.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5176.37,
+        "y": 551.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5176.0,
+        "y": 551.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5188.0,
+        "y": 12.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5187.63,
+        "y": 12.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5181.0,
+        "y": -556.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5180.63,
+        "y": -556.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5195.37,
+        "y": -1769.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5195.0,
+        "y": -1769.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5995.37,
+        "y": -5516.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5995.0,
+        "y": -5516.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 6001.0,
+        "y": -6905.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 6000.63,
+        "y": -6905.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 6015.0,
+        "y": -10279.0,
+        "z": 2351.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 6014.63,
+        "y": -10279.0,
+        "z": 2357.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5999.0,
+        "y": -9451.0,
+        "z": 2351.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5998.63,
+        "y": -9451.0,
+        "z": 2357.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5247.0,
+        "y": -10276.0,
+        "z": 1324.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5246.63,
+        "y": -10276.0,
+        "z": 1330.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 4161.37,
+        "y": -10293.0,
+        "z": 1324.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 4161.0,
+        "y": -10293.0,
+        "z": 1330.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 3439.0,
+        "y": -10283.0,
+        "z": 1324.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 3438.63,
+        "y": -10283.0,
+        "z": 1330.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 5167.63,
+        "y": 1695.0,
+        "z": 2703.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 5168.0,
+        "y": 1695.0,
+        "z": 2697.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -3957.63,
+        "y": -7474.0,
+        "z": 1678.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -3958.0,
+        "y": -7474.0,
+        "z": 1684.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -4688.63,
+        "y": -7465.0,
+        "z": 1678.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -4689.0,
+        "y": -7465.0,
+        "z": 1684.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8069.63,
+        "y": -7481.0,
+        "z": 1678.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8070.0,
+        "y": -7481.0,
+        "z": 1684.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8083.0,
+        "y": -6854.0,
+        "z": 1678.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8083.37,
+        "y": -6854.0,
+        "z": 1684.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8084.63,
+        "y": -5928.0,
+        "z": 1390.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8085.0,
+        "y": -5928.0,
+        "z": 1396.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8085.63,
+        "y": -4422.0,
+        "z": 1390.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8086.0,
+        "y": -4422.0,
+        "z": 1396.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8077.63,
+        "y": -3362.0,
+        "z": 1809.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8078.0,
+        "y": -3362.0,
+        "z": 1815.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8070.63,
+        "y": -2443.0,
+        "z": 1809.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8071.0,
+        "y": -2443.0,
+        "z": 1815.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8077.63,
+        "y": -1398.0,
+        "z": 1809.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8078.0,
+        "y": -1398.0,
+        "z": 1815.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8083.0,
+        "y": -326.0,
+        "z": 1249.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8083.37,
+        "y": -326.0,
+        "z": 1255.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8134.63,
+        "y": 1283.0,
+        "z": 1475.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8135.0,
+        "y": 1283.0,
+        "z": 1481.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -8707.63,
+        "y": 1288.0,
+        "z": 1475.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -8708.0,
+        "y": 1288.0,
+        "z": 1481.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -9293.0,
+        "y": 1288.0,
+        "z": 1475.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -9293.37,
+        "y": 1288.0,
+        "z": 1481.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -9949.63,
+        "y": 1290.0,
+        "z": 1475.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -9950.0,
+        "y": 1290.0,
+        "z": 1481.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -9002.63,
+        "y": 1284.0,
+        "z": 3296.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -9003.0,
+        "y": 1284.0,
+        "z": 3302.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -7033.63,
+        "y": 1286.0,
+        "z": 3086.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -7034.0,
+        "y": 1286.0,
+        "z": 3092.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -7039.0,
+        "y": 5501.0,
+        "z": 2825.53
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -7039.37,
+        "y": 5501.0,
+        "z": 2831.53
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -7013.63,
+        "y": 6452.0,
+        "z": 3118.3
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -7014.0,
+        "y": 6452.0,
+        "z": 3124.3
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -7022.63,
+        "y": 14180.0,
+        "z": 3277.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -7023.0,
+        "y": 14180.0,
+        "z": 3283.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -6335.0,
+        "y": 14184.0,
+        "z": 3277.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -6335.37,
+        "y": 14184.0,
+        "z": 3283.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": -295.0,
+        "y": 14181.0,
+        "z": 3916.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": -295.37,
+        "y": 14181.0,
+        "z": 3922.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 471.0,
+        "y": 14186.0,
+        "z": 4384.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 470.63,
+        "y": 14186.0,
+        "z": 4390.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 471.37,
+        "y": 13583.0,
+        "z": 4384.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 471.0,
+        "y": 13583.0,
+        "z": 4390.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 466.37,
+        "y": 13068.0,
+        "z": 4384.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "prop_dynamic",
+      "origin": {
+        "x": 466.0,
+        "y": 13068.0,
+        "z": 4390.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 142.0,
+        "y": 13076.3,
+        "z": 2928.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "point_spotlight",
+      "origin": {
+        "x": 771.0,
+        "y": 13074.0,
+        "z": 2928.0
+      },
+      "angles": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 46.01,
+        "y": -10258.1,
+        "z": 590.0
+      }
+    },
+    {
+      "targetname": "Message_Diver_02_01",
+      "classname": "game_text",
+      "origin": {
+        "x": -77.5288,
+        "y": -10247.0,
+        "z": 534.0
+      }
+    },
+    {
+      "targetname": "death",
+      "classname": "game_text",
+      "origin": {
+        "x": -78.0,
+        "y": -10270.0,
+        "z": 534.0
+      }
+    },
+    {
+      "classname": "trigger_capture_area"
+    },
+    {
+      "classname": "team_control_point_master",
+      "origin": {
+        "x": 3644.72,
+        "y": 11723.4,
+        "z": 3221.0
+      }
+    },
+    {
+      "classname": "tf_gamerules",
+      "origin": {
+        "x": 3676.72,
+        "y": 11723.4,
+        "z": 3221.0
+      }
+    },
+    {
+      "targetname": "cap1",
+      "classname": "team_control_point",
+      "origin": {
+        "x": 3902.0,
+        "y": 11729.0,
+        "z": 3212.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "classname": "trigger_multiple",
+      "origin": {
+        "x": 5173.5,
+        "y": 967.5,
+        "z": 617.0
+      }
+    },
+    {
+      "classname": "logic_auto",
+      "origin": {
+        "x": -78.0,
+        "y": -10343.0,
+        "z": 534.0
+      }
+    },
+    {
+      "targetname": "restart",
+      "classname": "point_servercommand",
+      "origin": {
+        "x": -77.973,
+        "y": -10316.0,
+        "z": 534.0
+      }
+    },
+    {
+      "classname": "light",
+      "origin": {
+        "x": 3899.98,
+        "y": 11732.0,
+        "z": 3654.0
+      }
+    },
+    {
+      "classname": "water_lod_control",
+      "origin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "index": 0,
+      "clusters": [
+        282,301
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 1,
+      "clusters": [
+        282,283,285,294,295,297
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 2,
+      "clusters": [
+        295,297,341
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 3,
+      "clusters": [
+        301,315,316,337,338,341
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 4,
+      "clusters": [
+        282,287,296,297,301,317,339,341
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 5,
+      "clusters": [
+        422,423,424,425,426,438,439,440
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 6,
+      "clusters": [
+        461,526,531,593,721,722,723,724,725,726,727,728,730,731,732,733,734,735,740
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 7,
+      "clusters": [
+        181,183,184,185,186,187,189,190,192,193
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 8,
+      "clusters": [
+        187,188,189,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,222,223,224,225
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 9,
+      "clusters": [
+        592,594,596,651,691,693
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 10,
+      "clusters": [
+        274,275,276,277
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 11,
+      "clusters": [
+        276,277,671,673,678,679,684,686,687,688,689,690
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 12,
+      "clusters": [
+        657,658,660,664,668,669,670,687,688,689,690
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 13,
+      "clusters": [
+        657,669
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 14,
+      "clusters": [
+        274,627,628
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 15,
+      "clusters": [
+        257,259,261,262,267,269,271,272,562,563,564,565,567,568,573,574,575,576
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 16,
+      "clusters": [
+        272,273,576,577
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 17,
+      "clusters": [
+        272,273,576,577
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 18,
+      "clusters": [
+        256,257,561,562
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 19,
+      "clusters": [
+        256,257,561,562
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 20,
+      "clusters": [
+        347,348,362,375,376,377
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 21,
+      "clusters": [
+        379,380,382,383,388,389
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 22,
+      "clusters": [
+        182,183,185,190,191,192,198,199,200,210,211,213,214,223,225
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 23,
+      "clusters": [
+        182,183,185,190,191,192,193,198,199,200,201,209,210,211,212,213,214,215,222,223,224,225,226,227
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 24,
+      "clusters": [
+        181,184,186,187,194,196,202,203,205,206,216,218
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 25,
+      "clusters": [
+        181,184,186,187,188,189,194,195,196,197,202,203,204,205,206,207,216,217,218,220,221
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 26,
+      "clusters": [
+        414,415,416,417,418,419,421,422,423,425,426,427,438
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 27,
+      "clusters": [
+        414,417,419,420,421,427,428
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 28,
+      "clusters": [
+        21,32,36
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 29,
+      "clusters": [
+        19,21,22,32,36
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 30,
+      "clusters": [
+        19,22,23
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 31,
+      "clusters": [
+        129,138,140,157,158,169
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 32,
+      "clusters": [
+        91,93,95,101,104,105,106,120,121,122,123,124,125,127,129,134,138,139,140,154,155,156,157,158,159,161,162,167,168,169
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 33,
+      "clusters": [
+        93,104,105,120,122,159
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 34,
+      "clusters": [
+        23,30,102,104
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 35,
+      "clusters": [
+        36,41,137,138
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 36,
+      "clusters": [
+        21,32,35,36,38,39,41,125,128,137
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 37,
+      "clusters": [
+        38,39,41,125,128,129,137,138
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 38,
+      "clusters": [
+        125,129,130,131,132,133,135,138,140,141,142,143,144,145,146,147,148,149,150,152,153,157,158,169
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 39,
+      "clusters": [
+        19,22,23,24,27,28,30,91,92,102
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 40,
+      "clusters": [
+        27,28,30,91,92,93,102,104
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 41,
+      "clusters": [
+        91,93,96,97,98,99,100,104,105,107,108,109,110,111,112,113,114,115,116,117,119,120,122,159
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 42,
+      "clusters": [
+        43,45,46,52,53,55,57,59,60,61,62
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 43,
+      "clusters": [
+        12,58,59,60
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 44,
+      "clusters": [
+        3,6,8,42,43,44,45,46,50,52
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 45,
+      "clusters": [
+        659,663
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 46,
+      "clusters": [
+        636,659,663
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 47,
+      "clusters": [
+        634,636
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 48,
+      "clusters": [
+        634,672,677
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 49,
+      "clusters": [
+        663,667,685
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 50,
+      "clusters": [
+        685
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 51,
+      "clusters": [
+        677,683,685
+      ],
+      "classname": "displacement"
+    },
+    {
+      "index": 52,
+      "clusters": [
+        672,677
+      ],
+      "classname": "displacement"
+    },
+    {
+      "model": -1,
+      "vertLighting": 0,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        47
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 59.0,
+        "y": 13074.0,
+        "z": 2959.41
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 1,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        47
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 853.867,
+        "y": 13075.5,
+        "z": 2959.41
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    },
+    {
+      "model": -1,
+      "vertLighting": 2,
+      "albedoModulation": 256,
+      "flags": 0,
+      "clusters": [
+        5
+      ],
+      "classname": "prop_static",
+      "origin": {
+        "x": 3903.0,
+        "y": 11729.0,
+        "z": 3212.0
+      },
+      "angles": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      }
+    }
+  ]
+}

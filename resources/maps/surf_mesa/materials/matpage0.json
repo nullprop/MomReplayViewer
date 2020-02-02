@@ -2444,7 +2444,7 @@
       ]
     },
     {
-      "path": "materials/concrete/concretefloor039a.vtf",
+      "path": "materials/floor/bathroom_tile_floor_lg.vtf",
       "target": 3553,
       "frames": 1,
       "width": 512,
@@ -2459,50 +2459,51 @@
         {
           "level": 9,
           "color": {
-            "r": 0.458823532,
-            "g": 0.447058827,
-            "b": 0.427450985,
+            "r": 0.8392157,
+            "g": 0.882352948,
+            "b": 0.870588243,
             "a": 1.0
           }
         },
         {
           "level": 8,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip8.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip8.png"
         },
         {
           "level": 7,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip7.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip7.png"
         },
         {
           "level": 6,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip6.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip6.png"
         },
         {
           "level": 5,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip5.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip5.png"
         },
         {
           "level": 4,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip4.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip4.png"
         },
         {
           "level": 3,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip3.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip3.png"
         },
         {
           "level": 2,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip2.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip2.png"
         },
         {
           "level": 1,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip1.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip1.png"
         },
         {
           "level": 0,
-          "url": "./resources/materials/concrete/concretefloor039a.vtf/mip0.png"
+          "url": "./resources/maps/surf_mesa/materials/floor/bathroom_tile_floor_lg.vtf/mip0.png"
         }
       ]
     },
+    null,
     {
       "path": "materials/detail/noise_detail_01.vtf",
       "target": 3553,
@@ -3103,134 +3104,8 @@
         }
       ]
     },
-    {
-      "path": "materials/nature/cliffface002a.vtf",
-      "target": 3553,
-      "frames": 1,
-      "width": 1024,
-      "height": 1024,
-      "params": {
-        "wrapS": 10497,
-        "wrapT": 10497,
-        "filter": 9729,
-        "mipmap": true
-      },
-      "elements": [
-        {
-          "level": 10,
-          "color": {
-            "r": 0.5568628,
-            "g": 0.5411765,
-            "b": 0.5058824,
-            "a": 1.0
-          }
-        },
-        {
-          "level": 9,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip9.png"
-        },
-        {
-          "level": 8,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip8.png"
-        },
-        {
-          "level": 7,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip7.png"
-        },
-        {
-          "level": 6,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip6.png"
-        },
-        {
-          "level": 5,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip5.png"
-        },
-        {
-          "level": 4,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip4.png"
-        },
-        {
-          "level": 3,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip3.png"
-        },
-        {
-          "level": 2,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip2.png"
-        },
-        {
-          "level": 1,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip1.png"
-        },
-        {
-          "level": 0,
-          "url": "./resources/materials/nature/cliffface002a.vtf/mip0.png"
-        }
-      ]
-    },
-    {
-      "path": "materials/nature/rockwall011g.vtf",
-      "target": 3553,
-      "frames": 1,
-      "width": 1024,
-      "height": 1024,
-      "params": {
-        "wrapS": 10497,
-        "wrapT": 10497,
-        "filter": 9729,
-        "mipmap": true
-      },
-      "elements": [
-        {
-          "level": 10,
-          "color": {
-            "r": 0.298039228,
-            "g": 0.309803933,
-            "b": 0.2901961,
-            "a": 1.0
-          }
-        },
-        {
-          "level": 9,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip9.png"
-        },
-        {
-          "level": 8,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip8.png"
-        },
-        {
-          "level": 7,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip7.png"
-        },
-        {
-          "level": 6,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip6.png"
-        },
-        {
-          "level": 5,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip5.png"
-        },
-        {
-          "level": 4,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip4.png"
-        },
-        {
-          "level": 3,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip3.png"
-        },
-        {
-          "level": 2,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip2.png"
-        },
-        {
-          "level": 1,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip1.png"
-        },
-        {
-          "level": 0,
-          "url": "./resources/materials/nature/rockwall011g.vtf/mip0.png"
-        }
-      ]
-    },
+    null,
+    null,
     {
       "path": "materials/models/props_desert/desert_cactus_01.vtf",
       "target": 3553,
@@ -3442,15 +3317,60 @@
       ]
     },
     null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
     null,
     null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
     null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
     null,
     null,
     {
@@ -3459,12 +3379,12 @@
         {
           "name": "basetexture",
           "type": 5,
-          "value": 12
+          "value": 13
         },
         {
           "name": "detail",
           "type": 5,
-          "value": 13
+          "value": 14
         },
         {
           "name": "detailScale",
@@ -3479,22 +3399,7 @@
         {
           "name": "basetexture",
           "type": 5,
-          "value": 14
-        }
-      ]
-    },
-    {
-      "shader": "SourceUtils.Shaders.VertexLitGeneric",
-      "properties": [
-        {
-          "name": "basetexture",
-          "type": 5,
           "value": 15
-        },
-        {
-          "name": "alphaTest",
-          "type": 1,
-          "value": true
         }
       ]
     },
@@ -3520,6 +3425,11 @@
           "name": "basetexture",
           "type": 5,
           "value": 17
+        },
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
         }
       ]
     },
@@ -3530,6 +3440,16 @@
           "name": "basetexture",
           "type": 5,
           "value": 18
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 19
         },
         {
           "name": "emission",
@@ -3544,27 +3464,7 @@
         {
           "name": "basetexture",
           "type": 5,
-          "value": 19
-        }
-      ]
-    },
-    {
-      "shader": "SourceUtils.Shaders.VertexLitGeneric",
-      "properties": [
-        {
-          "name": "basetexture",
-          "type": 5,
           "value": 20
-        },
-        {
-          "name": "alphaTest",
-          "type": 1,
-          "value": true
-        },
-        {
-          "name": "cullFace",
-          "type": 1,
-          "value": false
         }
       ]
     },
@@ -3575,6 +3475,16 @@
           "name": "basetexture",
           "type": 5,
           "value": 21
+        },
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
         }
       ]
     },
@@ -3615,6 +3525,16 @@
           "name": "basetexture",
           "type": 5,
           "value": 25
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 26
         }
       ]
     },

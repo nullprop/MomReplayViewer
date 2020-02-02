@@ -1,0 +1,94 @@
+{
+  "textures": [
+    {
+      "path": "materials/metal/metalfence007a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.1254902,
+            "g": 0.129411772,
+            "b": 0.117647059,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/metal/metalfence007a.vtf/mip0.png"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

@@ -19,12 +19,14 @@ namespace Gokz {
             const element = this.element = document.createElement("div");
             element.classList.add("key-display");
             element.innerHTML = `
-                <div class="stat sync-outer">Sync: <span class="value sync-value">0.0</span> %</div>
+                <div class="stat sync-outer">SyncAvg: <span class="value sync-value">0.0</span> %</div>
                 <div class="stat speed-outer">Speed: <span class="value speed-value">000</span> u/s</div>
                 <div class="key key-w">W</div>
                 <div class="key key-a">A</div>
                 <div class="key key-s">S</div>
                 <div class="key key-d">D</div>
+                <div class="key key-m1">M1</div>
+                <div class="key key-m2">M2</div>
                 <div class="key key-walk">Walk</div>
                 <div class="key key-duck">Duck</div>
                 <div class="key key-jump">Jump</div>`;
@@ -35,6 +37,8 @@ namespace Gokz {
             this.buttonMap[Button.MoveLeft] = element.getElementsByClassName("key-a")[0] as HTMLElement;
             this.buttonMap[Button.Back] = element.getElementsByClassName("key-s")[0] as HTMLElement;
             this.buttonMap[Button.MoveRight] = element.getElementsByClassName("key-d")[0] as HTMLElement;
+            this.buttonMap[Button.Attack] = element.getElementsByClassName("key-m1")[0] as HTMLElement;
+            this.buttonMap[Button.Attack2] = element.getElementsByClassName("key-m2")[0] as HTMLElement;
             this.buttonMap[Button.Walk] = element.getElementsByClassName("key-walk")[0] as HTMLElement;
             this.buttonMap[Button.Duck] = element.getElementsByClassName("key-duck")[0] as HTMLElement;
             this.buttonMap[Button.Jump] = element.getElementsByClassName("key-jump")[0] as HTMLElement;
@@ -53,9 +57,6 @@ namespace Gokz {
             });
 
             viewer.playbackSkipped.addListener(oldTick => {
-                this.syncIndex = 0;
-                this.syncSampleCount = 0;
-
                 this.lastTick = viewer.replay.clampTick(viewer.playbackRate > 0
                     ? viewer.tick - 32
                     : viewer.tick + 32);
@@ -80,12 +81,7 @@ namespace Gokz {
             }
         }
 
-        //private readonly tempTickData = new TickData();
         private readonly tempPosition = new Facepunch.Vector3();
-
-        private syncBuffer: boolean[] = [];
-        private syncIndex = 0;
-        private syncSampleCount = 0;
 
         private lastTick = 0;
 
@@ -93,48 +89,14 @@ namespace Gokz {
             if (this.lastTick === this.viewer.tick) return;
 
             const replay = this.viewer.replay;
-            const maxSamples = Math.ceil(this.syncSampleRange / replay.header.tickInterval);
-            let syncBuffer = this.syncBuffer;
-
-            if (syncBuffer.length < maxSamples) {
-                syncBuffer = this.syncBuffer = new Array<boolean>(maxSamples);
-                this.syncIndex = 0;
-                this.syncSampleCount = 0;
-            }
-
-            const min = replay.clampTick(Math.min(this.lastTick, this.viewer.tick) - 1);
-            const max = replay.clampTick(Math.max(this.lastTick, this.viewer.tick));
-
-            let prevSpeed = this.getSpeedAtTick(min, 1);
-            for (let i = min + 1; i <= max; ++i) {
-                const nextSpeed = this.getSpeedAtTick(i, 1);
-
-                // A bit gross
-                //if ((this.tempTickData.flags & (EntityFlag.OnGround | EntityFlag.PartialGround)) === 0) {
-
-                // HACK HACK:
-                // momentum replay format doesnt store flags,
-                // assume airbourne if vertical velocity is great enough.
-                // TODO: could show zone avg sync instead from RunStats,
-                // along with all the other stats in there.
-                if (Math.abs(prevSpeed[2]) > 1) {
-                    syncBuffer[this.syncIndex] = nextSpeed > prevSpeed;
-                    this.syncIndex = this.syncIndex >= maxSamples - 1 ? 0 : this.syncIndex + 1;
-                    this.syncSampleCount = Math.min(this.syncSampleCount + 1, maxSamples);
-                }
-
-                prevSpeed = nextSpeed;
-            }
-
+            const zoneStats = replay.getZoneStats(this.viewer.tick);
             this.lastTick = this.viewer.tick;
 
-            let syncFraction = 0.0;
-            for (let i = 0; i < this.syncSampleCount; ++i) {
-                if (syncBuffer[i])++syncFraction;
+            if (zoneStats != null) {
+                this.syncValueElem.innerText = zoneStats.syncAvg.toFixed(1);
+            } else {
+                this.syncValueElem.innerText = "-1";
             }
-
-            syncFraction /= Math.max(this.syncSampleCount, 1);
-            this.syncValueElem.innerText = (syncFraction * 100).toFixed(1);
         }
 
         private getSpeedAtTick(tick: number, tickRange: number): number {
@@ -155,6 +117,23 @@ namespace Gokz {
             position.z = 0;
 
             return position.length() / replay.header.tickInterval / Math.max(1, lastTick - firstTick);
+        }
+
+        private getVelocityAtTick(tick: number, tickRange: number): Facepunch.Vector3 {
+            const replay = this.viewer.replay;
+            const firstTick = replay.clampTick(tick - Math.ceil(tickRange / 2));
+            const lastTick = replay.clampTick(firstTick + tickRange);
+            tickRange = lastTick - firstTick;
+
+            const position = this.tempPosition;
+
+            var tickData = replay.getTickData(lastTick);
+            position.copy(tickData.position);
+
+            tickData = replay.getTickData(firstTick);
+            position.sub(tickData.position);
+
+            return position.multiplyScalar(1 / replay.header.tickInterval / Math.max(1, lastTick - firstTick));
         }
 
         private updateSpeed(): void {

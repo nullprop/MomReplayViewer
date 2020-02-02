@@ -194,5 +194,19 @@ namespace Gokz {
         getDuration(): number {
             return (this.header.stopTick - this.header.startTick) * this.header.tickInterval;
         }
+
+        getZoneStats(tick: number): ZoneStats {
+            if (this.hasRunStats) {
+                tick = this.clampTick(tick);
+                for (let i = 0; i < this.runStats.totalZones - 1; i++) {
+                    if (tick >= this.runStats.zoneStats[i].enterTick && tick < this.runStats.zoneStats[i + 1].enterTick) {
+                        return this.runStats.zoneStats[i];
+                    }
+                }
+                return this.runStats.zoneStats[this.runStats.totalZones - 1];
+            }
+
+            return null;
+        }
     }
 }

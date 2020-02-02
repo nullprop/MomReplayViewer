@@ -1,0 +1,1066 @@
+{
+  "textures": [
+    {
+      "path": "materials/tools/toolsblack.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/tools/toolsblack.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/tools/toolsblack.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/tools/toolsblack.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/tools/toolsblack.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/tools/toolsblack.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/tools/toolsblack.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/egypt/sand_floor_05.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.7411765,
+            "g": 0.6509804,
+            "b": 0.470588237,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/egypt/sand_floor_05.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/koth_viaduct_event/viaduct_dirt001.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.309803933,
+            "g": 0.286274523,
+            "b": 0.2784314,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/koth_viaduct_event/viaduct_dirt001.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/dirtground003.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.333333343,
+            "b": 0.211764708,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/nature/dirtground003.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_foliage/tree_deciduous_01a_branches.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": false
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.09411765,
+            "g": 0.09411765,
+            "b": 0.07058824,
+            "a": 0.08235294
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_branches.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_foliage/tree_deciduous_01a_trunk.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.235294119,
+            "g": 0.223529413,
+            "b": 0.211764708,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_trunk.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_foliage/tree_deciduous_01a_leaves.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": false
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.105882354,
+            "g": 0.09411765,
+            "b": 0.07058824,
+            "a": 0.117647059
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.105882354,
+            "g": 0.113725491,
+            "b": 0.08235294,
+            "a": 0.2509804
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/models/props_foliage/tree_deciduous_01a_leaves2.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_wasteland/rockcliff02a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.3882353,
+            "b": 0.309803933,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/models/props_wasteland/rockcliff02a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/rockwall011f.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.2,
+            "g": 0.20784314,
+            "b": 0.192156866,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011f.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/rockwall011g.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.298039228,
+            "g": 0.309803933,
+            "b": 0.2901961,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip0.png"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        }
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 2
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 4
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        },
+        {
+          "name": "emission",
+          "type": 1,
+          "value": false
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": false
+        },
+        {
+          "name": "alpha",
+          "type": 2,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 6
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 7
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    null,
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

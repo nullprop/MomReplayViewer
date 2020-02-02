@@ -1,0 +1,64 @@
+{
+  "path": "materials/skybox/mpa104lf.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 1024,
+  "params": {
+    "wrapS": 10497,
+    "wrapT": 10497,
+    "filter": 9729,
+    "mipmap": true
+  },
+  "elements": [
+    {
+      "level": 10,
+      "color": {
+        "r": 0.5803922,
+        "g": 0.772549033,
+        "b": 0.894117653,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 9,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip9.png"
+    },
+    {
+      "level": 8,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf/mip0.png"
+    }
+  ]
+}

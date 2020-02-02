@@ -1,0 +1,64 @@
+{
+  "path": "materials/skybox/sky46up.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 1024,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": true
+  },
+  "elements": [
+    {
+      "level": 10,
+      "color": {
+        "r": 0.117647059,
+        "g": 0.101960786,
+        "b": 0.105882354,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 9,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip9.png"
+    },
+    {
+      "level": 8,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf/mip0.png"
+    }
+  ]
+}

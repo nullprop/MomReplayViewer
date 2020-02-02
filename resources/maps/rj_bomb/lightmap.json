@@ -1,0 +1,18 @@
+{
+  "target": 3553,
+  "frames": 1,
+  "width": 4096,
+  "height": 2048,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9728,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 0,
+      "url": "/MomReplayViewer/resources/maps/rj_bomb/lightmap.png"
+    }
+  ]
+}

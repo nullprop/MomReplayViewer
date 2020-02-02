@@ -1,0 +1,3637 @@
+{
+  "textures": [
+    {
+      "path": "materials/custom_nature/animatedlava2.vtf",
+      "target": 3553,
+      "frames": 32,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "frame": 0,
+          "color": {
+            "r": 0.8235294,
+            "g": 0.345098048,
+            "b": 0.141176477,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 1,
+          "color": {
+            "r": 0.827451,
+            "g": 0.349019617,
+            "b": 0.137254909,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 2,
+          "color": {
+            "r": 0.8039216,
+            "g": 0.3254902,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 3,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.34117648,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 4,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.34117648,
+            "b": 0.137254909,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 5,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.3372549,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 6,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.333333343,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 7,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.3372549,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 8,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.321568638,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 9,
+          "color": {
+            "r": 0.8039216,
+            "g": 0.321568638,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 10,
+          "color": {
+            "r": 0.8039216,
+            "g": 0.3254902,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 11,
+          "color": {
+            "r": 0.827451,
+            "g": 0.3529412,
+            "b": 0.137254909,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 12,
+          "color": {
+            "r": 0.8235294,
+            "g": 0.349019617,
+            "b": 0.141176477,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 13,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.34117648,
+            "b": 0.137254909,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 14,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.333333343,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 15,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.329411775,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 16,
+          "color": {
+            "r": 0.8235294,
+            "g": 0.345098048,
+            "b": 0.141176477,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 17,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.3372549,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 18,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.3372549,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 19,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.345098048,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 20,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.3372549,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 21,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.349019617,
+            "b": 0.137254909,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 22,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.34117648,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 23,
+          "color": {
+            "r": 0.8039216,
+            "g": 0.329411775,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 24,
+          "color": {
+            "r": 0.8156863,
+            "g": 0.34117648,
+            "b": 0.137254909,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 25,
+          "color": {
+            "r": 0.796078444,
+            "g": 0.31764707,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 26,
+          "color": {
+            "r": 0.8039216,
+            "g": 0.321568638,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 27,
+          "color": {
+            "r": 0.7921569,
+            "g": 0.31764707,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 28,
+          "color": {
+            "r": 0.807843149,
+            "g": 0.34117648,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 29,
+          "color": {
+            "r": 0.8039216,
+            "g": 0.333333343,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 30,
+          "color": {
+            "r": 0.7921569,
+            "g": 0.31764707,
+            "b": 0.1254902,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "frame": 31,
+          "color": {
+            "r": 0.796078444,
+            "g": 0.309803933,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame0.png"
+        },
+        {
+          "level": 8,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame1.png"
+        },
+        {
+          "level": 8,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame2.png"
+        },
+        {
+          "level": 8,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame3.png"
+        },
+        {
+          "level": 8,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame4.png"
+        },
+        {
+          "level": 8,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame5.png"
+        },
+        {
+          "level": 8,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame6.png"
+        },
+        {
+          "level": 8,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame7.png"
+        },
+        {
+          "level": 8,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame8.png"
+        },
+        {
+          "level": 8,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame9.png"
+        },
+        {
+          "level": 8,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame10.png"
+        },
+        {
+          "level": 8,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame11.png"
+        },
+        {
+          "level": 8,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame12.png"
+        },
+        {
+          "level": 8,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame13.png"
+        },
+        {
+          "level": 8,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame14.png"
+        },
+        {
+          "level": 8,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame15.png"
+        },
+        {
+          "level": 8,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame16.png"
+        },
+        {
+          "level": 8,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame17.png"
+        },
+        {
+          "level": 8,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame18.png"
+        },
+        {
+          "level": 8,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame19.png"
+        },
+        {
+          "level": 8,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame20.png"
+        },
+        {
+          "level": 8,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame21.png"
+        },
+        {
+          "level": 8,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame22.png"
+        },
+        {
+          "level": 8,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame23.png"
+        },
+        {
+          "level": 8,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame24.png"
+        },
+        {
+          "level": 8,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame25.png"
+        },
+        {
+          "level": 8,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame26.png"
+        },
+        {
+          "level": 8,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame27.png"
+        },
+        {
+          "level": 8,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame28.png"
+        },
+        {
+          "level": 8,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame29.png"
+        },
+        {
+          "level": 8,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame30.png"
+        },
+        {
+          "level": 8,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip8.frame31.png"
+        },
+        {
+          "level": 7,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame0.png"
+        },
+        {
+          "level": 7,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame1.png"
+        },
+        {
+          "level": 7,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame2.png"
+        },
+        {
+          "level": 7,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame3.png"
+        },
+        {
+          "level": 7,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame4.png"
+        },
+        {
+          "level": 7,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame5.png"
+        },
+        {
+          "level": 7,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame6.png"
+        },
+        {
+          "level": 7,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame7.png"
+        },
+        {
+          "level": 7,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame8.png"
+        },
+        {
+          "level": 7,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame9.png"
+        },
+        {
+          "level": 7,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame10.png"
+        },
+        {
+          "level": 7,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame11.png"
+        },
+        {
+          "level": 7,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame12.png"
+        },
+        {
+          "level": 7,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame13.png"
+        },
+        {
+          "level": 7,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame14.png"
+        },
+        {
+          "level": 7,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame15.png"
+        },
+        {
+          "level": 7,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame16.png"
+        },
+        {
+          "level": 7,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame17.png"
+        },
+        {
+          "level": 7,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame18.png"
+        },
+        {
+          "level": 7,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame19.png"
+        },
+        {
+          "level": 7,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame20.png"
+        },
+        {
+          "level": 7,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame21.png"
+        },
+        {
+          "level": 7,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame22.png"
+        },
+        {
+          "level": 7,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame23.png"
+        },
+        {
+          "level": 7,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame24.png"
+        },
+        {
+          "level": 7,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame25.png"
+        },
+        {
+          "level": 7,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame26.png"
+        },
+        {
+          "level": 7,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame27.png"
+        },
+        {
+          "level": 7,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame28.png"
+        },
+        {
+          "level": 7,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame29.png"
+        },
+        {
+          "level": 7,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame30.png"
+        },
+        {
+          "level": 7,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip7.frame31.png"
+        },
+        {
+          "level": 6,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame0.png"
+        },
+        {
+          "level": 6,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame1.png"
+        },
+        {
+          "level": 6,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame2.png"
+        },
+        {
+          "level": 6,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame3.png"
+        },
+        {
+          "level": 6,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame4.png"
+        },
+        {
+          "level": 6,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame5.png"
+        },
+        {
+          "level": 6,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame6.png"
+        },
+        {
+          "level": 6,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame7.png"
+        },
+        {
+          "level": 6,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame8.png"
+        },
+        {
+          "level": 6,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame9.png"
+        },
+        {
+          "level": 6,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame10.png"
+        },
+        {
+          "level": 6,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame11.png"
+        },
+        {
+          "level": 6,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame12.png"
+        },
+        {
+          "level": 6,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame13.png"
+        },
+        {
+          "level": 6,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame14.png"
+        },
+        {
+          "level": 6,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame15.png"
+        },
+        {
+          "level": 6,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame16.png"
+        },
+        {
+          "level": 6,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame17.png"
+        },
+        {
+          "level": 6,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame18.png"
+        },
+        {
+          "level": 6,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame19.png"
+        },
+        {
+          "level": 6,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame20.png"
+        },
+        {
+          "level": 6,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame21.png"
+        },
+        {
+          "level": 6,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame22.png"
+        },
+        {
+          "level": 6,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame23.png"
+        },
+        {
+          "level": 6,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame24.png"
+        },
+        {
+          "level": 6,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame25.png"
+        },
+        {
+          "level": 6,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame26.png"
+        },
+        {
+          "level": 6,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame27.png"
+        },
+        {
+          "level": 6,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame28.png"
+        },
+        {
+          "level": 6,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame29.png"
+        },
+        {
+          "level": 6,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame30.png"
+        },
+        {
+          "level": 6,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip6.frame31.png"
+        },
+        {
+          "level": 5,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame0.png"
+        },
+        {
+          "level": 5,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame1.png"
+        },
+        {
+          "level": 5,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame2.png"
+        },
+        {
+          "level": 5,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame3.png"
+        },
+        {
+          "level": 5,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame4.png"
+        },
+        {
+          "level": 5,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame5.png"
+        },
+        {
+          "level": 5,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame6.png"
+        },
+        {
+          "level": 5,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame7.png"
+        },
+        {
+          "level": 5,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame8.png"
+        },
+        {
+          "level": 5,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame9.png"
+        },
+        {
+          "level": 5,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame10.png"
+        },
+        {
+          "level": 5,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame11.png"
+        },
+        {
+          "level": 5,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame12.png"
+        },
+        {
+          "level": 5,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame13.png"
+        },
+        {
+          "level": 5,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame14.png"
+        },
+        {
+          "level": 5,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame15.png"
+        },
+        {
+          "level": 5,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame16.png"
+        },
+        {
+          "level": 5,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame17.png"
+        },
+        {
+          "level": 5,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame18.png"
+        },
+        {
+          "level": 5,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame19.png"
+        },
+        {
+          "level": 5,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame20.png"
+        },
+        {
+          "level": 5,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame21.png"
+        },
+        {
+          "level": 5,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame22.png"
+        },
+        {
+          "level": 5,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame23.png"
+        },
+        {
+          "level": 5,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame24.png"
+        },
+        {
+          "level": 5,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame25.png"
+        },
+        {
+          "level": 5,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame26.png"
+        },
+        {
+          "level": 5,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame27.png"
+        },
+        {
+          "level": 5,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame28.png"
+        },
+        {
+          "level": 5,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame29.png"
+        },
+        {
+          "level": 5,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame30.png"
+        },
+        {
+          "level": 5,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip5.frame31.png"
+        },
+        {
+          "level": 4,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame0.png"
+        },
+        {
+          "level": 4,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame1.png"
+        },
+        {
+          "level": 4,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame2.png"
+        },
+        {
+          "level": 4,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame3.png"
+        },
+        {
+          "level": 4,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame4.png"
+        },
+        {
+          "level": 4,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame5.png"
+        },
+        {
+          "level": 4,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame6.png"
+        },
+        {
+          "level": 4,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame7.png"
+        },
+        {
+          "level": 4,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame8.png"
+        },
+        {
+          "level": 4,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame9.png"
+        },
+        {
+          "level": 4,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame10.png"
+        },
+        {
+          "level": 4,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame11.png"
+        },
+        {
+          "level": 4,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame12.png"
+        },
+        {
+          "level": 4,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame13.png"
+        },
+        {
+          "level": 4,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame14.png"
+        },
+        {
+          "level": 4,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame15.png"
+        },
+        {
+          "level": 4,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame16.png"
+        },
+        {
+          "level": 4,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame17.png"
+        },
+        {
+          "level": 4,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame18.png"
+        },
+        {
+          "level": 4,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame19.png"
+        },
+        {
+          "level": 4,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame20.png"
+        },
+        {
+          "level": 4,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame21.png"
+        },
+        {
+          "level": 4,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame22.png"
+        },
+        {
+          "level": 4,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame23.png"
+        },
+        {
+          "level": 4,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame24.png"
+        },
+        {
+          "level": 4,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame25.png"
+        },
+        {
+          "level": 4,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame26.png"
+        },
+        {
+          "level": 4,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame27.png"
+        },
+        {
+          "level": 4,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame28.png"
+        },
+        {
+          "level": 4,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame29.png"
+        },
+        {
+          "level": 4,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame30.png"
+        },
+        {
+          "level": 4,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip4.frame31.png"
+        },
+        {
+          "level": 3,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame0.png"
+        },
+        {
+          "level": 3,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame1.png"
+        },
+        {
+          "level": 3,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame2.png"
+        },
+        {
+          "level": 3,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame3.png"
+        },
+        {
+          "level": 3,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame4.png"
+        },
+        {
+          "level": 3,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame5.png"
+        },
+        {
+          "level": 3,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame6.png"
+        },
+        {
+          "level": 3,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame7.png"
+        },
+        {
+          "level": 3,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame8.png"
+        },
+        {
+          "level": 3,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame9.png"
+        },
+        {
+          "level": 3,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame10.png"
+        },
+        {
+          "level": 3,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame11.png"
+        },
+        {
+          "level": 3,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame12.png"
+        },
+        {
+          "level": 3,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame13.png"
+        },
+        {
+          "level": 3,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame14.png"
+        },
+        {
+          "level": 3,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame15.png"
+        },
+        {
+          "level": 3,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame16.png"
+        },
+        {
+          "level": 3,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame17.png"
+        },
+        {
+          "level": 3,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame18.png"
+        },
+        {
+          "level": 3,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame19.png"
+        },
+        {
+          "level": 3,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame20.png"
+        },
+        {
+          "level": 3,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame21.png"
+        },
+        {
+          "level": 3,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame22.png"
+        },
+        {
+          "level": 3,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame23.png"
+        },
+        {
+          "level": 3,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame24.png"
+        },
+        {
+          "level": 3,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame25.png"
+        },
+        {
+          "level": 3,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame26.png"
+        },
+        {
+          "level": 3,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame27.png"
+        },
+        {
+          "level": 3,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame28.png"
+        },
+        {
+          "level": 3,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame29.png"
+        },
+        {
+          "level": 3,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame30.png"
+        },
+        {
+          "level": 3,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip3.frame31.png"
+        },
+        {
+          "level": 2,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame0.png"
+        },
+        {
+          "level": 2,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame1.png"
+        },
+        {
+          "level": 2,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame2.png"
+        },
+        {
+          "level": 2,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame3.png"
+        },
+        {
+          "level": 2,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame4.png"
+        },
+        {
+          "level": 2,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame5.png"
+        },
+        {
+          "level": 2,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame6.png"
+        },
+        {
+          "level": 2,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame7.png"
+        },
+        {
+          "level": 2,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame8.png"
+        },
+        {
+          "level": 2,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame9.png"
+        },
+        {
+          "level": 2,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame10.png"
+        },
+        {
+          "level": 2,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame11.png"
+        },
+        {
+          "level": 2,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame12.png"
+        },
+        {
+          "level": 2,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame13.png"
+        },
+        {
+          "level": 2,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame14.png"
+        },
+        {
+          "level": 2,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame15.png"
+        },
+        {
+          "level": 2,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame16.png"
+        },
+        {
+          "level": 2,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame17.png"
+        },
+        {
+          "level": 2,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame18.png"
+        },
+        {
+          "level": 2,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame19.png"
+        },
+        {
+          "level": 2,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame20.png"
+        },
+        {
+          "level": 2,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame21.png"
+        },
+        {
+          "level": 2,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame22.png"
+        },
+        {
+          "level": 2,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame23.png"
+        },
+        {
+          "level": 2,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame24.png"
+        },
+        {
+          "level": 2,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame25.png"
+        },
+        {
+          "level": 2,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame26.png"
+        },
+        {
+          "level": 2,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame27.png"
+        },
+        {
+          "level": 2,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame28.png"
+        },
+        {
+          "level": 2,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame29.png"
+        },
+        {
+          "level": 2,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame30.png"
+        },
+        {
+          "level": 2,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip2.frame31.png"
+        },
+        {
+          "level": 1,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame0.png"
+        },
+        {
+          "level": 1,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame1.png"
+        },
+        {
+          "level": 1,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame2.png"
+        },
+        {
+          "level": 1,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame3.png"
+        },
+        {
+          "level": 1,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame4.png"
+        },
+        {
+          "level": 1,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame5.png"
+        },
+        {
+          "level": 1,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame6.png"
+        },
+        {
+          "level": 1,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame7.png"
+        },
+        {
+          "level": 1,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame8.png"
+        },
+        {
+          "level": 1,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame9.png"
+        },
+        {
+          "level": 1,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame10.png"
+        },
+        {
+          "level": 1,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame11.png"
+        },
+        {
+          "level": 1,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame12.png"
+        },
+        {
+          "level": 1,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame13.png"
+        },
+        {
+          "level": 1,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame14.png"
+        },
+        {
+          "level": 1,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame15.png"
+        },
+        {
+          "level": 1,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame16.png"
+        },
+        {
+          "level": 1,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame17.png"
+        },
+        {
+          "level": 1,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame18.png"
+        },
+        {
+          "level": 1,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame19.png"
+        },
+        {
+          "level": 1,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame20.png"
+        },
+        {
+          "level": 1,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame21.png"
+        },
+        {
+          "level": 1,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame22.png"
+        },
+        {
+          "level": 1,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame23.png"
+        },
+        {
+          "level": 1,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame24.png"
+        },
+        {
+          "level": 1,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame25.png"
+        },
+        {
+          "level": 1,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame26.png"
+        },
+        {
+          "level": 1,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame27.png"
+        },
+        {
+          "level": 1,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame28.png"
+        },
+        {
+          "level": 1,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame29.png"
+        },
+        {
+          "level": 1,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame30.png"
+        },
+        {
+          "level": 1,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip1.frame31.png"
+        },
+        {
+          "level": 0,
+          "frame": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame0.png"
+        },
+        {
+          "level": 0,
+          "frame": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame1.png"
+        },
+        {
+          "level": 0,
+          "frame": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame2.png"
+        },
+        {
+          "level": 0,
+          "frame": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame3.png"
+        },
+        {
+          "level": 0,
+          "frame": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame4.png"
+        },
+        {
+          "level": 0,
+          "frame": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame5.png"
+        },
+        {
+          "level": 0,
+          "frame": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame6.png"
+        },
+        {
+          "level": 0,
+          "frame": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame7.png"
+        },
+        {
+          "level": 0,
+          "frame": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame8.png"
+        },
+        {
+          "level": 0,
+          "frame": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame9.png"
+        },
+        {
+          "level": 0,
+          "frame": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame10.png"
+        },
+        {
+          "level": 0,
+          "frame": 11,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame11.png"
+        },
+        {
+          "level": 0,
+          "frame": 12,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame12.png"
+        },
+        {
+          "level": 0,
+          "frame": 13,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame13.png"
+        },
+        {
+          "level": 0,
+          "frame": 14,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame14.png"
+        },
+        {
+          "level": 0,
+          "frame": 15,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame15.png"
+        },
+        {
+          "level": 0,
+          "frame": 16,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame16.png"
+        },
+        {
+          "level": 0,
+          "frame": 17,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame17.png"
+        },
+        {
+          "level": 0,
+          "frame": 18,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame18.png"
+        },
+        {
+          "level": 0,
+          "frame": 19,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame19.png"
+        },
+        {
+          "level": 0,
+          "frame": 20,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame20.png"
+        },
+        {
+          "level": 0,
+          "frame": 21,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame21.png"
+        },
+        {
+          "level": 0,
+          "frame": 22,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame22.png"
+        },
+        {
+          "level": 0,
+          "frame": 23,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame23.png"
+        },
+        {
+          "level": 0,
+          "frame": 24,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame24.png"
+        },
+        {
+          "level": 0,
+          "frame": 25,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame25.png"
+        },
+        {
+          "level": 0,
+          "frame": 26,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame26.png"
+        },
+        {
+          "level": 0,
+          "frame": 27,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame27.png"
+        },
+        {
+          "level": 0,
+          "frame": 28,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame28.png"
+        },
+        {
+          "level": 0,
+          "frame": 29,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame29.png"
+        },
+        {
+          "level": 0,
+          "frame": 30,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame30.png"
+        },
+        {
+          "level": 0,
+          "frame": 31,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/custom_nature/animatedlava2.vtf/mip0.frame31.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/rockwall015a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.3529412,
+            "g": 0.3254902,
+            "b": 0.2784314,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rockwall015a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/rp_rockwall001.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 2048,
+      "height": 2048,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 11,
+          "color": {
+            "r": 0.396078438,
+            "g": 0.2627451,
+            "b": 0.2,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip10.png"
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/rp_rockwall001.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/sandfloor_01_blendtexture.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.3764706,
+            "g": 0.490196079,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sandfloor_01_blendtexture.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/sand_wavey_1.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.854901969,
+            "g": 0.5803922,
+            "b": 0.368627459,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/sand_wavey_1.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/vtextures/neon_b.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.0,
+            "g": 0.6117647,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/vtextures/neon_b2.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.0,
+            "g": 0.6117647,
+            "b": 1.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/vtextures/neon_b2.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/concrete/concretewall011c.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.5137255,
+            "g": 0.490196079,
+            "b": 0.4392157,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011c.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/detail/detailconcrete001a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.5058824,
+            "g": 0.5019608,
+            "b": 0.5058824,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/detailconcrete001a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/concrete/concretewall011h.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.533333361,
+            "g": 0.5176471,
+            "b": 0.4509804,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/concrete/concretewall011h.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/tools/toolsblack.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/tools/toolsblack.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/tools/toolsblack.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/tools/toolsblack.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/tools/toolsblack.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/tools/toolsblack.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/tools/toolsblack.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/masog/mesaramp_transparent.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 2048,
+      "height": 2048,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 11,
+          "color": {
+            "r": 0.7294118,
+            "g": 0.8,
+            "b": 0.796078444,
+            "a": 0.968627453
+          }
+        },
+        {
+          "level": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip10.png"
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/masog/mesaramp_transparent.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/concrete/concretefloor039a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.458823532,
+            "g": 0.447058827,
+            "b": 0.427450985,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/concrete/concretefloor039a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/detail/noise_detail_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.7294118,
+            "g": 0.7294118,
+            "b": 0.7294118,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/detail/noise_detail_01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/gm_construct/tanks.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.721568644,
+            "g": 0.7411765,
+            "b": 0.7372549,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/gm_construct/tanks.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_warehouse/handrail01_sg.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.223529413,
+            "g": 0.196078435,
+            "b": 0.168627456,
+            "a": 0.7294118
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail01_sg.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_warehouse/handrail02_sg.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.180392161,
+            "g": 0.180392161,
+            "b": 0.192156866,
+            "a": 0.7294118
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_warehouse/handrail02_sg.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/esther/caves/stalactite_rock02.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.635294139,
+            "g": 0.619607866,
+            "b": 0.5882353,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/esther/caves/stalactite_rock02.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props/de_nuke/light_wall.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.5686275,
+            "g": 0.6117647,
+            "b": 0.623529434,
+            "a": 0.23137255
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props/de_nuke/light_wall.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_nature/rock01_sg.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.407843143,
+            "g": 0.431372553,
+            "b": 0.3764706,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock01_sg.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_nature/bambooleaves01_sg.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.247058824,
+            "g": 0.305882365,
+            "b": 0.129411772,
+            "a": 0.20784314
+          }
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/bambooleaves01_sg.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_nature/rock02_sg.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.5137255,
+            "g": 0.509803951,
+            "b": 0.427450985,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_nature/rock02_sg.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/cliffface001a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 2048,
+      "height": 2048,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 11,
+          "color": {
+            "r": 0.396078438,
+            "g": 0.3647059,
+            "b": 0.258823544,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 10,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip10.png"
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/nature/cliffface001a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/cliffface002a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.5568628,
+            "g": 0.5411765,
+            "b": 0.5058824,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/nature/cliffface002a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/rockwall011g.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 1024,
+      "height": 1024,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 10,
+          "color": {
+            "r": 0.298039228,
+            "g": 0.309803933,
+            "b": 0.2901961,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 9,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip9.png"
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/materials/nature/rockwall011g.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/models/props_desert/desert_cactus_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.5254902,
+            "g": 0.509803951,
+            "b": 0.309803933,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/models/props_desert/desert_cactus_01.vtf/mip0.png"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 0
+        },
+        {
+          "name": "emission",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.Lightmapped2WayBlend",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 1
+        },
+        {
+          "name": "basetexture2",
+          "type": 5,
+          "value": 2
+        },
+        {
+          "name": "blendModulateTexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.Lightmapped2WayBlend",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 4
+        },
+        {
+          "name": "basetexture2",
+          "type": 5,
+          "value": 2
+        },
+        {
+          "name": "blendModulateTexture",
+          "type": 5,
+          "value": 3
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        },
+        {
+          "name": "emission",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 6
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 7
+        },
+        {
+          "name": "detail",
+          "type": 5,
+          "value": 8
+        },
+        {
+          "name": "detailScale",
+          "type": 2,
+          "value": 4.0
+        }
+      ]
+    },
+    null,
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 9
+        },
+        {
+          "name": "detail",
+          "type": 5,
+          "value": 8
+        },
+        {
+          "name": "detailScale",
+          "type": 2,
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 11
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        },
+        {
+          "name": "detail",
+          "type": 5,
+          "value": 13
+        },
+        {
+          "name": "detailScale",
+          "type": 2,
+          "value": 7.345
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 15
+        },
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 16
+        },
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 17
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 18
+        },
+        {
+          "name": "emission",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 19
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 20
+        },
+        {
+          "name": "alphaTest",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "cullFace",
+          "type": 1,
+          "value": false
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 21
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 22
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 23
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 24
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 25
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 5
+        },
+        {
+          "name": "emission",
+          "type": 1,
+          "value": true
+        }
+      ]
+    }
+  ]
+}

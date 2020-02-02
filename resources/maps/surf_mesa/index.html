@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Map Viewer - surf_mesa</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/base64-string.min.js"></script>
+        <script src="/MomReplayViewer/resources/js/facepunch.webgame.js?v=1ca9-a9ed"></script>
+        <script src="/MomReplayViewer/resources/js/sourceutils.js?v=1ca9-a9ed"></script>
+        <link type="text/css" rel="stylesheet" href="/MomReplayViewer/resources/styles/mapviewer.css?v=1ca9-a9ed" />
+        <style>
+            #map-view {
+                position: absolute;
+                top: 72px;
+                left: 32px;
+                right: 32px;
+                bottom: 32px;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+    <h2>Source Map Viewer Demo - surf_mesa</h2>
+    <div id="map-view">
+        <script>
+            var viewer;
+            window.onload = function() {
+                viewer = new SourceUtils.MapViewer(document.getElementById("map-view"));
+                viewer.cameraMode = SourceUtils.CameraMode.FreeCam;
+                viewer.showDebugPanel = true;
+                viewer.saveCameraPosInHash = true;
+                viewer.loadMap("/MomReplayViewer/resources/maps/surf_mesa/index.json?v=1ca9-a9ed");
+                viewer.animate();
+            }
+        </script>
+    </div>
+    </body>
+</html>

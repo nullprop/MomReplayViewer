@@ -1,14 +1,14 @@
-# GOKZ Replay Viewer
-Prototype of a WebGL GOKZ recording player.
+# Momentum Replay Viewer
+Fork of [Metapyziks](https://github.com/Metapyziks)' [GOKZReplayViewer](https://github.com/Metapyziks/GOKZReplayViewer) for playing back Momentum replay files.
 
 ![](https://files.facepunch.com/ziks/2017/October/29/chrome_2017-10-29_22-27-47.png)
 
 ## Try it out!
-https://metapyziks.github.io/GOKZReplayViewer/
+https://laurirasanen.github.io/MomReplayViewer
 
 ## Usage
 ### Export Maps
-First you'll need to use [SourceUtils](https://github.com/Metapyziks/SourceUtils) to export a bunch of maps, and
+First you'll need to use [SourceUtils](https://github.com/laurirasanen/SourceUtils) to export a bunch of maps, and
 host them on a web server.
 
 ### Copy Resources

@@ -217,10 +217,6 @@ namespace Gokz {
 
         private tickData: TickData;
 
-        private tempTickData0: TickData;
-        private tempTickData1: TickData;
-        private tempTickData2: TickData;
-
         private routeLine: RouteLine;
 
         /**
@@ -309,7 +305,6 @@ namespace Gokz {
 
                 const arrayBuffer = req.response;
                 if (arrayBuffer) {
-
                     if (this.routeLine != null) {
                         this.routeLine.dispose();
                         this.routeLine = null;
@@ -480,8 +475,6 @@ namespace Gokz {
             if (this.map.isReady() && this.isPlaying && !this.isScrubbing) {
                 this.spareTime += dt * this.playbackRate;
 
-                const oldTick = this.tick;
-
                 // Forward playback
                 while (this.spareTime > tickPeriod) {
                     this.spareTime -= tickPeriod;
@@ -507,7 +500,10 @@ namespace Gokz {
 
             this.prevTick = this.tick;
 
-            this.tickData = replay.getTickData(replay.clampTick(this.tick));
+            this.tickData = replay.getTickData(this.tick);
+            if (this.tickData === undefined) {
+                throw(`undefined tickData at tick ${this.tick}`);
+            }
             let eyeHeight = this.tickData.viewOffset;
 
             this.tickChanged.update(this.tick, this.tickData);
@@ -515,10 +511,10 @@ namespace Gokz {
             if (this.spareTime >= 0 && this.spareTime <= tickPeriod) {
                 const t = this.spareTime / tickPeriod;
 
-                const d0 = this.tempTickData0 = replay.getTickData(replay.clampTick(this.tick - 1));
+                const d0 = replay.getTickData(this.tick - 1);
                 const d1 = this.tickData;
-                const d2 = this.tempTickData1 = replay.getTickData(replay.clampTick(this.tick + 1));
-                const d3 = this.tempTickData2 = replay.getTickData(replay.clampTick(this.tick + 2));
+                const d2 = replay.getTickData(this.tick + 1);
+                const d3 = replay.getTickData(this.tick + 2);
 
                 Utils.hermitePosition(d0.position, d1.position,
                     d2.position, d3.position, t, this.tickData.position);

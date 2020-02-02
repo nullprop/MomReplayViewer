@@ -40,7 +40,7 @@ var Gokz;
         };
         BinaryReader.prototype.readBoolean = function () {
             var value = this.readUint8();
-            return value === 1;
+            return value !== 0;
         };
         BinaryReader.prototype.readUint8 = function () {
             var value = this.view.getUint8(this.offset);
@@ -122,9 +122,12 @@ var Gokz;
         BinaryReader.prototype.readNTString = function () {
             var chars = new Array();
             var char = null;
-            while (char != '\0') {
+            while (char != 0) {
+                if (this.offset >= this.view.byteLength) {
+                    throw ("Failed to read null-terminator");
+                }
                 char = this.readUint8();
-                if (char != '\0') {
+                if (char != 0) {
                     chars.push(char);
                 }
             }
@@ -317,7 +320,7 @@ var Gokz;
             position.sub(tickData.position);
             // Ignore vertical speed
             position.z = 0;
-            return position.length() / replay.header.tickInterval * Math.max(1, lastTick - firstTick);
+            return position.length() / replay.header.tickInterval / Math.max(1, lastTick - firstTick);
         };
         KeyDisplay.prototype.updateSpeed = function () {
             // TODO: cache
@@ -619,8 +622,8 @@ var Gokz;
             this.viewOffset = reader.readFloat32();
             this.buttons = reader.readInt32();
         }
-        TickData.prototype.Teleported = function () {
-            return (this.buttons & Button.IN_REPLAY_TELEPORTED) ? true : false;
+        TickData.prototype.teleported = function () {
+            return ((this.buttons & Button.IN_REPLAY_TELEPORTED) == Button.IN_REPLAY_TELEPORTED) ? true : false;
         };
         return TickData;
     }());
@@ -647,9 +650,10 @@ var Gokz;
     Gokz.ZoneStats = ZoneStats;
     var RunStats = /** @class */ (function () {
         function RunStats(reader) {
-            this.totalZones = reader.readUint32();
+            this.totalZones = reader.readUint8();
+            this.zoneStats = new Array(this.totalZones + 1);
             for (var i = 0; i < this.totalZones + 1; i++) {
-                this.zoneStats.push(new ZoneStats(reader));
+                this.zoneStats[i] = new ZoneStats(reader);
             }
         }
         return RunStats;
@@ -657,6 +661,15 @@ var Gokz;
     Gokz.RunStats = RunStats;
     var ReplayHeader = /** @class */ (function () {
         function ReplayHeader(reader) {
+            this.REPLAY_MAGIC_LE = 0x524D4F4D;
+            this.REPLAY_MAGIC_BE = 0x4D4F4D52;
+            this.magic = reader.readUint32();
+            if (this.magic !== this.REPLAY_MAGIC_BE && this.magic !== this.REPLAY_MAGIC_LE)
+                throw ("Unrecognized replay format");
+            if (this.magic == this.REPLAY_MAGIC_BE) {
+                throw ("REPLAY_MAGIC_BE format not implemented");
+            }
+            this.version = reader.readUint8();
             this.mapName = reader.readNTString();
             this.mapHash = reader.readNTString();
             this.playerName = reader.readNTString();
@@ -666,8 +679,8 @@ var Gokz;
             this.date = reader.readNTString();
             this.startTick = reader.readUint32();
             this.stopTick = reader.readUint32();
-            this.trackNumber = reader.readUint32();
-            this.zoneNumber = reader.readUint32();
+            this.trackNumber = reader.readUint8();
+            this.zoneNumber = reader.readUint8();
         }
         return ReplayHeader;
     }());
@@ -676,24 +689,27 @@ var Gokz;
         function ReplayFile(data) {
             this.mode = GlobalMode.Surf;
             this.style = GlobalStyle.Normal;
+            console.log("Parsing ReplayFile from " + data.byteLength + " bytes");
             var reader = new Gokz.BinaryReader(data);
             this.header = new ReplayHeader(reader);
+            console.log("ReplayFile.header:");
+            console.log(JSON.stringify(this.header, null, 4));
             this.hasRunStats = reader.readBoolean();
             if (this.hasRunStats) {
                 this.runStats = new RunStats(reader);
             }
-            this.frames = reader.readUint32();
+            this.frames = reader.readInt32();
+            console.log("ReplayFile.frames: " + this.frames);
             this.data = new Array(this.frames);
             for (var i = 0; i < this.frames; i++) {
                 var td = new TickData(reader);
                 td.tick = i;
-                this.data.push(td);
+                this.data[i] = td;
             }
+            console.log("Done parsing");
         }
         ReplayFile.prototype.getTickData = function (tick) {
-            if (tick > this.frames - 1)
-                return null;
-            return this.data[tick];
+            return this.data[this.clampTick(tick)];
         };
         ReplayFile.prototype.clampTick = function (tick) {
             return tick < 0 ? 0 : tick >= this.frames ? this.frames - 1 : tick;
@@ -1066,7 +1082,6 @@ var Gokz;
             }
             if (this.map.isReady() && this.isPlaying && !this.isScrubbing) {
                 this.spareTime += dt * this.playbackRate;
-                var oldTick = this.tick;
                 // Forward playback
                 while (this.spareTime > tickPeriod) {
                     this.spareTime -= tickPeriod;
@@ -1088,15 +1103,18 @@ var Gokz;
                 this.spareTime = 0;
             }
             this.prevTick = this.tick;
-            this.tickData = replay.getTickData(replay.clampTick(this.tick));
+            this.tickData = replay.getTickData(this.tick);
+            if (this.tickData === undefined) {
+                throw ("undefined tickData at tick " + this.tick);
+            }
             var eyeHeight = this.tickData.viewOffset;
             this.tickChanged.update(this.tick, this.tickData);
             if (this.spareTime >= 0 && this.spareTime <= tickPeriod) {
                 var t = this.spareTime / tickPeriod;
-                var d0 = this.tempTickData0 = replay.getTickData(replay.clampTick(this.tick - 1));
+                var d0 = replay.getTickData(this.tick - 1);
                 var d1 = this.tickData;
-                var d2 = this.tempTickData1 = replay.getTickData(replay.clampTick(this.tick + 1));
-                var d3 = this.tempTickData2 = replay.getTickData(replay.clampTick(this.tick + 2));
+                var d2 = replay.getTickData(this.tick + 1);
+                var d3 = replay.getTickData(this.tick + 2);
                 Gokz.Utils.hermitePosition(d0.position, d1.position, d2.position, d3.position, t, this.tickData.position);
                 Gokz.Utils.hermiteAngles(d0.angles, d1.angles, d2.angles, d3.angles, t, this.tickData.angles);
                 eyeHeight = Gokz.Utils.hermiteValue(d0.viewOffset, d1.viewOffset, d2.viewOffset, d3.viewOffset, t);

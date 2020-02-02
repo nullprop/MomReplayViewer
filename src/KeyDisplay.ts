@@ -111,7 +111,7 @@ namespace Gokz {
 
                 // A bit gross
                 //if ((this.tempTickData.flags & (EntityFlag.OnGround | EntityFlag.PartialGround)) === 0) {
-                
+
                 // HACK HACK:
                 // momentum replay format doesnt store flags,
                 // assume airbourne if vertical velocity is great enough.
@@ -154,7 +154,7 @@ namespace Gokz {
             // Ignore vertical speed
             position.z = 0;
 
-            return position.length() / replay.header.tickInterval * Math.max(1, lastTick - firstTick);
+            return position.length() / replay.header.tickInterval / Math.max(1, lastTick - firstTick);
         }
 
         private updateSpeed(): void {

@@ -33,7 +33,7 @@ namespace Gokz {
 
         readBoolean(): boolean {
             const value = this.readUint8();
-            return value === 1;
+            return value !== 0;
         }
 
         readUint8(): number {
@@ -120,9 +120,13 @@ namespace Gokz {
         readNTString(): string {
             let chars = new Array<number>();
             var char = null;
-            while (char != '\0') {
+            while (char != 0) {
+                if (this.offset >= this.view.byteLength) {
+                    throw ("Failed to read null-terminator");
+                }
+
                 char = this.readUint8();
-                if (char != '\0') {
+                if (char != 0) {
                     chars.push(char);
                 }
             }

@@ -54,8 +54,8 @@ namespace Gokz {
             this.buttons = reader.readInt32();
         }
 
-        Teleported(): boolean {
-            return (this.buttons & Button.IN_REPLAY_TELEPORTED) ? true : false;
+        teleported(): boolean {
+            return ((this.buttons & Button.IN_REPLAY_TELEPORTED) == Button.IN_REPLAY_TELEPORTED) ? true : false;
         }
     }
 
@@ -98,14 +98,21 @@ namespace Gokz {
         readonly zoneStats: Array<ZoneStats>;
 
         constructor(reader: BinaryReader) {
-            this.totalZones = reader.readUint32();
+            this.totalZones = reader.readUint8();
+            this.zoneStats = new Array<ZoneStats>(this.totalZones + 1);
             for (let i = 0; i < this.totalZones + 1; i++) {
-                this.zoneStats.push(new ZoneStats(reader));
+                this.zoneStats[i] = new ZoneStats(reader);
             }
         }
     }
 
     export class ReplayHeader {
+        private readonly REPLAY_MAGIC_LE = 0x524D4F4D;
+        private readonly REPLAY_MAGIC_BE = 0x4D4F4D52;
+
+        readonly magic: number;
+        readonly version: number;
+
         readonly mapName: string;          // The map the run was done in.
         readonly mapHash: string;          // The SHA1 of the map the run was done in.
         readonly playerName: string;       // The name of the player that did this run.
@@ -119,6 +126,14 @@ namespace Gokz {
         readonly zoneNumber: number;       // The zone number (0 = entire track, 1+ = specific zone)
 
         constructor(reader: BinaryReader) {
+            this.magic = reader.readUint32();
+            if (this.magic !== this.REPLAY_MAGIC_BE && this.magic !== this.REPLAY_MAGIC_LE)
+                throw ("Unrecognized replay format");
+            if (this.magic == this.REPLAY_MAGIC_BE) {
+                throw ("REPLAY_MAGIC_BE format not implemented");
+            }
+            this.version = reader.readUint8();
+
             this.mapName = reader.readNTString();
             this.mapHash = reader.readNTString();
             this.playerName = reader.readNTString();
@@ -128,8 +143,8 @@ namespace Gokz {
             this.date = reader.readNTString();
             this.startTick = reader.readUint32();
             this.stopTick = reader.readUint32();
-            this.trackNumber = reader.readUint32();
-            this.zoneNumber = reader.readUint32();
+            this.trackNumber = reader.readUint8();
+            this.zoneNumber = reader.readUint8();
         }
     }
 
@@ -144,28 +159,32 @@ namespace Gokz {
         style = GlobalStyle.Normal;
 
         constructor(data: ArrayBuffer) {
-            const reader = new BinaryReader(data);
+            console.log(`Parsing ReplayFile from ${data.byteLength} bytes`);
 
+            const reader = new BinaryReader(data);
             this.header = new ReplayHeader(reader);
+            console.log("ReplayFile.header:");
+            console.log(JSON.stringify(this.header, null, 4));
 
             this.hasRunStats = reader.readBoolean();
             if (this.hasRunStats) {
                 this.runStats = new RunStats(reader);
             }
 
-            this.frames = reader.readUint32();
+            this.frames = reader.readInt32();
+            console.log(`ReplayFile.frames: ${this.frames}`);
 
             this.data = new Array<TickData>(this.frames);
             for (let i = 0; i < this.frames; i++) {
                 var td = new TickData(reader);
                 td.tick = i;
-                this.data.push(td);
+                this.data[i] = td;
             }
+            console.log("Done parsing");
         }
 
         getTickData(tick: number): TickData {
-            if (tick > this.frames - 1) return null;
-            return this.data[tick];
+            return this.data[this.clampTick(tick)];
         }
 
         clampTick(tick: number): number {

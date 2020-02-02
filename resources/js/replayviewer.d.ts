@@ -155,7 +155,7 @@ declare namespace Gokz {
         readonly buttons: Button;
         tick: number;
         constructor(reader: BinaryReader);
-        Teleported(): boolean;
+        teleported(): boolean;
     }
     class ZoneStats {
         readonly jumps: number;
@@ -180,6 +180,10 @@ declare namespace Gokz {
         constructor(reader: BinaryReader);
     }
     class ReplayHeader {
+        private readonly REPLAY_MAGIC_LE;
+        private readonly REPLAY_MAGIC_BE;
+        readonly magic: number;
+        readonly version: number;
         readonly mapName: string;
         readonly mapHash: string;
         readonly playerName: string;
@@ -391,9 +395,6 @@ declare namespace Gokz {
         private spareTime;
         private prevTick;
         private tickData;
-        private tempTickData0;
-        private tempTickData1;
-        private tempTickData2;
         private routeLine;
         /**
          * Creates a new ReplayViewer inside the given `container` element.

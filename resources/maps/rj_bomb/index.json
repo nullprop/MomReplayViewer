@@ -1,80 +1,80 @@
 {
   "name": "rj_bomb",
-  "lightmapUrl": "/MomReplayViewer/resources/maps/rj_bomb/lightmap.json?v=1ca9-aa77",
+  "lightmapUrl": "./resources/maps/rj_bomb/lightmap.json?v=1ca9-f71f",
   "leafPages": [
     {
       "first": 0,
       "count": 8192,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/leafpage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/leafpage0.json?v=1ca9-f71f"
     },
     {
       "first": 8192,
       "count": 3737,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/leafpage1.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/leafpage1.json?v=1ca9-f71f"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 90,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/disppage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/disppage0.json?v=1ca9-f71f"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 252,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/materials/matpage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/materials/matpage0.json?v=1ca9-f71f"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 1,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/bsppage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/bsppage0.json?v=1ca9-f71f"
     },
     {
       "first": 1,
       "count": 161,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/bsppage1.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/bsppage1.json?v=1ca9-f71f"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 6,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/mdlpage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/mdlpage0.json?v=1ca9-f71f"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 718,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/vhvpage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/vhvpage0.json?v=1ca9-f71f"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 3741,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/vispage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/vispage0.json?v=1ca9-f71f"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 4096,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/ambientpage0.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/ambientpage0.json?v=1ca9-f71f"
     },
     {
       "first": 4096,
       "count": 4096,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/ambientpage1.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/ambientpage1.json?v=1ca9-f71f"
     },
     {
       "first": 8192,
       "count": 3737,
-      "url": "/MomReplayViewer/resources/maps/rj_bomb/geom/ambientpage2.json?v=1ca9-aa77"
+      "url": "./resources/maps/rj_bomb/geom/ambientpage2.json?v=1ca9-f71f"
     }
   ],
   "entities": [
@@ -90,32 +90,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46rt.vtf.json?v=1ca9-aa77"
+            "value": "./resources/maps/rj_bomb/materials/skybox/sky46rt.vtf.json?v=1ca9-f71f"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46lf.vtf.json?v=1ca9-aa77"
+            "value": "./resources/maps/rj_bomb/materials/skybox/sky46lf.vtf.json?v=1ca9-f71f"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46bk.vtf.json?v=1ca9-aa77"
+            "value": "./resources/maps/rj_bomb/materials/skybox/sky46bk.vtf.json?v=1ca9-f71f"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46ft.vtf.json?v=1ca9-aa77"
+            "value": "./resources/maps/rj_bomb/materials/skybox/sky46ft.vtf.json?v=1ca9-f71f"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46up.vtf.json?v=1ca9-aa77"
+            "value": "./resources/maps/rj_bomb/materials/skybox/sky46up.vtf.json?v=1ca9-f71f"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "/MomReplayViewer/resources/maps/rj_bomb/materials/skybox/sky46dn.vtf.json?v=1ca9-aa77"
+            "value": "./resources/maps/rj_bomb/materials/skybox/sky46dn.vtf.json?v=1ca9-f71f"
           }
         ]
       },

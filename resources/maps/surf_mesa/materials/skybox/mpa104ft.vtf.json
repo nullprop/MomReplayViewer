@@ -22,43 +22,43 @@
     },
     {
       "level": 9,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip9.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip9.png"
     },
     {
       "level": 8,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip8.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip8.png"
     },
     {
       "level": 7,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip7.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip7.png"
     },
     {
       "level": 6,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip6.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip6.png"
     },
     {
       "level": 5,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip5.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip5.png"
     },
     {
       "level": 4,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip4.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip4.png"
     },
     {
       "level": 3,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip3.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip3.png"
     },
     {
       "level": 2,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip2.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip2.png"
     },
     {
       "level": 1,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip1.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip1.png"
     },
     {
       "level": 0,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip0.png"
+      "url": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf/mip0.png"
     }
   ]
 }

@@ -12,7 +12,7 @@
   "elements": [
     {
       "level": 0,
-      "url": "/MomReplayViewer/resources/maps/surf_mesa/lightmap.png"
+      "url": "./resources/maps/surf_mesa/lightmap.png"
     }
   ]
 }

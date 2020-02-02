@@ -1,11 +1,11 @@
 #!/bin/bash
 
 CONFIGPATH=config.sh
-CONFIGTEMPALTE=config.template.sh
+CONFIGTEMPLATE=config.template.sh
 
 if [ ! -f "$CONFIGPATH" ]; then
     echo "Creating $CONFIGPATH"
-    cp "$CONFIGTEMPALTE" "$CONFIGPATH"
+    cp "$CONFIGTEMPLATE" "$CONFIGPATH"
 fi
 
 source "$CONFIGPATH"

@@ -22,8 +22,8 @@ namespace Gokz {
             out.z = Utils.hermiteValue(p0.z, p1.z, p2.z, p3.z, t);
         }
 
-        static hermiteAngles(a0: Facepunch.Vector2, a1: Facepunch.Vector2,
-            a2: Facepunch.Vector2, a3: Facepunch.Vector2, t: number, out: Facepunch.Vector2) {
+        static hermiteAngles(a0: Facepunch.Vector3, a1: Facepunch.Vector3,
+            a2: Facepunch.Vector3, a3: Facepunch.Vector3, t: number, out: Facepunch.Vector3) {
             out.x = Utils.hermiteValue(
                 a1.x + Utils.deltaAngle(a1.x, a0.x),
                 a1.x,
@@ -34,6 +34,11 @@ namespace Gokz {
                 a1.y,
                 a1.y + Utils.deltaAngle(a1.y, a2.y),
                 a1.y + Utils.deltaAngle(a1.y, a3.y), t);
+            out.z = Utils.hermiteValue(
+                a1.z + Utils.deltaAngle(a1.z, a0.z),
+                a1.z,
+                a1.z + Utils.deltaAngle(a1.z, a2.z),
+                a1.z + Utils.deltaAngle(a1.z, a3.z), t);
         }
     }
 }

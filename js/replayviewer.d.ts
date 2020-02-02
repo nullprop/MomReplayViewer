@@ -4,7 +4,7 @@ declare namespace Gokz {
     enum SeekOrigin {
         Begin = 0,
         Current = 1,
-        End = 2,
+        End = 2
     }
     class BinaryReader {
         private readonly buffer;
@@ -13,12 +13,14 @@ declare namespace Gokz {
         constructor(buffer: ArrayBuffer);
         seek(offset: number, origin: SeekOrigin): number;
         getOffset(): number;
+        readBoolean(): boolean;
         readUint8(): number;
         readInt32(): number;
         readUint32(): number;
         readFloat32(): number;
         static utf8ArrayToStr(array: number[]): string;
         readString(length?: number): string;
+        readNTString(): string;
         readVector2(vec?: Facepunch.Vector2): Facepunch.Vector2;
         readVector3(vec?: Facepunch.Vector3): Facepunch.Vector3;
     }
@@ -52,16 +54,15 @@ declare namespace Gokz {
         syncSampleRange: number;
         speedSampleRange: number;
         constructor(viewer: ReplayViewer, container?: HTMLElement);
-        private updateButtons(tickData);
-        private readonly tempTickData;
+        private updateButtons;
         private readonly tempPosition;
         private syncBuffer;
         private syncIndex;
         private syncSampleCount;
         private lastTick;
-        private updateSync();
-        private getSpeedAtTick(tick, tickRange);
-        private updateSpeed();
+        private updateSync;
+        private getSpeedAtTick;
+        private updateSpeed;
         show(): void;
         hide(): void;
     }
@@ -75,10 +76,10 @@ declare namespace Gokz {
         constructor(viewer: ReplayViewer, container?: HTMLElement);
         show(): void;
         hide(): void;
-        private clear();
-        private showMainPage();
-        private setTitle(title);
-        private addToggleOption<TArgs, TSender>(label, getter, setter, changed?);
+        private clear;
+        private showMainPage;
+        private setTitle;
+        private addToggleOption;
     }
 }
 declare namespace Gokz {
@@ -111,12 +112,13 @@ declare namespace Gokz {
 }
 declare namespace Gokz {
     enum GlobalMode {
-        Vanilla = 0,
-        KzSimple = 1,
-        KzTimer = 2,
+        Surf = 0,
+        Bhop = 1,
+        RJ = 2,
+        SJ = 2
     }
     enum GlobalStyle {
-        Normal = 0,
+        Normal = 0
     }
     enum Button {
         Attack = 1,
@@ -144,70 +146,65 @@ declare namespace Gokz {
         BullRush = 4194304,
         Grenade1 = 8388608,
         Grenade2 = 16777216,
-    }
-    enum EntityFlag {
-        OnGround = 1,
-        Ducking = 2,
-        WaterJump = 4,
-        OnTrain = 8,
-        InRain = 16,
-        Frozen = 32,
-        AtControls = 64,
-        Client = 128,
-        FakeClient = 256,
-        InWater = 512,
-        Fly = 1024,
-        Swim = 2048,
-        Conveyor = 4096,
-        Npc = 8192,
-        GodMode = 16384,
-        NoTarget = 32768,
-        AimTarget = 65536,
-        PartialGround = 131072,
-        StaticProp = 262144,
-        Graphed = 524288,
-        Grenade = 1048576,
-        StepMovement = 2097152,
-        DontTouch = 4194304,
-        BaseVelocity = 8388608,
-        WorldBrush = 16777216,
-        Object = 33554432,
-        KillMe = 67108864,
-        OnFire = 134217728,
-        Dissolving = 268435456,
-        TransRagdoll = 536870912,
-        UnblockableByPlayer = 1073741824,
-        Freezing = -2147483648,
+        IN_REPLAY_TELEPORTED = 134217728
     }
     class TickData {
+        readonly angles: Facepunch.Vector3;
         readonly position: Facepunch.Vector3;
-        readonly angles: Facepunch.Vector2;
+        readonly viewOffset: number;
+        readonly buttons: Button;
         tick: number;
-        buttons: Button;
-        flags: EntityFlag;
-        getEyeHeight(): number;
+        constructor(reader: BinaryReader);
+        Teleported(): boolean;
+    }
+    class ZoneStats {
+        readonly jumps: number;
+        readonly strafes: number;
+        readonly syncAvg: number;
+        readonly sync2Avg: number;
+        readonly enterTick: number;
+        readonly zoneTicks: number;
+        readonly velocityMax3D: number;
+        readonly velocityMax2D: number;
+        readonly velocityAvg3D: number;
+        readonly velocityAvg2D: number;
+        readonly velocityEnterSpeed3D: number;
+        readonly velocityEnterSpeed2D: number;
+        readonly velocityExitSpeed3D: number;
+        readonly velocityExitSpeed2D: number;
+        constructor(reader: BinaryReader);
+    }
+    class RunStats {
+        readonly totalZones: number;
+        readonly zoneStats: Array<ZoneStats>;
+        constructor(reader: BinaryReader);
+    }
+    class ReplayHeader {
+        readonly mapName: string;
+        readonly mapHash: string;
+        readonly playerName: string;
+        readonly steamId: string;
+        readonly tickInterval: number;
+        readonly runFlags: number;
+        readonly date: string;
+        readonly startTick: number;
+        readonly stopTick: number;
+        readonly trackNumber: number;
+        readonly zoneNumber: number;
+        constructor(reader: BinaryReader);
     }
     class ReplayFile {
-        static readonly MAGIC: number;
-        private readonly reader;
-        private readonly firstTickOffset;
-        private readonly tickSize;
-        readonly formatVersion: number;
-        readonly pluginVersion: string;
-        readonly mapName: string;
-        readonly course: number;
-        readonly mode: GlobalMode;
-        readonly style: GlobalStyle;
-        readonly time: number;
-        readonly teleportsUsed: number;
-        readonly steamId: number;
-        readonly steamId2: string;
-        readonly playerName: string;
-        readonly tickCount: number;
-        readonly tickRate: number;
+        readonly header: ReplayHeader;
+        readonly hasRunStats: boolean;
+        readonly runStats: RunStats;
+        readonly frames: number;
+        readonly data: Array<TickData>;
+        mode: GlobalMode;
+        style: GlobalStyle;
         constructor(data: ArrayBuffer);
-        getTickData(tick: number, data?: TickData): TickData;
+        getTickData(tick: number): TickData;
         clampTick(tick: number): number;
+        getDuration(): number;
     }
 }
 import WebGame = Facepunch.WebGame;
@@ -435,7 +432,8 @@ declare namespace Gokz {
         private static readonly segmentTicks;
         private readonly segments;
         private isVisible;
-        visible: boolean;
+        get visible(): boolean;
+        set visible(value: boolean);
         constructor(map: SourceUtils.Map, replay: ReplayFile);
         protected onPopulateDrawList(drawList: WebGame.DrawList, clusters: number[]): void;
         dispose(): void;
@@ -446,6 +444,6 @@ declare namespace Gokz {
         static deltaAngle(a: number, b: number): number;
         static hermiteValue(p0: number, p1: number, p2: number, p3: number, t: number): number;
         static hermitePosition(p0: Facepunch.Vector3, p1: Facepunch.Vector3, p2: Facepunch.Vector3, p3: Facepunch.Vector3, t: number, out: Facepunch.Vector3): void;
-        static hermiteAngles(a0: Facepunch.Vector2, a1: Facepunch.Vector2, a2: Facepunch.Vector2, a3: Facepunch.Vector2, t: number, out: Facepunch.Vector2): void;
+        static hermiteAngles(a0: Facepunch.Vector3, a1: Facepunch.Vector3, a2: Facepunch.Vector3, a3: Facepunch.Vector3, t: number, out: Facepunch.Vector3): void;
     }
 }

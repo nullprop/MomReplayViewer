@@ -9,7 +9,7 @@ namespace Gokz {
         private readonly buffer: ArrayBuffer;
         private readonly view: DataView;
         private offset: number;
-        
+
         constructor(buffer: ArrayBuffer) {
             this.buffer = buffer;
             this.view = new DataView(buffer);
@@ -31,18 +31,23 @@ namespace Gokz {
             return this.offset;
         }
 
+        readBoolean(): boolean {
+            const value = this.readUint8();
+            return value === 1;
+        }
+
         readUint8(): number {
             const value = this.view.getUint8(this.offset);
             this.offset += 1;
             return value;
         }
-        
+
         readInt32(): number {
             const value = this.view.getInt32(this.offset, true);
             this.offset += 4;
             return value;
         }
-        
+
         readUint32(): number {
             const value = this.view.getUint32(this.offset, true);
             this.offset += 4;
@@ -72,26 +77,26 @@ namespace Gokz {
             out = "";
             len = array.length;
             i = 0;
-            while(i < len) {
+            while (i < len) {
                 c = array[i++];
-                switch(c >> 4) { 
-                case 0: case 1: case 2: case 3: case 4: case 5: case 6: case 7:
-                    // 0xxxxxxx
-                    out += String.fromCharCode(c);
-                    break;
-                case 12: case 13:
-                    // 110x xxxx   10xx xxxx
-                    char2 = array[i++];
-                    out += String.fromCharCode(((c & 0x1F) << 6) | (char2 & 0x3F));
-                    break;
-                case 14:
-                    // 1110 xxxx  10xx xxxx  10xx xxxx
-                    char2 = array[i++];
-                    char3 = array[i++];
-                    out += String.fromCharCode(((c & 0x0F) << 12) |
-                                ((char2 & 0x3F) << 6) |
-                                ((char3 & 0x3F) << 0));
-                    break;
+                switch (c >> 4) {
+                    case 0: case 1: case 2: case 3: case 4: case 5: case 6: case 7:
+                        // 0xxxxxxx
+                        out += String.fromCharCode(c);
+                        break;
+                    case 12: case 13:
+                        // 110x xxxx   10xx xxxx
+                        char2 = array[i++];
+                        out += String.fromCharCode(((c & 0x1F) << 6) | (char2 & 0x3F));
+                        break;
+                    case 14:
+                        // 1110 xxxx  10xx xxxx  10xx xxxx
+                        char2 = array[i++];
+                        char3 = array[i++];
+                        out += String.fromCharCode(((c & 0x0F) << 12) |
+                            ((char2 & 0x3F) << 6) |
+                            ((char3 & 0x3F) << 0));
+                        break;
                 }
             }
 
@@ -106,6 +111,20 @@ namespace Gokz {
             let chars = new Array<number>(length);
             for (let i = 0; i < length; ++i) {
                 chars[i] = this.readUint8();
+            }
+
+            return BinaryReader.utf8ArrayToStr(chars);
+        }
+
+        // Read a null-terminated string
+        readNTString(): string {
+            let chars = new Array<number>();
+            var char = null;
+            while (char != '\0') {
+                char = this.readUint8();
+                if (char != '\0') {
+                    chars.push(char);
+                }
             }
 
             return BinaryReader.utf8ArrayToStr(chars);

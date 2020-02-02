@@ -1,8 +1,9 @@
 namespace Gokz {
     export enum GlobalMode {
-        Vanilla = 0,
-        KzSimple = 1,
-        KzTimer = 2
+        Surf = 0,
+        Bhop = 1,
+        RJ = 2,
+        SJ = 2,
     }
 
     export enum GlobalStyle {
@@ -34,124 +35,145 @@ namespace Gokz {
         Weapon2 = 1 << 21,
         BullRush = 1 << 22, // ...what?
         Grenade1 = 1 << 23,
-        Grenade2 = 1 << 24
-    }
-
-    export enum EntityFlag {
-        OnGround = 1 << 0,
-        Ducking = 1 << 1,
-        WaterJump = 1 << 2,
-        OnTrain = 1 << 3,
-        InRain = 1 << 4,
-        Frozen = 1 << 5,
-        AtControls = 1 << 6,
-        Client = 1 << 7,
-        FakeClient = 1 << 8,
-        InWater = 1 << 9,
-        Fly = 1 << 10,
-        Swim = 1 << 11,
-        Conveyor = 1 << 12,
-        Npc = 1 << 13,
-        GodMode = 1 << 14,
-        NoTarget = 1 << 15,
-        AimTarget = 1 << 16,
-        PartialGround = 1 << 17,
-        StaticProp = 1 << 18,
-        Graphed = 1 << 19,
-        Grenade = 1 << 20,
-        StepMovement = 1 << 21,
-        DontTouch = 1 << 22,
-        BaseVelocity = 1 << 23,
-        WorldBrush = 1 << 24,
-        Object = 1 << 25,
-        KillMe = 1 << 26,
-        OnFire = 1 << 27,
-        Dissolving = 1 << 28,
-        TransRagdoll = 1 << 29,
-        UnblockableByPlayer = 1 << 30,
-        Freezing = 1 << 31
+        Grenade2 = 1 << 24,
+        IN_REPLAY_TELEPORTED = 1 << 27
     }
 
     export class TickData {
+        readonly angles = new Facepunch.Vector3();
         readonly position = new Facepunch.Vector3();
-        readonly angles = new Facepunch.Vector2();
-        tick = -1;
-        buttons: Button = 0;
-        flags: EntityFlag = 0;
+        readonly viewOffset: number;
+        readonly buttons: Button;
 
-        getEyeHeight(): number {
-            return (this.flags & EntityFlag.Ducking) != 0 ? 46 : 64;
+        tick = -1;
+
+        constructor(reader: BinaryReader) {
+            this.angles = reader.readVector3();
+            this.position = reader.readVector3();
+            this.viewOffset = reader.readFloat32();
+            this.buttons = reader.readInt32();
+        }
+
+        Teleported(): boolean {
+            return (this.buttons & Button.IN_REPLAY_TELEPORTED) ? true : false;
+        }
+    }
+
+    export class ZoneStats {
+        readonly jumps: number;
+        readonly strafes: number;
+        readonly syncAvg: number;
+        readonly sync2Avg: number;
+        readonly enterTick: number;
+        readonly zoneTicks: number;
+        readonly velocityMax3D: number;
+        readonly velocityMax2D: number;
+        readonly velocityAvg3D: number;
+        readonly velocityAvg2D: number;
+        readonly velocityEnterSpeed3D: number;
+        readonly velocityEnterSpeed2D: number;
+        readonly velocityExitSpeed3D: number;
+        readonly velocityExitSpeed2D: number;
+
+        constructor(reader: BinaryReader) {
+            this.jumps = reader.readUint32();
+            this.strafes = reader.readUint32();
+            this.syncAvg = reader.readFloat32();
+            this.sync2Avg = reader.readFloat32();
+            this.enterTick = reader.readUint32();
+            this.zoneTicks = reader.readUint32();
+            this.velocityMax3D = reader.readFloat32();
+            this.velocityMax2D = reader.readFloat32();
+            this.velocityAvg3D = reader.readFloat32();
+            this.velocityAvg2D = reader.readFloat32();
+            this.velocityEnterSpeed3D = reader.readFloat32();
+            this.velocityEnterSpeed2D = reader.readFloat32();
+            this.velocityExitSpeed3D = reader.readFloat32();
+            this.velocityExitSpeed2D = reader.readFloat32();
+        }
+    }
+
+    export class RunStats {
+        readonly totalZones: number;
+        readonly zoneStats: Array<ZoneStats>;
+
+        constructor(reader: BinaryReader) {
+            this.totalZones = reader.readUint32();
+            for (let i = 0; i < this.totalZones + 1; i++) {
+                this.zoneStats.push(new ZoneStats(reader));
+            }
+        }
+    }
+
+    export class ReplayHeader {
+        readonly mapName: string;          // The map the run was done in.
+        readonly mapHash: string;          // The SHA1 of the map the run was done in.
+        readonly playerName: string;       // The name of the player that did this run.
+        readonly steamId: string;          // The steamID of the player that did this run.
+        readonly tickInterval: number;     // The tickrate of the run.
+        readonly runFlags: number;         // The flags the player ran with.
+        readonly date: string;             // The date this run was achieved.
+        readonly startTick: number;        // The tick where the timer was started (difference from record start -> timer start)
+        readonly stopTick: number;         // The tick where the timer was stopped
+        readonly trackNumber: number;      // The track number (0 = main map, 1+ = bonus)
+        readonly zoneNumber: number;       // The zone number (0 = entire track, 1+ = specific zone)
+
+        constructor(reader: BinaryReader) {
+            this.mapName = reader.readNTString();
+            this.mapHash = reader.readNTString();
+            this.playerName = reader.readNTString();
+            this.steamId = reader.readNTString();
+            this.tickInterval = reader.readFloat32();
+            this.runFlags = reader.readUint32();
+            this.date = reader.readNTString();
+            this.startTick = reader.readUint32();
+            this.stopTick = reader.readUint32();
+            this.trackNumber = reader.readUint32();
+            this.zoneNumber = reader.readUint32();
         }
     }
 
     export class ReplayFile {
-        static readonly MAGIC = 0x676F6B7A;
+        readonly header: ReplayHeader;
+        readonly hasRunStats: boolean;
+        readonly runStats: RunStats;
+        readonly frames: number;
+        readonly data: Array<TickData>;
 
-        private readonly reader: BinaryReader;
-        private readonly firstTickOffset: number;
-        private readonly tickSize: number;
-
-        readonly formatVersion: number;
-        readonly pluginVersion: string;
-
-        readonly mapName: string;
-        readonly course: number;
-        readonly mode: GlobalMode;
-        readonly style: GlobalStyle;
-        readonly time: number;
-        readonly teleportsUsed: number;
-        readonly steamId: number;
-        readonly steamId2: string;
-        readonly playerName: string;
-        readonly tickCount: number;
-        readonly tickRate: number;
+        mode = GlobalMode.Surf;
+        style = GlobalStyle.Normal;
 
         constructor(data: ArrayBuffer) {
-            const reader = this.reader = new BinaryReader(data);
+            const reader = new BinaryReader(data);
 
-            const magic = reader.readInt32();
-            if (magic !== ReplayFile.MAGIC) {
-                throw "Unrecognised replay file format.";
+            this.header = new ReplayHeader(reader);
+
+            this.hasRunStats = reader.readBoolean();
+            if (this.hasRunStats) {
+                this.runStats = new RunStats(reader);
             }
 
-            this.formatVersion = reader.readUint8();
-            this.pluginVersion = reader.readString();
+            this.frames = reader.readUint32();
 
-            this.mapName = reader.readString();
-            this.course = reader.readInt32();
-            this.mode = reader.readInt32() as GlobalMode;
-            this.style = reader.readInt32() as GlobalStyle;
-            this.time = reader.readFloat32();
-            this.teleportsUsed = reader.readInt32();
-            this.steamId = reader.readInt32();
-            this.steamId2 = reader.readString();
-            reader.readString();
-            this.playerName = reader.readString();
-            this.tickCount = reader.readInt32();
-            this.tickRate = Math.round(this.tickCount / this.time); // todo
-
-            this.firstTickOffset = reader.getOffset();
-            this.tickSize = 7 * 4;
+            this.data = new Array<TickData>(this.frames);
+            for (let i = 0; i < this.frames; i++) {
+                var td = new TickData(reader);
+                td.tick = i;
+                this.data.push(td);
+            }
         }
 
-        getTickData(tick: number, data?: TickData): TickData {
-            if (data === undefined) data = new TickData();
-
-            data.tick = tick;
-
-            const reader = this.reader;
-            reader.seek(this.firstTickOffset + this.tickSize * tick, SeekOrigin.Begin);
-
-            reader.readVector3(data.position);
-            reader.readVector2(data.angles);
-            data.buttons = reader.readInt32();
-            data.flags = reader.readInt32();
-
-            return data;
+        getTickData(tick: number): TickData {
+            if (tick > this.frames - 1) return null;
+            return this.data[tick];
         }
 
         clampTick(tick: number): number {
-            return tick < 0 ? 0 : tick >= this.tickCount ? this.tickCount - 1 : tick;
+            return tick < 0 ? 0 : tick >= this.frames ? this.frames - 1 : tick;
+        }
+
+        getDuration(): number {
+            return (this.header.stopTick - this.header.startTick) * this.header.tickInterval;
         }
     }
 }

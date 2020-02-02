@@ -3,7 +3,7 @@ namespace Gokz {
         private readonly viewer: ReplayViewer;
 
         private readonly element: HTMLElement;
-        private readonly buttonMap: {[button: number]: HTMLElement} = {};
+        private readonly buttonMap: { [button: number]: HTMLElement } = {};
 
         private readonly syncValueElem: HTMLElement;
         private readonly speedValueElem: HTMLElement;
@@ -80,7 +80,7 @@ namespace Gokz {
             }
         }
 
-        private readonly tempTickData = new TickData();
+        //private readonly tempTickData = new TickData();
         private readonly tempPosition = new Facepunch.Vector3();
 
         private syncBuffer: boolean[] = [];
@@ -93,7 +93,7 @@ namespace Gokz {
             if (this.lastTick === this.viewer.tick) return;
 
             const replay = this.viewer.replay;
-            const maxSamples = Math.ceil(this.syncSampleRange * replay.tickRate);
+            const maxSamples = Math.ceil(this.syncSampleRange / replay.header.tickInterval);
             let syncBuffer = this.syncBuffer;
 
             if (syncBuffer.length < maxSamples) {
@@ -110,7 +110,14 @@ namespace Gokz {
                 const nextSpeed = this.getSpeedAtTick(i, 1);
 
                 // A bit gross
-                if ((this.tempTickData.flags & (EntityFlag.OnGround | EntityFlag.PartialGround)) === 0) {
+                //if ((this.tempTickData.flags & (EntityFlag.OnGround | EntityFlag.PartialGround)) === 0) {
+                
+                // HACK HACK:
+                // momentum replay format doesnt store flags,
+                // assume airbourne if vertical velocity is great enough.
+                // TODO: could show zone avg sync instead from RunStats,
+                // along with all the other stats in there.
+                if (Math.abs(prevSpeed[2]) > 1) {
                     syncBuffer[this.syncIndex] = nextSpeed > prevSpeed;
                     this.syncIndex = this.syncIndex >= maxSamples - 1 ? 0 : this.syncIndex + 1;
                     this.syncSampleCount = Math.min(this.syncSampleCount + 1, maxSamples);
@@ -123,7 +130,7 @@ namespace Gokz {
 
             let syncFraction = 0.0;
             for (let i = 0; i < this.syncSampleCount; ++i) {
-                if (syncBuffer[i]) ++syncFraction;
+                if (syncBuffer[i])++syncFraction;
             }
 
             syncFraction /= Math.max(this.syncSampleCount, 1);
@@ -136,26 +143,25 @@ namespace Gokz {
             const lastTick = replay.clampTick(firstTick + tickRange);
             tickRange = lastTick - firstTick;
 
-            const tickData = this.tempTickData;
             const position = this.tempPosition;
 
-            replay.getTickData(lastTick, tickData);
+            var tickData = replay.getTickData(lastTick);
             position.copy(tickData.position);
 
-            replay.getTickData(firstTick, tickData);
+            tickData = replay.getTickData(firstTick);
             position.sub(tickData.position);
 
             // Ignore vertical speed
             position.z = 0;
 
-            return position.length() * replay.tickRate / Math.max(1, lastTick - firstTick);
+            return position.length() / replay.header.tickInterval * Math.max(1, lastTick - firstTick);
         }
 
         private updateSpeed(): void {
             // TODO: cache
 
             const replay = this.viewer.replay;
-            const maxTickRange = Math.ceil(this.speedSampleRange * replay.tickRate);
+            const maxTickRange = Math.ceil(this.speedSampleRange / replay.header.tickInterval);
 
             let speedString = Math.round(this.getSpeedAtTick(this.viewer.tick, maxTickRange)).toString();
 

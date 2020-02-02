@@ -106,7 +106,7 @@ namespace Gokz {
             });
 
             viewer.replayLoaded.addListener(replay => {
-                this.scrubberElem.max = replay.tickCount.toString();
+                this.scrubberElem.max = replay.frames.toString();
             });
 
             viewer.isPlayingChanged.addListener(isPlaying => {
@@ -124,7 +124,7 @@ namespace Gokz {
             viewer.tickChanged.addListener(tickData => {
                 const replay = this.viewer.replay;
                 if (replay != null) {
-                    const totalSeconds = replay.clampTick(tickData.tick) / replay.tickRate;
+                    const totalSeconds = replay.clampTick(tickData.tick) * replay.header.tickInterval;
                     const minutes = Math.floor(totalSeconds / 60);
                     const seconds = totalSeconds - minutes * 60;
                     const secondsString = seconds.toFixed(1);

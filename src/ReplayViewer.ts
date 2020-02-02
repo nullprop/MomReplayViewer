@@ -215,11 +215,11 @@ namespace Gokz {
         private spareTime = 0;
         private prevTick: number = undefined;
 
-        private tickData = new TickData();
+        private tickData: TickData;
 
-        private tempTickData0 = new TickData();
-        private tempTickData1 = new TickData();
-        private tempTickData2 = new TickData();
+        private tempTickData0: TickData;
+        private tempTickData1: TickData;
+        private tempTickData2: TickData;
 
         private routeLine: RouteLine;
 
@@ -400,7 +400,7 @@ namespace Gokz {
                 case WebGame.Key.X:
                     this.cameraMode = this.cameraMode === SourceUtils.CameraMode.FreeCam
                         ? SourceUtils.CameraMode.Fixed : SourceUtils.CameraMode.FreeCam;
-                    
+
                     if (this.cameraMode === SourceUtils.CameraMode.FreeCam) {
                         this.container.requestPointerLock();
                     }
@@ -419,14 +419,14 @@ namespace Gokz {
         }
 
         protected onChangeReplay(replay: ReplayFile): void {
-            this.pauseTicks = Math.round(replay.tickRate * this.pauseTime);
+            this.pauseTicks = Math.round(this.pauseTime / replay.header.tickInterval);
             this.tick = this.tick === -1 ? 0 : this.tick;
             this.spareTime = 0;
             this.prevTick = undefined;
 
             this.replayLoaded.dispatch(this.replay);
 
-            if (this.currentMapName !== replay.mapName) {
+            if (this.currentMapName !== replay.header.mapName) {
                 if (this.currentMapName != null) {
                     this.map.unload();
                 }
@@ -437,8 +437,8 @@ namespace Gokz {
 
                 const version = new Date().getTime().toString(16);
 
-                this.currentMapName = replay.mapName;
-                this.loadMap(`${this.mapBaseUrl}/${replay.mapName}/index.json?v=${version}`);
+                this.currentMapName = replay.header.mapName;
+                this.loadMap(`${this.mapBaseUrl}/${replay.header.mapName}/index.json?v=${version}`);
             }
         }
 
@@ -465,7 +465,7 @@ namespace Gokz {
             }
 
             const replay = this.replay;
-            const tickPeriod = 1.0 / replay.tickRate;
+            const tickPeriod = replay.header.tickInterval;
 
             this.isPlayingChanged.update(this.isPlaying);
 
@@ -487,7 +487,7 @@ namespace Gokz {
                     this.spareTime -= tickPeriod;
                     this.tick += 1;
 
-                    if (this.tick > replay.tickCount + this.pauseTicks * 2) {
+                    if (this.tick > replay.frames + this.pauseTicks * 2) {
                         this.tick = -this.pauseTicks;
                     }
                 }
@@ -498,7 +498,7 @@ namespace Gokz {
                     this.tick -= 1;
 
                     if (this.tick < -this.pauseTicks * 2) {
-                        this.tick = replay.tickCount + this.pauseTicks;
+                        this.tick = replay.frames + this.pauseTicks;
                     }
                 }
             } else {
@@ -507,18 +507,18 @@ namespace Gokz {
 
             this.prevTick = this.tick;
 
-            replay.getTickData(replay.clampTick(this.tick), this.tickData);
-            let eyeHeight = this.tickData.getEyeHeight();
+            this.tickData = replay.getTickData(replay.clampTick(this.tick));
+            let eyeHeight = this.tickData.viewOffset;
 
             this.tickChanged.update(this.tick, this.tickData);
 
             if (this.spareTime >= 0 && this.spareTime <= tickPeriod) {
                 const t = this.spareTime / tickPeriod;
 
-                const d0 = replay.getTickData(replay.clampTick(this.tick - 1), this.tempTickData0);
+                const d0 = this.tempTickData0 = replay.getTickData(replay.clampTick(this.tick - 1));
                 const d1 = this.tickData;
-                const d2 = replay.getTickData(replay.clampTick(this.tick + 1), this.tempTickData1);
-                const d3 = replay.getTickData(replay.clampTick(this.tick + 2), this.tempTickData2);
+                const d2 = this.tempTickData1 = replay.getTickData(replay.clampTick(this.tick + 1));
+                const d3 = this.tempTickData2 = replay.getTickData(replay.clampTick(this.tick + 2));
 
                 Utils.hermitePosition(d0.position, d1.position,
                     d2.position, d3.position, t, this.tickData.position);
@@ -526,8 +526,8 @@ namespace Gokz {
                     d2.angles, d3.angles, t, this.tickData.angles);
 
                 eyeHeight = Utils.hermiteValue(
-                    d0.getEyeHeight(), d1.getEyeHeight(),
-                    d2.getEyeHeight(), d3.getEyeHeight(), t);
+                    d0.viewOffset, d1.viewOffset,
+                    d2.viewOffset, d3.viewOffset, t);
             }
 
             if (this.cameraMode === SourceUtils.CameraMode.Fixed) {

@@ -31,16 +31,15 @@ namespace Gokz {
         constructor(map: SourceUtils.Map, replay: ReplayFile) {
             super(map, { classname: "route_line", clusters: null });
 
-            this.segments = new Array<IRouteLineSegment>(Math.ceil(replay.tickCount / RouteLine.segmentTicks));
+            this.segments = new Array<IRouteLineSegment>(Math.ceil(replay.frames / RouteLine.segmentTicks));
 
-            const tickData = new TickData();
-            const progressScale = 16 / replay.tickRate;
+            const progressScale = 16 * replay.header.tickInterval;
             const lastPos = new Facepunch.Vector3();
             const currPos = new Facepunch.Vector3();
 
             for (let i = 0; i < this.segments.length; ++i) {
                 const firstTick = i * RouteLine.segmentTicks;
-                const lastTick = Math.min((i + 1) * RouteLine.segmentTicks, replay.tickCount - 1);
+                const lastTick = Math.min((i + 1) * RouteLine.segmentTicks, replay.frames - 1);
 
                 const segment = this.segments[i] = {
                     debugLine: new WebGame.DebugLine(map.viewer),
@@ -56,7 +55,7 @@ namespace Gokz {
                 let lineStartTick = firstTick;
 
                 for (let t = firstTick; t <= lastTick; ++t) {
-                    replay.getTickData(t, tickData);
+                    const tickData = replay.getTickData(t);
 
                     currPos.copy(tickData.position);
                     currPos.z += 16;

@@ -1,0 +1,32 @@
+{
+  "path": "materials/skybox/sky_upward_hdrdn.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 4,
+  "height": 4,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9728,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 2,
+      "color": {
+        "r": 0.5411765,
+        "g": 0.709803939,
+        "b": 0.992156863,
+        "a": 0.06666667
+      }
+    },
+    {
+      "level": 1,
+      "url": "./resources/materials/skybox/sky_upward_hdrdn.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/materials/skybox/sky_upward_hdrdn.vtf/mip0.png"
+    }
+  ]
+}

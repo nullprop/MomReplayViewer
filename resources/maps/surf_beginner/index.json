@@ -1,70 +1,70 @@
 {
   "name": "surf_beginner",
-  "lightmapUrl": "./resources/maps/surf_beginner/lightmap.json?v=1ca9-12624",
+  "lightmapUrl": "./resources/maps/surf_beginner/lightmap.json?v=1ca9-1304c",
   "leafPages": [
     {
       "first": 0,
       "count": 4312,
-      "url": "./resources/maps/surf_beginner/geom/leafpage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/leafpage0.json?v=1ca9-1304c"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 6,
-      "url": "./resources/maps/surf_beginner/geom/disppage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/disppage0.json?v=1ca9-1304c"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 24,
-      "url": "./resources/maps/surf_beginner/materials/matpage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/materials/matpage0.json?v=1ca9-1304c"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 1,
-      "url": "./resources/maps/surf_beginner/geom/bsppage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/bsppage0.json?v=1ca9-1304c"
     },
     {
       "first": 1,
       "count": 92,
-      "url": "./resources/maps/surf_beginner/geom/bsppage1.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/bsppage1.json?v=1ca9-1304c"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 2,
-      "url": "./resources/maps/surf_beginner/geom/mdlpage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/mdlpage0.json?v=1ca9-1304c"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 2,
-      "url": "./resources/maps/surf_beginner/geom/vhvpage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/vhvpage0.json?v=1ca9-1304c"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 1649,
-      "url": "./resources/maps/surf_beginner/geom/vispage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/vispage0.json?v=1ca9-1304c"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 4096,
-      "url": "./resources/maps/surf_beginner/geom/ambientpage0.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/ambientpage0.json?v=1ca9-1304c"
     },
     {
       "first": 4096,
       "count": 216,
-      "url": "./resources/maps/surf_beginner/geom/ambientpage1.json?v=1ca9-12624"
+      "url": "./resources/maps/surf_beginner/geom/ambientpage1.json?v=1ca9-1304c"
     }
   ],
   "entities": [
@@ -80,32 +80,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "./resources/maps/surf_beginner/materials/skybox/sky47rt.vtf.json?v=1ca9-12624"
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47rt.vtf.json?v=1ca9-1304c"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "./resources/maps/surf_beginner/materials/skybox/sky47lf.vtf.json?v=1ca9-12624"
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47lf.vtf.json?v=1ca9-1304c"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf.json?v=1ca9-12624"
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47bk.vtf.json?v=1ca9-1304c"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "./resources/maps/surf_beginner/materials/skybox/sky47ft.vtf.json?v=1ca9-12624"
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47ft.vtf.json?v=1ca9-1304c"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "./resources/maps/surf_beginner/materials/skybox/sky47up.vtf.json?v=1ca9-12624"
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47up.vtf.json?v=1ca9-1304c"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "./resources/maps/surf_beginner/materials/skybox/sky47dn.vtf.json?v=1ca9-12624"
+            "value": "./resources/maps/surf_beginner/materials/skybox/sky47dn.vtf.json?v=1ca9-1304c"
           }
         ]
       },

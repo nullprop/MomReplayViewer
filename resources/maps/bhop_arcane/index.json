@@ -1,85 +1,85 @@
 {
   "name": "bhop_arcane",
-  "lightmapUrl": "./resources/maps/bhop_arcane/lightmap.json?v=1ca9-12542",
+  "lightmapUrl": "./resources/maps/bhop_arcane/lightmap.json?v=1ca9-12f1d",
   "leafPages": [
     {
       "first": 0,
       "count": 8192,
-      "url": "./resources/maps/bhop_arcane/geom/leafpage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/leafpage0.json?v=1ca9-12f1d"
     },
     {
       "first": 8192,
       "count": 4336,
-      "url": "./resources/maps/bhop_arcane/geom/leafpage1.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/leafpage1.json?v=1ca9-12f1d"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 669,
-      "url": "./resources/maps/bhop_arcane/geom/disppage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/disppage0.json?v=1ca9-12f1d"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 219,
-      "url": "./resources/maps/bhop_arcane/materials/matpage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/materials/matpage0.json?v=1ca9-12f1d"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 1,
-      "url": "./resources/maps/bhop_arcane/geom/bsppage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/bsppage0.json?v=1ca9-12f1d"
     },
     {
       "first": 1,
       "count": 473,
-      "url": "./resources/maps/bhop_arcane/geom/bsppage1.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/bsppage1.json?v=1ca9-12f1d"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 43,
-      "url": "./resources/maps/bhop_arcane/geom/mdlpage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/mdlpage0.json?v=1ca9-12f1d"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 285,
-      "url": "./resources/maps/bhop_arcane/geom/vhvpage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/vhvpage0.json?v=1ca9-12f1d"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 2593,
-      "url": "./resources/maps/bhop_arcane/geom/vispage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/vispage0.json?v=1ca9-12f1d"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 4096,
-      "url": "./resources/maps/bhop_arcane/geom/ambientpage0.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/ambientpage0.json?v=1ca9-12f1d"
     },
     {
       "first": 4096,
       "count": 4096,
-      "url": "./resources/maps/bhop_arcane/geom/ambientpage1.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/ambientpage1.json?v=1ca9-12f1d"
     },
     {
       "first": 8192,
       "count": 4096,
-      "url": "./resources/maps/bhop_arcane/geom/ambientpage2.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/ambientpage2.json?v=1ca9-12f1d"
     },
     {
       "first": 12288,
       "count": 240,
-      "url": "./resources/maps/bhop_arcane/geom/ambientpage3.json?v=1ca9-12542"
+      "url": "./resources/maps/bhop_arcane/geom/ambientpage3.json?v=1ca9-12f1d"
     }
   ],
   "entities": [
@@ -95,32 +95,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "./resources/maps/bhop_arcane/materials/skybox/havrt.vtf.json?v=1ca9-12542"
+            "value": "./resources/maps/bhop_arcane/materials/skybox/havrt.vtf.json?v=1ca9-12f1d"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "./resources/maps/bhop_arcane/materials/skybox/havlf.vtf.json?v=1ca9-12542"
+            "value": "./resources/maps/bhop_arcane/materials/skybox/havlf.vtf.json?v=1ca9-12f1d"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "./resources/maps/bhop_arcane/materials/skybox/havbk.vtf.json?v=1ca9-12542"
+            "value": "./resources/maps/bhop_arcane/materials/skybox/havbk.vtf.json?v=1ca9-12f1d"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf.json?v=1ca9-12542"
+            "value": "./resources/maps/bhop_arcane/materials/skybox/havft.vtf.json?v=1ca9-12f1d"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "./resources/maps/bhop_arcane/materials/skybox/havup.vtf.json?v=1ca9-12542"
+            "value": "./resources/maps/bhop_arcane/materials/skybox/havup.vtf.json?v=1ca9-12f1d"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "./resources/maps/bhop_arcane/materials/skybox/havdn.vtf.json?v=1ca9-12542"
+            "value": "./resources/maps/bhop_arcane/materials/skybox/havdn.vtf.json?v=1ca9-12f1d"
           }
         ]
       },

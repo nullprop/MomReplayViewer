@@ -1,60 +1,60 @@
 {
   "name": "bhop_eazy",
-  "lightmapUrl": "./resources/maps/bhop_eazy/lightmap.json?v=1ca9-125af",
+  "lightmapUrl": "./resources/maps/bhop_eazy/lightmap.json?v=1ca9-12f8a",
   "leafPages": [
     {
       "first": 0,
       "count": 2194,
-      "url": "./resources/maps/bhop_eazy/geom/leafpage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/leafpage0.json?v=1ca9-12f8a"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/bhop_eazy/geom/disppage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/disppage0.json?v=1ca9-12f8a"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 20,
-      "url": "./resources/maps/bhop_eazy/materials/matpage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/materials/matpage0.json?v=1ca9-12f8a"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 262,
-      "url": "./resources/maps/bhop_eazy/geom/bsppage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/bsppage0.json?v=1ca9-12f8a"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/bhop_eazy/geom/mdlpage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/mdlpage0.json?v=1ca9-12f8a"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/bhop_eazy/geom/vhvpage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/vhvpage0.json?v=1ca9-12f8a"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 85,
-      "url": "./resources/maps/bhop_eazy/geom/vispage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/vispage0.json?v=1ca9-12f8a"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 2194,
-      "url": "./resources/maps/bhop_eazy/geom/ambientpage0.json?v=1ca9-125af"
+      "url": "./resources/maps/bhop_eazy/geom/ambientpage0.json?v=1ca9-12f8a"
     }
   ],
   "entities": [
@@ -70,32 +70,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "./resources/materials/skybox/militiart.vtf.json?v=1ca9-125af"
+            "value": "./resources/materials/skybox/militiart.vtf.json?v=1ca9-12f8a"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "./resources/materials/skybox/militialf.vtf.json?v=1ca9-125af"
+            "value": "./resources/materials/skybox/militialf.vtf.json?v=1ca9-12f8a"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "./resources/materials/skybox/militiabk.vtf.json?v=1ca9-125af"
+            "value": "./resources/materials/skybox/militiabk.vtf.json?v=1ca9-12f8a"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "./resources/materials/skybox/militiaft.vtf.json?v=1ca9-125af"
+            "value": "./resources/materials/skybox/militiaft.vtf.json?v=1ca9-12f8a"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "./resources/materials/skybox/militiaup.vtf.json?v=1ca9-125af"
+            "value": "./resources/materials/skybox/militiaup.vtf.json?v=1ca9-12f8a"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "./resources/materials/skybox/militiadn.vtf.json?v=1ca9-125af"
+            "value": "./resources/materials/skybox/militiadn.vtf.json?v=1ca9-12f8a"
           }
         ]
       },

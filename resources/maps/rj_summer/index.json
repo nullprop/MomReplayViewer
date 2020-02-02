@@ -1,60 +1,60 @@
 {
   "name": "rj_summer",
-  "lightmapUrl": "./resources/maps/rj_summer/lightmap.json?v=1ca9-1261c",
+  "lightmapUrl": "./resources/maps/rj_summer/lightmap.json?v=1ca9-1303e",
   "leafPages": [
     {
       "first": 0,
       "count": 2823,
-      "url": "./resources/maps/rj_summer/geom/leafpage0.json?v=1ca9-1261c"
+      "url": "./resources/maps/rj_summer/geom/leafpage0.json?v=1ca9-1303e"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 53,
-      "url": "./resources/maps/rj_summer/geom/disppage0.json?v=1ca9-1261c"
+      "url": "./resources/maps/rj_summer/geom/disppage0.json?v=1ca9-1303e"
     }
   ],
   "materialPages": [
     {
       "first": 0,
-      "count": 23,
-      "url": "./resources/maps/rj_summer/materials/matpage0.json?v=1ca9-1261c"
+      "count": 28,
+      "url": "./resources/maps/rj_summer/materials/matpage0.json?v=1ca9-1303e"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 33,
-      "url": "./resources/maps/rj_summer/geom/bsppage0.json?v=1ca9-1261c"
+      "url": "./resources/maps/rj_summer/geom/bsppage0.json?v=1ca9-1303e"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
-      "count": 0,
-      "url": "./resources/maps/rj_summer/geom/mdlpage0.json?v=1ca9-1261c"
+      "count": 2,
+      "url": "./resources/maps/rj_summer/geom/mdlpage0.json?v=1ca9-1303e"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 3,
-      "url": "./resources/maps/rj_summer/geom/vhvpage0.json?v=1ca9-1261c"
+      "url": "./resources/maps/rj_summer/geom/vhvpage0.json?v=1ca9-1303e"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 818,
-      "url": "./resources/maps/rj_summer/geom/vispage0.json?v=1ca9-1261c"
+      "url": "./resources/maps/rj_summer/geom/vispage0.json?v=1ca9-1303e"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 2823,
-      "url": "./resources/maps/rj_summer/geom/ambientpage0.json?v=1ca9-1261c"
+      "url": "./resources/maps/rj_summer/geom/ambientpage0.json?v=1ca9-1303e"
     }
   ],
   "entities": [
@@ -66,6 +66,46 @@
             "name": "cullFace",
             "type": 1,
             "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_upward_hdrside.vtf.json?v=1ca9-1303e"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_upward_hdrside.vtf.json?v=1ca9-1303e"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_upward_hdrside.vtf.json?v=1ca9-1303e"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_upward_hdrside.vtf.json?v=1ca9-1303e"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_upward_hdrup.vtf.json?v=1ca9-1303e"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_upward_hdrdn.vtf.json?v=1ca9-1303e"
+          },
+          {
+            "name": "hdrCompressed",
+            "type": 1,
+            "value": true
+          },
+          {
+            "name": "aspect",
+            "type": 2,
+            "value": 2.0
           }
         ]
       },
@@ -2976,7 +3016,7 @@
       "classname": "displacement"
     },
     {
-      "model": -1,
+      "model": 0,
       "vertLighting": 0,
       "albedoModulation": 256,
       "flags": 0,
@@ -2996,7 +3036,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 0,
       "vertLighting": 1,
       "albedoModulation": 256,
       "flags": 0,
@@ -3016,7 +3056,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 1,
       "vertLighting": 2,
       "albedoModulation": 256,
       "flags": 0,

@@ -1,0 +1,64 @@
+{
+  "path": "materials/skybox/sky_trainyard_01ft.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 1024,
+  "height": 1024,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": true
+  },
+  "elements": [
+    {
+      "level": 10,
+      "color": {
+        "r": 0.5568628,
+        "g": 0.596078455,
+        "b": 0.698039234,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 9,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip9.png"
+    },
+    {
+      "level": 8,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/materials/skybox/sky_trainyard_01ft.vtf/mip0.png"
+    }
+  ]
+}

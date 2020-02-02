@@ -1,60 +1,60 @@
 {
   "name": "rj_beef",
-  "lightmapUrl": "./resources/maps/rj_beef/lightmap.json?v=1ca9-125da",
+  "lightmapUrl": "./resources/maps/rj_beef/lightmap.json?v=1ca9-12fd7",
   "leafPages": [
     {
       "first": 0,
       "count": 1669,
-      "url": "./resources/maps/rj_beef/geom/leafpage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/leafpage0.json?v=1ca9-12fd7"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/rj_beef/geom/disppage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/disppage0.json?v=1ca9-12fd7"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 14,
-      "url": "./resources/maps/rj_beef/materials/matpage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/materials/matpage0.json?v=1ca9-12fd7"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 94,
-      "url": "./resources/maps/rj_beef/geom/bsppage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/bsppage0.json?v=1ca9-12fd7"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/rj_beef/geom/mdlpage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/mdlpage0.json?v=1ca9-12fd7"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/rj_beef/geom/vhvpage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/vhvpage0.json?v=1ca9-12fd7"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 284,
-      "url": "./resources/maps/rj_beef/geom/vispage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/vispage0.json?v=1ca9-12fd7"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 1669,
-      "url": "./resources/maps/rj_beef/geom/ambientpage0.json?v=1ca9-125da"
+      "url": "./resources/maps/rj_beef/geom/ambientpage0.json?v=1ca9-12fd7"
     }
   ],
   "entities": [
@@ -66,6 +66,41 @@
             "name": "cullFace",
             "type": 1,
             "value": false
+          },
+          {
+            "name": "facePosX",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day01_01rt.vtf.json?v=1ca9-12fd7"
+          },
+          {
+            "name": "faceNegX",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day01_01lf.vtf.json?v=1ca9-12fd7"
+          },
+          {
+            "name": "facePosY",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day01_01bk.vtf.json?v=1ca9-12fd7"
+          },
+          {
+            "name": "faceNegY",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day01_01ft.vtf.json?v=1ca9-12fd7"
+          },
+          {
+            "name": "facePosZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day01_01up.vtf.json?v=1ca9-12fd7"
+          },
+          {
+            "name": "faceNegZ",
+            "type": 4,
+            "value": "./resources/materials/skybox/sky_day01_01dn.vtf.json?v=1ca9-12fd7"
+          },
+          {
+            "name": "aspect",
+            "type": 2,
+            "value": 2.0
           }
         ]
       },

@@ -1,65 +1,65 @@
 {
   "name": "surf_mesa",
-  "lightmapUrl": "./resources/maps/surf_mesa/lightmap.json?v=1ca9-12693",
+  "lightmapUrl": "./resources/maps/surf_mesa/lightmap.json?v=1ca9-130b8",
   "leafPages": [
     {
       "first": 0,
       "count": 3820,
-      "url": "./resources/maps/surf_mesa/geom/leafpage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/leafpage0.json?v=1ca9-130b8"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 1430,
-      "url": "./resources/maps/surf_mesa/geom/disppage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/disppage0.json?v=1ca9-130b8"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 38,
-      "url": "./resources/maps/surf_mesa/materials/matpage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/materials/matpage0.json?v=1ca9-130b8"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 1,
-      "url": "./resources/maps/surf_mesa/geom/bsppage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/bsppage0.json?v=1ca9-130b8"
     },
     {
       "first": 1,
       "count": 22,
-      "url": "./resources/maps/surf_mesa/geom/bsppage1.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/bsppage1.json?v=1ca9-130b8"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
-      "count": 18,
-      "url": "./resources/maps/surf_mesa/geom/mdlpage0.json?v=1ca9-12693"
+      "count": 19,
+      "url": "./resources/maps/surf_mesa/geom/mdlpage0.json?v=1ca9-130b8"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 234,
-      "url": "./resources/maps/surf_mesa/geom/vhvpage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/vhvpage0.json?v=1ca9-130b8"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 958,
-      "url": "./resources/maps/surf_mesa/geom/vispage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/vispage0.json?v=1ca9-130b8"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 3820,
-      "url": "./resources/maps/surf_mesa/geom/ambientpage0.json?v=1ca9-12693"
+      "url": "./resources/maps/surf_mesa/geom/ambientpage0.json?v=1ca9-130b8"
     }
   ],
   "entities": [
@@ -75,32 +75,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104rt.vtf.json?v=1ca9-12693"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104rt.vtf.json?v=1ca9-130b8"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf.json?v=1ca9-12693"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104lf.vtf.json?v=1ca9-130b8"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104bk.vtf.json?v=1ca9-12693"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104bk.vtf.json?v=1ca9-130b8"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf.json?v=1ca9-12693"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104ft.vtf.json?v=1ca9-130b8"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104up.vtf.json?v=1ca9-12693"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104up.vtf.json?v=1ca9-130b8"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104dn.vtf.json?v=1ca9-12693"
+            "value": "./resources/maps/surf_mesa/materials/skybox/mpa104dn.vtf.json?v=1ca9-130b8"
           }
         ]
       },
@@ -11876,7 +11876,7 @@
       "classname": "displacement"
     },
     {
-      "model": 15,
+      "model": 16,
       "vertLighting": 0,
       "albedoModulation": 272,
       "flags": 0,
@@ -11896,7 +11896,7 @@
       }
     },
     {
-      "model": 15,
+      "model": 16,
       "vertLighting": 1,
       "albedoModulation": 272,
       "flags": 0,
@@ -11916,7 +11916,7 @@
       }
     },
     {
-      "model": 16,
+      "model": 17,
       "vertLighting": 2,
       "albedoModulation": 256,
       "flags": 0,
@@ -11936,7 +11936,7 @@
       }
     },
     {
-      "model": 16,
+      "model": 17,
       "vertLighting": 3,
       "albedoModulation": 256,
       "flags": 0,
@@ -12090,7 +12090,7 @@
       }
     },
     {
-      "model": 17,
+      "model": 18,
       "vertLighting": 10,
       "albedoModulation": 256,
       "flags": 0,
@@ -12110,7 +12110,7 @@
       }
     },
     {
-      "model": 17,
+      "model": 18,
       "vertLighting": 11,
       "albedoModulation": 256,
       "flags": 0,
@@ -12130,7 +12130,7 @@
       }
     },
     {
-      "model": 17,
+      "model": 18,
       "vertLighting": 12,
       "albedoModulation": 256,
       "flags": 0,
@@ -12150,7 +12150,7 @@
       }
     },
     {
-      "model": 17,
+      "model": 18,
       "vertLighting": 13,
       "albedoModulation": 256,
       "flags": 0,
@@ -12170,7 +12170,7 @@
       }
     },
     {
-      "model": 17,
+      "model": 18,
       "vertLighting": 14,
       "albedoModulation": 256,
       "flags": 0,
@@ -12190,7 +12190,7 @@
       }
     },
     {
-      "model": 17,
+      "model": 18,
       "vertLighting": 15,
       "albedoModulation": 256,
       "flags": 0,
@@ -12210,7 +12210,7 @@
       }
     },
     {
-      "model": 4,
+      "model": 8,
       "vertLighting": 16,
       "albedoModulation": 256,
       "flags": 0,
@@ -12230,7 +12230,7 @@
       }
     },
     {
-      "model": 5,
+      "model": 9,
       "vertLighting": 17,
       "albedoModulation": 256,
       "flags": 0,
@@ -12250,7 +12250,7 @@
       }
     },
     {
-      "model": 6,
+      "model": 10,
       "vertLighting": 18,
       "albedoModulation": 256,
       "flags": 0,
@@ -12270,7 +12270,7 @@
       }
     },
     {
-      "model": 16,
+      "model": 17,
       "vertLighting": 19,
       "albedoModulation": 256,
       "flags": 141,
@@ -12290,7 +12290,7 @@
       }
     },
     {
-      "model": 16,
+      "model": 17,
       "vertLighting": 20,
       "albedoModulation": 256,
       "flags": 0,
@@ -12310,7 +12310,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 21,
       "albedoModulation": 256,
       "flags": 134,
@@ -12335,7 +12335,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 22,
       "albedoModulation": 256,
       "flags": 0,
@@ -12355,7 +12355,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 23,
       "albedoModulation": 256,
       "flags": 187,
@@ -12380,7 +12380,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 24,
       "albedoModulation": 256,
       "flags": 0,
@@ -12400,7 +12400,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 118,
       "lightingOrigin": {
@@ -12424,7 +12424,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 26,
       "albedoModulation": 256,
       "flags": 0,
@@ -12444,7 +12444,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "albedoModulation": 256,
       "flags": 85,
       "clusters": [
@@ -12463,7 +12463,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 28,
       "albedoModulation": 256,
       "flags": 0,
@@ -12483,7 +12483,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 104,
       "clusters": [
@@ -12502,7 +12502,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 30,
       "albedoModulation": 256,
       "flags": 0,
@@ -12716,7 +12716,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 192,
       "clusters": [
@@ -12735,7 +12735,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 42,
       "albedoModulation": 256,
       "flags": 63,
@@ -12760,7 +12760,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 64,
       "clusters": [
@@ -12779,7 +12779,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 44,
       "albedoModulation": 256,
       "flags": 0,
@@ -12799,7 +12799,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 45,
       "albedoModulation": 256,
       "flags": 0,
@@ -12819,7 +12819,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "albedoModulation": 256,
       "flags": 192,
       "clusters": [
@@ -12838,7 +12838,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "albedoModulation": 256,
       "flags": 64,
       "clusters": [
@@ -12857,7 +12857,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 64,
       "clusters": [
@@ -12916,7 +12916,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 192,
       "clusters": [
@@ -12935,7 +12935,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "albedoModulation": 256,
       "flags": 192,
       "clusters": [
@@ -12954,7 +12954,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 192,
       "clusters": [
@@ -12973,7 +12973,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 54,
       "albedoModulation": 256,
       "flags": 0,
@@ -12993,7 +12993,7 @@
       }
     },
     {
-      "model": 10,
+      "model": 11,
       "vertLighting": 55,
       "albedoModulation": 256,
       "flags": 0,
@@ -13013,7 +13013,7 @@
       }
     },
     {
-      "model": 10,
+      "model": 11,
       "albedoModulation": 256,
       "flags": 64,
       "clusters": [
@@ -13032,7 +13032,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 57,
       "albedoModulation": 256,
       "flags": 63,
@@ -13057,7 +13057,7 @@
       }
     },
     {
-      "model": 12,
+      "model": 13,
       "vertLighting": 58,
       "albedoModulation": 256,
       "flags": 0,
@@ -13077,7 +13077,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 59,
       "albedoModulation": 256,
       "flags": 0,
@@ -13097,7 +13097,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 60,
       "albedoModulation": 256,
       "flags": 0,
@@ -13117,7 +13117,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "albedoModulation": 256,
       "flags": 192,
       "clusters": [
@@ -13136,7 +13136,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "albedoModulation": 256,
       "flags": 64,
       "clusters": [
@@ -13174,7 +13174,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 64,
       "albedoModulation": 256,
       "flags": 0,
@@ -13194,7 +13194,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 246,
       "lightingOrigin": {
@@ -13218,7 +13218,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 66,
       "albedoModulation": 256,
       "flags": 0,
@@ -13451,7 +13451,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 77,
       "albedoModulation": 256,
       "flags": 179,
@@ -13476,7 +13476,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 78,
       "albedoModulation": 256,
       "flags": 0,
@@ -13496,7 +13496,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "albedoModulation": 256,
       "flags": 199,
       "lightingOrigin": {
@@ -13520,7 +13520,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 80,
       "albedoModulation": 256,
       "flags": 0,
@@ -13540,7 +13540,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 81,
       "albedoModulation": 256,
       "flags": 19,
@@ -13565,7 +13565,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 82,
       "albedoModulation": 256,
       "flags": 0,
@@ -13693,7 +13693,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 88,
       "albedoModulation": 256,
       "flags": 0,
@@ -13713,7 +13713,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "albedoModulation": 256,
       "flags": 205,
       "clusters": [
@@ -13732,7 +13732,7 @@
       }
     },
     {
-      "model": 10,
+      "model": 11,
       "vertLighting": 90,
       "albedoModulation": 256,
       "flags": 0,
@@ -13752,7 +13752,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 91,
       "albedoModulation": 256,
       "flags": 26,
@@ -13777,7 +13777,7 @@
       }
     },
     {
-      "model": 10,
+      "model": 11,
       "vertLighting": 92,
       "albedoModulation": 256,
       "flags": 0,
@@ -13797,7 +13797,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "albedoModulation": 256,
       "flags": 245,
       "clusters": [
@@ -13816,7 +13816,7 @@
       }
     },
     {
-      "model": 12,
+      "model": 13,
       "vertLighting": 94,
       "albedoModulation": 256,
       "flags": 0,
@@ -13836,7 +13836,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 95,
       "albedoModulation": 256,
       "flags": 43,
@@ -13881,7 +13881,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "albedoModulation": 256,
       "flags": 65,
       "clusters": [
@@ -13900,7 +13900,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 98,
       "albedoModulation": 256,
       "flags": 0,
@@ -13920,7 +13920,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 214,
       "lightingOrigin": {
@@ -13944,7 +13944,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 100,
       "albedoModulation": 256,
       "flags": 0,
@@ -13964,7 +13964,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 101,
       "albedoModulation": 256,
       "flags": 173,
@@ -13984,7 +13984,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 102,
       "albedoModulation": 256,
       "flags": 0,
@@ -14004,7 +14004,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "albedoModulation": 256,
       "flags": 96,
       "clusters": [
@@ -14023,7 +14023,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 104,
       "albedoModulation": 256,
       "flags": 0,
@@ -14043,7 +14043,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 207,
       "lightingOrigin": {
@@ -14067,7 +14067,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 106,
       "albedoModulation": 256,
       "flags": 0,
@@ -14087,7 +14087,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 107,
       "albedoModulation": 256,
       "flags": 136,
@@ -14107,7 +14107,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 108,
       "albedoModulation": 256,
       "flags": 0,
@@ -14127,7 +14127,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 234,
       "lightingOrigin": {
@@ -14151,7 +14151,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 110,
       "albedoModulation": 256,
       "flags": 0,
@@ -14171,7 +14171,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 111,
       "albedoModulation": 256,
       "flags": 16,
@@ -14191,7 +14191,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 112,
       "albedoModulation": 256,
       "flags": 0,
@@ -14211,7 +14211,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 114,
       "lightingOrigin": {
@@ -14235,7 +14235,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 114,
       "albedoModulation": 256,
       "flags": 0,
@@ -14255,7 +14255,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 115,
       "albedoModulation": 256,
       "flags": 150,
@@ -14280,7 +14280,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 116,
       "albedoModulation": 256,
       "flags": 0,
@@ -14300,7 +14300,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "albedoModulation": 256,
       "flags": 121,
       "clusters": [
@@ -14319,7 +14319,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 118,
       "albedoModulation": 256,
       "flags": 0,
@@ -14339,7 +14339,7 @@
       }
     },
     {
-      "model": 12,
+      "model": 13,
       "albedoModulation": 256,
       "flags": 118,
       "lightingOrigin": {
@@ -14363,7 +14363,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 120,
       "albedoModulation": 256,
       "flags": 0,
@@ -14383,7 +14383,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 121,
       "albedoModulation": 256,
       "flags": 5,
@@ -14403,7 +14403,7 @@
       }
     },
     {
-      "model": 10,
+      "model": 11,
       "vertLighting": 122,
       "albedoModulation": 256,
       "flags": 0,
@@ -15346,7 +15346,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 166,
       "albedoModulation": 256,
       "flags": 1,
@@ -15366,7 +15366,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 167,
       "albedoModulation": 256,
       "flags": 60,
@@ -15386,7 +15386,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 168,
       "albedoModulation": 256,
       "flags": 1,
@@ -15406,7 +15406,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 169,
       "albedoModulation": 256,
       "flags": 61,
@@ -15426,7 +15426,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 170,
       "albedoModulation": 256,
       "flags": 1,
@@ -15446,7 +15446,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 171,
       "albedoModulation": 256,
       "flags": 61,
@@ -15466,7 +15466,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 172,
       "albedoModulation": 256,
       "flags": 1,
@@ -15486,7 +15486,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 173,
       "albedoModulation": 256,
       "flags": 62,
@@ -15511,7 +15511,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 174,
       "albedoModulation": 256,
       "flags": 1,
@@ -15531,7 +15531,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 175,
       "albedoModulation": 256,
       "flags": 61,
@@ -15551,7 +15551,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 176,
       "albedoModulation": 256,
       "flags": 1,
@@ -15571,7 +15571,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 177,
       "albedoModulation": 256,
       "flags": 61,
@@ -15591,7 +15591,7 @@
       }
     },
     {
-      "model": 9,
+      "model": 6,
       "vertLighting": 178,
       "albedoModulation": 256,
       "flags": 1,
@@ -15611,7 +15611,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 179,
       "albedoModulation": 256,
       "flags": 62,
@@ -15636,7 +15636,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 180,
       "albedoModulation": 256,
       "flags": 1,
@@ -15656,7 +15656,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 181,
       "albedoModulation": 256,
       "flags": 61,
@@ -15676,7 +15676,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 182,
       "albedoModulation": 256,
       "flags": 1,
@@ -15696,7 +15696,7 @@
       }
     },
     {
-      "model": 12,
+      "model": 13,
       "vertLighting": 183,
       "albedoModulation": 256,
       "flags": 63,
@@ -15721,7 +15721,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 184,
       "albedoModulation": 256,
       "flags": 1,
@@ -15741,7 +15741,7 @@
       }
     },
     {
-      "model": 11,
+      "model": 12,
       "vertLighting": 185,
       "albedoModulation": 256,
       "flags": 63,
@@ -15766,7 +15766,7 @@
       }
     },
     {
-      "model": 10,
+      "model": 11,
       "vertLighting": 186,
       "albedoModulation": 256,
       "flags": 1,
@@ -16526,7 +16526,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 220,
       "albedoModulation": 256,
       "flags": 1,
@@ -16616,7 +16616,7 @@
       }
     },
     {
-      "model": -1,
+      "model": 7,
       "vertLighting": 224,
       "albedoModulation": 256,
       "flags": 1,
@@ -16681,7 +16681,7 @@
       }
     },
     {
-      "model": 8,
+      "model": 5,
       "vertLighting": 227,
       "albedoModulation": 256,
       "flags": 63,
@@ -16706,7 +16706,7 @@
       }
     },
     {
-      "model": 7,
+      "model": 4,
       "vertLighting": 228,
       "albedoModulation": 256,
       "flags": 1,
@@ -16796,7 +16796,7 @@
       }
     },
     {
-      "model": 13,
+      "model": 14,
       "vertLighting": 232,
       "albedoModulation": 272,
       "flags": 1,
@@ -16816,7 +16816,7 @@
       }
     },
     {
-      "model": 14,
+      "model": 15,
       "vertLighting": 233,
       "albedoModulation": 272,
       "flags": 62,

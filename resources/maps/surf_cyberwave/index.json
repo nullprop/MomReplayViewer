@@ -1,70 +1,70 @@
 {
   "name": "surf_cyberwave",
-  "lightmapUrl": "./resources/maps/surf_cyberwave/lightmap.json?v=1ca9-1263d",
+  "lightmapUrl": "./resources/maps/surf_cyberwave/lightmap.json?v=1ca9-13065",
   "leafPages": [
     {
       "first": 0,
       "count": 7756,
-      "url": "./resources/maps/surf_cyberwave/geom/leafpage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/leafpage0.json?v=1ca9-13065"
     }
   ],
   "dispPages": [
     {
       "first": 0,
       "count": 0,
-      "url": "./resources/maps/surf_cyberwave/geom/disppage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/disppage0.json?v=1ca9-13065"
     }
   ],
   "materialPages": [
     {
       "first": 0,
       "count": 69,
-      "url": "./resources/maps/surf_cyberwave/materials/matpage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/materials/matpage0.json?v=1ca9-13065"
     }
   ],
   "brushModelPages": [
     {
       "first": 0,
       "count": 1,
-      "url": "./resources/maps/surf_cyberwave/geom/bsppage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/bsppage0.json?v=1ca9-13065"
     },
     {
       "first": 1,
       "count": 26,
-      "url": "./resources/maps/surf_cyberwave/geom/bsppage1.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/bsppage1.json?v=1ca9-13065"
     }
   ],
   "studioModelPages": [
     {
       "first": 0,
       "count": 67,
-      "url": "./resources/maps/surf_cyberwave/geom/mdlpage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/mdlpage0.json?v=1ca9-13065"
     }
   ],
   "vertLightingPages": [
     {
       "first": 0,
       "count": 283,
-      "url": "./resources/maps/surf_cyberwave/geom/vhvpage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/vhvpage0.json?v=1ca9-13065"
     }
   ],
   "visPages": [
     {
       "first": 0,
       "count": 3083,
-      "url": "./resources/maps/surf_cyberwave/geom/vispage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/vispage0.json?v=1ca9-13065"
     }
   ],
   "ambientPages": [
     {
       "first": 0,
       "count": 4096,
-      "url": "./resources/maps/surf_cyberwave/geom/ambientpage0.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/ambientpage0.json?v=1ca9-13065"
     },
     {
       "first": 4096,
       "count": 3660,
-      "url": "./resources/maps/surf_cyberwave/geom/ambientpage1.json?v=1ca9-1263d"
+      "url": "./resources/maps/surf_cyberwave/geom/ambientpage1.json?v=1ca9-13065"
     }
   ],
   "entities": [
@@ -80,32 +80,32 @@
           {
             "name": "facePosX",
             "type": 4,
-            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavert.vtf.json?v=1ca9-1263d"
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavert.vtf.json?v=1ca9-13065"
           },
           {
             "name": "faceNegX",
             "type": 4,
-            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavelf.vtf.json?v=1ca9-1263d"
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavelf.vtf.json?v=1ca9-13065"
           },
           {
             "name": "facePosY",
             "type": 4,
-            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavebk.vtf.json?v=1ca9-1263d"
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavebk.vtf.json?v=1ca9-13065"
           },
           {
             "name": "faceNegY",
             "type": 4,
-            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwaveft.vtf.json?v=1ca9-1263d"
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwaveft.vtf.json?v=1ca9-13065"
           },
           {
             "name": "facePosZ",
             "type": 4,
-            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwaveup.vtf.json?v=1ca9-1263d"
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwaveup.vtf.json?v=1ca9-13065"
           },
           {
             "name": "faceNegZ",
             "type": 4,
-            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavedn.vtf.json?v=1ca9-1263d"
+            "value": "./resources/maps/surf_cyberwave/materials/skybox/cyberwavedn.vtf.json?v=1ca9-13065"
           }
         ]
       },

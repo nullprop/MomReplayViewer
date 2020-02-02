@@ -1,0 +1,32 @@
+{
+  "path": "materials/skybox/sky_day01_01dn.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 4,
+  "height": 4,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 2,
+      "color": {
+        "r": 0.7254902,
+        "g": 0.7019608,
+        "b": 0.6431373,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 1,
+      "url": "./resources/materials/skybox/sky_day01_01dn.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/materials/skybox/sky_day01_01dn.vtf/mip0.png"
+    }
+  ]
+}

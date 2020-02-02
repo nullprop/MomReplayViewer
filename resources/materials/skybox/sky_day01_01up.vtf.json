@@ -1,0 +1,60 @@
+{
+  "path": "materials/skybox/sky_day01_01up.vtf",
+  "target": 3553,
+  "frames": 1,
+  "width": 512,
+  "height": 512,
+  "params": {
+    "wrapS": 33071,
+    "wrapT": 33071,
+    "filter": 9729,
+    "mipmap": false
+  },
+  "elements": [
+    {
+      "level": 9,
+      "color": {
+        "r": 0.4745098,
+        "g": 0.494117647,
+        "b": 0.521568656,
+        "a": 1.0
+      }
+    },
+    {
+      "level": 8,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip8.png"
+    },
+    {
+      "level": 7,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip7.png"
+    },
+    {
+      "level": 6,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip6.png"
+    },
+    {
+      "level": 5,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip5.png"
+    },
+    {
+      "level": 4,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip4.png"
+    },
+    {
+      "level": 3,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip3.png"
+    },
+    {
+      "level": 2,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip2.png"
+    },
+    {
+      "level": 1,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip1.png"
+    },
+    {
+      "level": 0,
+      "url": "./resources/materials/skybox/sky_day01_01up.vtf/mip0.png"
+    }
+  ]
+}

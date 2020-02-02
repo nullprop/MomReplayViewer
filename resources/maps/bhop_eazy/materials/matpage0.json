@@ -1,6 +1,54 @@
 {
   "textures": [
     {
+      "path": "materials/tools/toolsnodraw.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.956862748,
+            "g": 0.831372559,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip0.png"
+        }
+      ]
+    },
+    {
       "path": "materials/hammer textures/bhop_eazy/31_e_tile_1.vtf",
       "target": 3553,
       "frames": 1,
@@ -161,6 +209,58 @@
         {
           "level": 0,
           "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_brick_blue.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/tools/toolsskybox.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.6862745,
+            "g": 0.8745098,
+            "b": 0.9882353,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip0.png"
         }
       ]
     },
@@ -333,6 +433,54 @@
       ]
     },
     {
+      "path": "materials/tools/toolsinvisible.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.847058833,
+            "g": 0.0196078438,
+            "b": 0.5372549,
+            "a": 0.20784314
+          }
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolsinvisible.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolsinvisible.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolsinvisible.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolsinvisible.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolsinvisible.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolsinvisible.vtf/mip0.png"
+        }
+      ]
+    },
+    {
       "path": "materials/hammer textures/bhop_eazy/31_e_glass_blue.vtf",
       "target": 3553,
       "frames": 1,
@@ -437,6 +585,54 @@
         {
           "level": 0,
           "url": "./resources/maps/bhop_eazy/materials/hammer%20textures/bhop_eazy/31_e_tile_2.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/tools/toolstrigger.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.968627453,
+            "g": 0.596078455,
+            "b": 0.0,
+            "a": 0.4117647
+          }
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip0.png"
         }
       ]
     },
@@ -874,7 +1070,6 @@
     }
   ],
   "materials": [
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -905,7 +1100,6 @@
         }
       ]
     },
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -936,7 +1130,6 @@
         }
       ]
     },
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -957,7 +1150,6 @@
         }
       ]
     },
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -965,6 +1157,11 @@
           "name": "basetexture",
           "type": 5,
           "value": 8
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
         }
       ]
     },
@@ -991,6 +1188,11 @@
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
         {
           "name": "basetexture",
           "type": 5,
@@ -1029,12 +1231,52 @@
       ]
     },
     {
-      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
         {
           "name": "basetexture",
           "type": 5,
           "value": 15
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 16
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 17
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 18
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 19
         }
       ]
     }

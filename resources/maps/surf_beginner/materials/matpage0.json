@@ -1,6 +1,114 @@
 {
   "textures": [
     {
+      "path": "materials/nature/sandfloor010a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.266666681,
+            "g": 0.258823544,
+            "b": 0.223529413,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/nature/sandfloor010a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/tools/toolsnodraw.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.956862748,
+            "g": 0.831372559,
+            "b": 0.129411772,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolsnodraw.vtf/mip0.png"
+        }
+      ]
+    },
+    {
       "path": "materials/cs_havana/woodm.vtf",
       "target": 3553,
       "frames": 1,
@@ -61,6 +169,1587 @@
       ]
     },
     {
+      "path": "materials/dev/water_normal.vtf",
+      "target": 3553,
+      "frames": 29,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "frame": 0,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 1,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 2,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 3,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 4,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 5,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 6,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 7,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 8,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 9,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 10,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 11,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 12,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 13,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 14,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 15,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 16,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 17,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 18,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 19,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 20,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 21,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 22,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 23,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 24,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 25,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 26,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 27,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 8,
+          "frame": 28,
+          "color": {
+            "r": 0.4862745,
+            "g": 0.4862745,
+            "b": 0.996078432,
+            "a": 0.0
+          }
+        },
+        {
+          "level": 7,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame0.png"
+        },
+        {
+          "level": 7,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame1.png"
+        },
+        {
+          "level": 7,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame2.png"
+        },
+        {
+          "level": 7,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame3.png"
+        },
+        {
+          "level": 7,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame4.png"
+        },
+        {
+          "level": 7,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame5.png"
+        },
+        {
+          "level": 7,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame6.png"
+        },
+        {
+          "level": 7,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame7.png"
+        },
+        {
+          "level": 7,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame8.png"
+        },
+        {
+          "level": 7,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame9.png"
+        },
+        {
+          "level": 7,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame10.png"
+        },
+        {
+          "level": 7,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame11.png"
+        },
+        {
+          "level": 7,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame12.png"
+        },
+        {
+          "level": 7,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame13.png"
+        },
+        {
+          "level": 7,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame14.png"
+        },
+        {
+          "level": 7,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame15.png"
+        },
+        {
+          "level": 7,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame16.png"
+        },
+        {
+          "level": 7,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame17.png"
+        },
+        {
+          "level": 7,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame18.png"
+        },
+        {
+          "level": 7,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame19.png"
+        },
+        {
+          "level": 7,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame20.png"
+        },
+        {
+          "level": 7,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame21.png"
+        },
+        {
+          "level": 7,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame22.png"
+        },
+        {
+          "level": 7,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame23.png"
+        },
+        {
+          "level": 7,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame24.png"
+        },
+        {
+          "level": 7,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame25.png"
+        },
+        {
+          "level": 7,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame26.png"
+        },
+        {
+          "level": 7,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame27.png"
+        },
+        {
+          "level": 7,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip7.frame28.png"
+        },
+        {
+          "level": 6,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame0.png"
+        },
+        {
+          "level": 6,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame1.png"
+        },
+        {
+          "level": 6,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame2.png"
+        },
+        {
+          "level": 6,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame3.png"
+        },
+        {
+          "level": 6,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame4.png"
+        },
+        {
+          "level": 6,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame5.png"
+        },
+        {
+          "level": 6,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame6.png"
+        },
+        {
+          "level": 6,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame7.png"
+        },
+        {
+          "level": 6,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame8.png"
+        },
+        {
+          "level": 6,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame9.png"
+        },
+        {
+          "level": 6,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame10.png"
+        },
+        {
+          "level": 6,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame11.png"
+        },
+        {
+          "level": 6,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame12.png"
+        },
+        {
+          "level": 6,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame13.png"
+        },
+        {
+          "level": 6,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame14.png"
+        },
+        {
+          "level": 6,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame15.png"
+        },
+        {
+          "level": 6,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame16.png"
+        },
+        {
+          "level": 6,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame17.png"
+        },
+        {
+          "level": 6,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame18.png"
+        },
+        {
+          "level": 6,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame19.png"
+        },
+        {
+          "level": 6,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame20.png"
+        },
+        {
+          "level": 6,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame21.png"
+        },
+        {
+          "level": 6,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame22.png"
+        },
+        {
+          "level": 6,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame23.png"
+        },
+        {
+          "level": 6,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame24.png"
+        },
+        {
+          "level": 6,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame25.png"
+        },
+        {
+          "level": 6,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame26.png"
+        },
+        {
+          "level": 6,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame27.png"
+        },
+        {
+          "level": 6,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip6.frame28.png"
+        },
+        {
+          "level": 5,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame0.png"
+        },
+        {
+          "level": 5,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame1.png"
+        },
+        {
+          "level": 5,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame2.png"
+        },
+        {
+          "level": 5,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame3.png"
+        },
+        {
+          "level": 5,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame4.png"
+        },
+        {
+          "level": 5,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame5.png"
+        },
+        {
+          "level": 5,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame6.png"
+        },
+        {
+          "level": 5,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame7.png"
+        },
+        {
+          "level": 5,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame8.png"
+        },
+        {
+          "level": 5,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame9.png"
+        },
+        {
+          "level": 5,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame10.png"
+        },
+        {
+          "level": 5,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame11.png"
+        },
+        {
+          "level": 5,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame12.png"
+        },
+        {
+          "level": 5,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame13.png"
+        },
+        {
+          "level": 5,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame14.png"
+        },
+        {
+          "level": 5,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame15.png"
+        },
+        {
+          "level": 5,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame16.png"
+        },
+        {
+          "level": 5,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame17.png"
+        },
+        {
+          "level": 5,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame18.png"
+        },
+        {
+          "level": 5,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame19.png"
+        },
+        {
+          "level": 5,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame20.png"
+        },
+        {
+          "level": 5,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame21.png"
+        },
+        {
+          "level": 5,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame22.png"
+        },
+        {
+          "level": 5,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame23.png"
+        },
+        {
+          "level": 5,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame24.png"
+        },
+        {
+          "level": 5,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame25.png"
+        },
+        {
+          "level": 5,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame26.png"
+        },
+        {
+          "level": 5,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame27.png"
+        },
+        {
+          "level": 5,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip5.frame28.png"
+        },
+        {
+          "level": 4,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame0.png"
+        },
+        {
+          "level": 4,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame1.png"
+        },
+        {
+          "level": 4,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame2.png"
+        },
+        {
+          "level": 4,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame3.png"
+        },
+        {
+          "level": 4,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame4.png"
+        },
+        {
+          "level": 4,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame5.png"
+        },
+        {
+          "level": 4,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame6.png"
+        },
+        {
+          "level": 4,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame7.png"
+        },
+        {
+          "level": 4,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame8.png"
+        },
+        {
+          "level": 4,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame9.png"
+        },
+        {
+          "level": 4,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame10.png"
+        },
+        {
+          "level": 4,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame11.png"
+        },
+        {
+          "level": 4,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame12.png"
+        },
+        {
+          "level": 4,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame13.png"
+        },
+        {
+          "level": 4,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame14.png"
+        },
+        {
+          "level": 4,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame15.png"
+        },
+        {
+          "level": 4,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame16.png"
+        },
+        {
+          "level": 4,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame17.png"
+        },
+        {
+          "level": 4,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame18.png"
+        },
+        {
+          "level": 4,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame19.png"
+        },
+        {
+          "level": 4,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame20.png"
+        },
+        {
+          "level": 4,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame21.png"
+        },
+        {
+          "level": 4,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame22.png"
+        },
+        {
+          "level": 4,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame23.png"
+        },
+        {
+          "level": 4,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame24.png"
+        },
+        {
+          "level": 4,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame25.png"
+        },
+        {
+          "level": 4,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame26.png"
+        },
+        {
+          "level": 4,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame27.png"
+        },
+        {
+          "level": 4,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip4.frame28.png"
+        },
+        {
+          "level": 3,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame0.png"
+        },
+        {
+          "level": 3,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame1.png"
+        },
+        {
+          "level": 3,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame2.png"
+        },
+        {
+          "level": 3,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame3.png"
+        },
+        {
+          "level": 3,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame4.png"
+        },
+        {
+          "level": 3,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame5.png"
+        },
+        {
+          "level": 3,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame6.png"
+        },
+        {
+          "level": 3,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame7.png"
+        },
+        {
+          "level": 3,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame8.png"
+        },
+        {
+          "level": 3,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame9.png"
+        },
+        {
+          "level": 3,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame10.png"
+        },
+        {
+          "level": 3,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame11.png"
+        },
+        {
+          "level": 3,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame12.png"
+        },
+        {
+          "level": 3,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame13.png"
+        },
+        {
+          "level": 3,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame14.png"
+        },
+        {
+          "level": 3,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame15.png"
+        },
+        {
+          "level": 3,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame16.png"
+        },
+        {
+          "level": 3,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame17.png"
+        },
+        {
+          "level": 3,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame18.png"
+        },
+        {
+          "level": 3,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame19.png"
+        },
+        {
+          "level": 3,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame20.png"
+        },
+        {
+          "level": 3,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame21.png"
+        },
+        {
+          "level": 3,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame22.png"
+        },
+        {
+          "level": 3,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame23.png"
+        },
+        {
+          "level": 3,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame24.png"
+        },
+        {
+          "level": 3,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame25.png"
+        },
+        {
+          "level": 3,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame26.png"
+        },
+        {
+          "level": 3,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame27.png"
+        },
+        {
+          "level": 3,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip3.frame28.png"
+        },
+        {
+          "level": 2,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame0.png"
+        },
+        {
+          "level": 2,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame1.png"
+        },
+        {
+          "level": 2,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame2.png"
+        },
+        {
+          "level": 2,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame3.png"
+        },
+        {
+          "level": 2,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame4.png"
+        },
+        {
+          "level": 2,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame5.png"
+        },
+        {
+          "level": 2,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame6.png"
+        },
+        {
+          "level": 2,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame7.png"
+        },
+        {
+          "level": 2,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame8.png"
+        },
+        {
+          "level": 2,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame9.png"
+        },
+        {
+          "level": 2,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame10.png"
+        },
+        {
+          "level": 2,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame11.png"
+        },
+        {
+          "level": 2,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame12.png"
+        },
+        {
+          "level": 2,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame13.png"
+        },
+        {
+          "level": 2,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame14.png"
+        },
+        {
+          "level": 2,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame15.png"
+        },
+        {
+          "level": 2,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame16.png"
+        },
+        {
+          "level": 2,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame17.png"
+        },
+        {
+          "level": 2,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame18.png"
+        },
+        {
+          "level": 2,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame19.png"
+        },
+        {
+          "level": 2,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame20.png"
+        },
+        {
+          "level": 2,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame21.png"
+        },
+        {
+          "level": 2,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame22.png"
+        },
+        {
+          "level": 2,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame23.png"
+        },
+        {
+          "level": 2,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame24.png"
+        },
+        {
+          "level": 2,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame25.png"
+        },
+        {
+          "level": 2,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame26.png"
+        },
+        {
+          "level": 2,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame27.png"
+        },
+        {
+          "level": 2,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip2.frame28.png"
+        },
+        {
+          "level": 1,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame0.png"
+        },
+        {
+          "level": 1,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame1.png"
+        },
+        {
+          "level": 1,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame2.png"
+        },
+        {
+          "level": 1,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame3.png"
+        },
+        {
+          "level": 1,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame4.png"
+        },
+        {
+          "level": 1,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame5.png"
+        },
+        {
+          "level": 1,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame6.png"
+        },
+        {
+          "level": 1,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame7.png"
+        },
+        {
+          "level": 1,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame8.png"
+        },
+        {
+          "level": 1,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame9.png"
+        },
+        {
+          "level": 1,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame10.png"
+        },
+        {
+          "level": 1,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame11.png"
+        },
+        {
+          "level": 1,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame12.png"
+        },
+        {
+          "level": 1,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame13.png"
+        },
+        {
+          "level": 1,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame14.png"
+        },
+        {
+          "level": 1,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame15.png"
+        },
+        {
+          "level": 1,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame16.png"
+        },
+        {
+          "level": 1,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame17.png"
+        },
+        {
+          "level": 1,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame18.png"
+        },
+        {
+          "level": 1,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame19.png"
+        },
+        {
+          "level": 1,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame20.png"
+        },
+        {
+          "level": 1,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame21.png"
+        },
+        {
+          "level": 1,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame22.png"
+        },
+        {
+          "level": 1,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame23.png"
+        },
+        {
+          "level": 1,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame24.png"
+        },
+        {
+          "level": 1,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame25.png"
+        },
+        {
+          "level": 1,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame26.png"
+        },
+        {
+          "level": 1,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame27.png"
+        },
+        {
+          "level": 1,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip1.frame28.png"
+        },
+        {
+          "level": 0,
+          "frame": 0,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame0.png"
+        },
+        {
+          "level": 0,
+          "frame": 1,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame1.png"
+        },
+        {
+          "level": 0,
+          "frame": 2,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame2.png"
+        },
+        {
+          "level": 0,
+          "frame": 3,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame3.png"
+        },
+        {
+          "level": 0,
+          "frame": 4,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame4.png"
+        },
+        {
+          "level": 0,
+          "frame": 5,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame5.png"
+        },
+        {
+          "level": 0,
+          "frame": 6,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame6.png"
+        },
+        {
+          "level": 0,
+          "frame": 7,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame7.png"
+        },
+        {
+          "level": 0,
+          "frame": 8,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame8.png"
+        },
+        {
+          "level": 0,
+          "frame": 9,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame9.png"
+        },
+        {
+          "level": 0,
+          "frame": 10,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame10.png"
+        },
+        {
+          "level": 0,
+          "frame": 11,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame11.png"
+        },
+        {
+          "level": 0,
+          "frame": 12,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame12.png"
+        },
+        {
+          "level": 0,
+          "frame": 13,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame13.png"
+        },
+        {
+          "level": 0,
+          "frame": 14,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame14.png"
+        },
+        {
+          "level": 0,
+          "frame": 15,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame15.png"
+        },
+        {
+          "level": 0,
+          "frame": 16,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame16.png"
+        },
+        {
+          "level": 0,
+          "frame": 17,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame17.png"
+        },
+        {
+          "level": 0,
+          "frame": 18,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame18.png"
+        },
+        {
+          "level": 0,
+          "frame": 19,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame19.png"
+        },
+        {
+          "level": 0,
+          "frame": 20,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame20.png"
+        },
+        {
+          "level": 0,
+          "frame": 21,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame21.png"
+        },
+        {
+          "level": 0,
+          "frame": 22,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame22.png"
+        },
+        {
+          "level": 0,
+          "frame": 23,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame23.png"
+        },
+        {
+          "level": 0,
+          "frame": 24,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame24.png"
+        },
+        {
+          "level": 0,
+          "frame": 25,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame25.png"
+        },
+        {
+          "level": 0,
+          "frame": 26,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame26.png"
+        },
+        {
+          "level": 0,
+          "frame": 27,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame27.png"
+        },
+        {
+          "level": 0,
+          "frame": 28,
+          "url": "./resources/materials/dev/water_normal.vtf/mip0.frame28.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/concrete/concretewall019a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.494117647,
+            "g": 0.482352942,
+            "b": 0.4392157,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/concrete/concretewall019a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/detail/noise_detail_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 256,
+      "height": 256,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 8,
+          "color": {
+            "r": 0.7294118,
+            "g": 0.7294118,
+            "b": 0.7294118,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/detail/noise_detail_01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
       "path": "materials/de_dust/rockwall01.vtf",
       "target": 3553,
       "frames": 1,
@@ -117,6 +1806,66 @@
         {
           "level": 0,
           "url": "./resources/materials/de_dust/rockwall01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/concrete/concretefloor008a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.384313732,
+            "g": 0.368627459,
+            "b": 0.321568638,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/concrete/concretefloor008a.vtf/mip0.png"
         }
       ]
     },
@@ -285,6 +2034,298 @@
       ]
     },
     {
+      "path": "materials/nature/dirtfloor005b.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.192156866,
+            "g": 0.1882353,
+            "b": 0.192156866,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/nature/dirtfloor005b.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/nature/mudfloor005a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.211764708,
+            "g": 0.192156866,
+            "b": 0.149019614,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/nature/mudfloor005a.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/tools/toolsskybox.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 128,
+      "height": 128,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 7,
+          "color": {
+            "r": 0.6862745,
+            "g": 0.8745098,
+            "b": 0.9882353,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolsskybox.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/metal/metalhull010b.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.6862745,
+            "g": 0.6901961,
+            "b": 0.6784314,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/metal/metalhull010b.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/detail/metal_detail_01.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.7294118,
+            "g": 0.7294118,
+            "b": 0.7294118,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/detail/metal_detail_01.vtf/mip0.png"
+        }
+      ]
+    },
+    {
       "path": "materials/cs_havana/white.vtf",
       "target": 3553,
       "frames": 1,
@@ -325,6 +2366,114 @@
         {
           "level": 0,
           "url": "./resources/materials/cs_havana/white.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/effects/combine_binocoverlay.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.34117648,
+            "g": 0.5294118,
+            "b": 0.5019608,
+            "a": 1.0
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/effects/combine_binocoverlay.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/tools/toolstrigger.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 64,
+      "height": 64,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 6,
+          "color": {
+            "r": 0.968627453,
+            "g": 0.596078455,
+            "b": 0.0,
+            "a": 0.4117647
+          }
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/tools/toolstrigger.vtf/mip0.png"
         }
       ]
     },
@@ -385,6 +2534,66 @@
         {
           "level": 0,
           "url": "./resources/materials/de_aztec/ground01grass.vtf/mip0.png"
+        }
+      ]
+    },
+    {
+      "path": "materials/decals/trashdecal01a.vtf",
+      "target": 3553,
+      "frames": 1,
+      "width": 512,
+      "height": 512,
+      "params": {
+        "wrapS": 10497,
+        "wrapT": 10497,
+        "filter": 9729,
+        "mipmap": true
+      },
+      "elements": [
+        {
+          "level": 9,
+          "color": {
+            "r": 0.3529412,
+            "g": 0.356862754,
+            "b": 0.3529412,
+            "a": 0.321568638
+          }
+        },
+        {
+          "level": 8,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip8.png"
+        },
+        {
+          "level": 7,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip7.png"
+        },
+        {
+          "level": 6,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip6.png"
+        },
+        {
+          "level": 5,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip5.png"
+        },
+        {
+          "level": 4,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip4.png"
+        },
+        {
+          "level": 3,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip3.png"
+        },
+        {
+          "level": 2,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip2.png"
+        },
+        {
+          "level": 1,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip1.png"
+        },
+        {
+          "level": 0,
+          "url": "./resources/materials/decals/trashdecal01a.vtf/mip0.png"
         }
       ]
     },
@@ -626,8 +2835,6 @@
     }
   ],
   "materials": [
-    null,
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -638,8 +2845,6 @@
         }
       ]
     },
-    null,
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -650,7 +2855,6 @@
         }
       ]
     },
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -662,12 +2866,37 @@
       ]
     },
     {
-      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "shader": "SourceUtils.Shaders.Water",
       "properties": [
         {
-          "name": "basetexture",
+          "name": "refractAmount",
+          "type": 2,
+          "value": 1.0
+        },
+        {
+          "name": "normalMap",
           "type": 5,
           "value": 3
+        },
+        {
+          "name": "fogColor",
+          "type": 3,
+          "value": {
+            "r": 0.08627451,
+            "g": 0.0784313753,
+            "b": 0.0392156877,
+            "a": 1.0
+          }
+        },
+        {
+          "name": "fogStart",
+          "type": 2,
+          "value": 1.0
+        },
+        {
+          "name": "fogEnd",
+          "type": 2,
+          "value": 400.0
         }
       ]
     },
@@ -678,25 +2907,19 @@
           "name": "basetexture",
           "type": 5,
           "value": 4
-        }
-      ]
-    },
-    null,
-    null,
-    null,
-    null,
-    {
-      "shader": "SourceUtils.Shaders.UnlitGeneric",
-      "properties": [
+        },
         {
-          "name": "basetexture",
+          "name": "detail",
           "type": 5,
           "value": 5
+        },
+        {
+          "name": "detailScale",
+          "type": 2,
+          "value": 7.345
         }
       ]
     },
-    null,
-    null,
     {
       "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
@@ -707,15 +2930,203 @@
         }
       ]
     },
-    null,
-    null,
     {
-      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
       "properties": [
         {
           "name": "basetexture",
           "type": 5,
           "value": 7
+        },
+        {
+          "name": "detail",
+          "type": 5,
+          "value": 5
+        },
+        {
+          "name": "detailScale",
+          "type": 2,
+          "value": 7.345
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 8
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 9
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 11
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 12
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 13
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 14
+        },
+        {
+          "name": "detail",
+          "type": 5,
+          "value": 15
+        },
+        {
+          "name": "detailScale",
+          "type": 2,
+          "value": 4.283
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.UnlitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 16
+        }
+      ]
+    },
+    {
+      "shader": "Modulate",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 17
+        },
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 18
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 19
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.Water",
+      "properties": [
+        {
+          "name": "refractAmount",
+          "type": 2,
+          "value": 1.0
+        },
+        {
+          "name": "normalMap",
+          "type": 5,
+          "value": 3
+        },
+        {
+          "name": "fogColor",
+          "type": 3,
+          "value": {
+            "r": 0.08627451,
+            "g": 0.0784313753,
+            "b": 0.0392156877,
+            "a": 1.0
+          }
+        },
+        {
+          "name": "fogStart",
+          "type": 2,
+          "value": 1.0
+        },
+        {
+          "name": "fogEnd",
+          "type": 2,
+          "value": 400.0
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.LightmappedGeneric",
+      "properties": [
+        {
+          "name": "translucent",
+          "type": 1,
+          "value": true
+        },
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 20
         }
       ]
     },
@@ -725,7 +3136,17 @@
         {
           "name": "basetexture",
           "type": 5,
-          "value": 8
+          "value": 21
+        }
+      ]
+    },
+    {
+      "shader": "SourceUtils.Shaders.VertexLitGeneric",
+      "properties": [
+        {
+          "name": "basetexture",
+          "type": 5,
+          "value": 22
         },
         {
           "name": "translucent",
@@ -740,7 +3161,7 @@
         {
           "name": "basetexture",
           "type": 5,
-          "value": 9
+          "value": 23
         }
       ]
     },
@@ -750,7 +3171,7 @@
         {
           "name": "basetexture",
           "type": 5,
-          "value": 10
+          "value": 24
         }
       ]
     }

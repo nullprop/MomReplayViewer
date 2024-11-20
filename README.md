@@ -4,11 +4,11 @@ Fork of [Metapyziks](https://github.com/Metapyziks)' [GOKZReplayViewer](https://
 ![](https://files.facepunch.com/ziks/2017/October/29/chrome_2017-10-29_22-27-47.png)
 
 ## Try it out!
-https://laurirasanen.github.io/MomReplayViewer
+https://nullprop.sh/MomReplayViewer
 
 ## Usage
 ### Export Maps
-First you'll need to use [SourceUtils](https://github.com/laurirasanen/SourceUtils) to export a bunch of maps, and
+First you'll need to use [SourceUtils](https://github.com/nullprop/SourceUtils) to export a bunch of maps, and
 host them on a web server.
 
 ### Copy Resources
